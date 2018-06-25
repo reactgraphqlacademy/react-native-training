@@ -1,8 +1,8 @@
 import { KeepAwake, registerRootComponent } from 'expo'
-import App from './App/App'
+import Root from './App/Root'
 
 if (__DEV__) {
   KeepAwake.activate()
 }
 
-registerRootComponent(App)
+registerRootComponent(Root)
