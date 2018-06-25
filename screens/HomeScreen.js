@@ -1,27 +1,16 @@
 import React from 'react'
-import { View, FlatList, Text, Image, ActivityIndicator } from 'react-native'
-import { ListItem, Divider, Searchbar } from 'react-native-paper'
 import * as api from '../config/api'
-
-const UserItem = props => (
-  <ListItem
-    title={
-      <Text style={{ fontSize: 18, lineHeight: 24, fontWeight: '800' }}>
-        {props.user.login}
-      </Text>
-    }
-    description={`${props.user.score}`}
-    avatar={
-      <Image
-        style={{ width: 44, height: 44, borderRadius: 22 }}
-        source={{ uri: props.user.avatar_url }}
-      />
-    }
-    onPress={() => console.log(props.user)}
-  />
-)
+import { View, FlatList, ActivityIndicator } from 'react-native'
+import { UserItem } from '../components'
+import { Divider, Searchbar, Button } from 'react-native-paper'
+import { clearUser } from 'react-native-authentication-helpers'
+import { PROFILE_SCREEN } from '../App'
 
 class UsersList extends React.Component {
+  static navigationOptions = ({ navigation }) => ({
+    title: 'Home'
+  })
+
   state = {
     users: [],
     nextUrl: null
@@ -41,7 +30,14 @@ class UsersList extends React.Component {
     })
   }
 
-  renderItem = ({ item }) => <UserItem user={item} />
+  renderItem = ({ item }) => (
+    <UserItem
+      user={item}
+      handleItemPress={() =>
+        this.props.navigation.navigate(PROFILE_SCREEN, { user: item })
+      }
+    />
+  )
 
   keyExtractor = (item, index) => item.node_id
 
