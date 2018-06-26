@@ -26,3 +26,45 @@ This will start the Bundler for the app and enables the app for visualization at
 Happy Coding!
 
 ## Excersice
+
+The Goal of this Excersice is to Introduce you to React Native development, helping you familiarize with its APIs and basic structure.
+
+We are going to build a simple app with **three screens** as you can see below
+
+![App Screens](./rn-workshop-intro.png)
+
+All the instructions are in the corresponding files, here are the headlines of what you have to do:
+
+### src/index.js`
+
+1.  Create a Stack Navigator (MainNavigator) with two screens: Home & Profile
+2.  Create a Switch Navigator (Navigator)with two screens: Auth & the MainNavigator
+3.  the App component should return the entryPoint of our app.
+
+### src/screens/AuthScreen.js
+
+4.  Set the title for this navigation view (add whatever you want)
+5.  implement the `login()` method. Navigate to the `HOME_SCREEN`
+
+### src/screens/HomeScreen.js
+
+6.  Create a `FlatList` and show all the users from the API
+7.  Finish the implementation of the handlePress of the `UserLItem`. Hint: you need to pass a parameter to the next screen
+
+### src/screens/ProfileScreen.js
+
+8.  Read the Parameter sent from the previous Screen
+9.  Build the Layout for the Profile Page
+10. add a Button at the end of the Profile to open the users Github profile on the Browser (HINT: check the usage for `Linking` in React Native)
+
+### Bonus Excersices
+
+For this its best to checkout the solution branch, because you will need a file that is in there :)
+
+- add a Logo `AuthScreen.js` on top of the Button
+- implement InfiniteScroll in HomeScreen with the `NextUrl`
+- create an Abstract Component for the Button, and replace them through all the app
+- add the `LoadingScreen` to the Switch Navigator as the initial Route
+- read the documentation for `react-native-authentication-helpers` and try to implement it.
+  - HINT: you can simply `setUser({ type: 'anonymous'})` for the porpuse of the Excersice.
+- when `logout`, clean the User and send it to `AUTH_SCREEN`

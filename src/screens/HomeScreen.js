@@ -1,10 +1,9 @@
 import React from 'react'
 import * as api from '../config/api'
-import { View, FlatList, ActivityIndicator } from 'react-native'
+import { View, FlatList, Text, ScrollView } from 'react-native'
 import { UserItem, ViewLoading } from '../components'
 import { Divider, Searchbar, Button } from 'react-native-paper'
-import { clearUser } from 'react-native-authentication-helpers'
-import { PROFILE_SCREEN } from '../App'
+import { PROFILE_SCREEN } from '../index'
 
 class UsersList extends React.Component {
   static navigationOptions = ({ navigation }) => ({
@@ -31,10 +30,19 @@ class UsersList extends React.Component {
   }
 
   renderItem = ({ item }) => (
+    /*
+      7. Finish the implementation of the handlePress of
+      the `UserLItem`.
+      Hint:
+      - you need to pass a parameter to the next screen
+    */
+
     <UserItem
       user={item}
       handleItemPress={() =>
-        this.props.navigation.navigate(PROFILE_SCREEN, { username: item.login })
+        this.props.navigation.navigate(PROFILE_SCREEN, {
+          /* Something must be here... */
+        })
       }
     />
   )
@@ -45,12 +53,12 @@ class UsersList extends React.Component {
     return !this.state.users.items ? (
       <ViewLoading />
     ) : (
-      <FlatList
-        data={this.state.users.items}
-        keyExtractor={this.keyExtractor}
-        renderItem={this.renderItem}
-        ItemSeparatorComponent={Divider}
-      />
+      // you need to change this with a FlatList to render all the users that you requests from the API
+      /*
+        6. Create a `FlatList` and show all the users
+          from the API
+      */
+      <Text>{JSON.stringify(this.state.users, null, 4)}</Text>
     )
   }
 }
