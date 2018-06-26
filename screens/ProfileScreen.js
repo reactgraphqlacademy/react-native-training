@@ -21,7 +21,7 @@ import {
 
 class ProfileScreen extends React.Component {
   static navigationOptions = ({ navigation }) => ({
-    title: navigation.state.params.username || 'User Profile'
+    title: navigation.getParam('username', 'User Profile')
   })
 
   state = null
