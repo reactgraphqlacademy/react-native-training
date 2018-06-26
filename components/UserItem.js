@@ -1,15 +1,11 @@
 import * as React from 'react'
 import { Text, Image } from 'react-native'
-import { ListItem } from 'react-native-paper'
+import { ListItem, Title, Subheading } from 'react-native-paper'
 
 const UserItem = props => (
   <ListItem
-    title={
-      <Text style={{ fontSize: 18, lineHeight: 24, fontWeight: '800' }}>
-        {props.user.login}
-      </Text>
-    }
-    description={`${props.user.score}`}
+    title={<Title>{props.user.login}</Title>}
+    description={<Subheading>{props.user.score}</Subheading>}
     avatar={
       <Image
         style={{ width: 44, height: 44, borderRadius: 22 }}

@@ -1,7 +1,7 @@
 import React from 'react'
 import * as api from '../config/api'
 import { View, FlatList, ActivityIndicator } from 'react-native'
-import { UserItem } from '../components'
+import { UserItem, ViewLoading } from '../components'
 import { Divider, Searchbar, Button } from 'react-native-paper'
 import { clearUser } from 'react-native-authentication-helpers'
 import { PROFILE_SCREEN } from '../App'
@@ -34,7 +34,7 @@ class UsersList extends React.Component {
     <UserItem
       user={item}
       handleItemPress={() =>
-        this.props.navigation.navigate(PROFILE_SCREEN, { user: item })
+        this.props.navigation.navigate(PROFILE_SCREEN, { username: item.login })
       }
     />
   )
@@ -42,17 +42,15 @@ class UsersList extends React.Component {
   keyExtractor = (item, index) => item.node_id
 
   render() {
-    return this.state.users.items ? (
+    return !this.state.users.items ? (
+      <ViewLoading />
+    ) : (
       <FlatList
         data={this.state.users.items}
         keyExtractor={this.keyExtractor}
         renderItem={this.renderItem}
         ItemSeparatorComponent={Divider}
       />
-    ) : (
-      <View style={{ padding: 24 }}>
-        <ActivityIndicator color="#000" />
-      </View>
     )
   }
 }

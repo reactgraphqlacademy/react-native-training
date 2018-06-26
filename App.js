@@ -1,9 +1,5 @@
 import React from 'react'
-import {
-  DefaultTheme,
-  Provider as PaperProvider,
-  Button
-} from 'react-native-paper'
+import { Provider as PaperProvider, Button } from 'react-native-paper'
 import { createSwitchNavigator, createStackNavigator } from 'react-navigation'
 import Loading from './screens/LoadingScreen'
 import Home from './screens/HomeScreen'
@@ -16,51 +12,42 @@ export const AUTH_SCREEN = 'AUTH_SCREEN'
 export const HOME_SCREEN = 'HOME_SCREEN'
 export const PROFILE_SCREEN = 'PROFILE_SCREEN'
 
-const theme = {
-  ...DefaultTheme,
-  colors: {
-    ...DefaultTheme.colors,
-    primary: 'tomato',
-    accent: 'yellow'
-  }
-}
-
 const MainNavigator = createStackNavigator(
   {
-    [HOME_SCREEN]: Home,
+    [HOME_SCREEN]: {
+      screen: Home,
+      navigationOptions: ({ navigation }) => ({
+        headerRight: (
+          <Button
+            onPress={() => {
+              navigation.navigate(AUTH_SCREEN)
+            }}
+          >
+            SIGN OUT
+          </Button>
+        )
+      })
+    },
     [PROFILE_SCREEN]: Profile
   },
-  {
-    navigationOptions: ({ navigation }) => ({
-      headerRight: (
-        <Button
-          onPress={() => {
-            navigation.navigate(AUTH_SCREEN)
-          }}
-        >
-          SIGN OUT
-        </Button>
-      )
-    })
-  }
+  {}
 )
 
 const Navigator = createSwitchNavigator(
   {
-    [LOADING_SCREEN]: {
-      screen: Loading
-    },
+    [LOADING_SCREEN]: Loading,
     [MAIN_SCREEN]: MainNavigator,
     [AUTH_SCREEN]: Auth
   },
   {
-    initialRouteName: LOADING_SCREEN
+    initialRouteName: LOADING_SCREEN,
+    headerMode: 'none'
   }
 )
 
 //here is wher you usually add all or some of your providers
 const App = () => (
-  <PaperProvider theme={theme}>
+  <PaperProvider>
     <Navigator />
   </PaperProvider>
 )
