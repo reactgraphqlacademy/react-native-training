@@ -3,8 +3,7 @@ import * as api from '../config/api'
 import { View, FlatList, ActivityIndicator } from 'react-native'
 import { UserItem, ViewLoading } from '../components'
 import { Divider, Searchbar, Button } from 'react-native-paper'
-import { clearUser } from 'react-native-authentication-helpers'
-import { PROFILE_SCREEN } from '../App'
+import { PROFILE_SCREEN } from '../index'
 
 class UsersList extends React.Component {
   static navigationOptions = ({ navigation }) => ({

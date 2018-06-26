@@ -6,7 +6,7 @@ import {
   withUser,
   loadUserAsync
 } from 'react-native-authentication-helpers'
-import { MAIN_SCREEN, AUTH_SCREEN } from '../App'
+import { MAIN_SCREEN, AUTH_SCREEN } from '../index'
 
 export default class LoadingScreen extends React.Component {
   async componentDidMount() {

@@ -48,7 +48,7 @@ class ProfileScreen extends React.Component {
           />
           <Headline>{this.state.name}</Headline>
           <Title>@{this.state.login}</Title>
-          <View style={styles.dataItems}>
+          <View style={styles.dataItemsContainer}>
             <View style={styles.dataItem}>
               <Title>{this.state.public_repos}</Title>
               <Subheading>Public Repos</Subheading>
@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     margin: 20
   },
-  dataItems: {
+  dataItemsContainer: {
     flexDirection: 'row',
     margin: 16
   },
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   paper: {
     padding: 16,
     elevation: 6,
-    marginTop: -72,
+    marginTop: -56,
     borderRadius: 4,
     marginBottom: 24
   },
