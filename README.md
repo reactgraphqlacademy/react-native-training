@@ -69,6 +69,11 @@ For this its best to checkout the solution branch, because you will need a file 
   - HINT: you can simply `setUser({ type: 'anonymous'})` for the porpuse of the Excersice.
 - when `logout`, clean the User and send it to `AUTH_SCREEN`
 
+## Workshop Resources
+
+- [WORKSHOP FEEDBACK (Thanks🙏)](http://bit.ly/rnw-london)
+- [EXAMPLE COMPOSING NAVIGATORS](https://snack.expo.io/@horacio/composing-navigators)
+
 ## Resources
 
 - https://facebook.github.io/react-native/
