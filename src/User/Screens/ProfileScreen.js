@@ -60,7 +60,7 @@ class ProfileScreen extends React.Component {
                         </View>
                     </View>
                     <View style={styles.content}>
-                        <Container style={styles.Container}>
+                        <Container style={styles.container}>
                             <Caption>Bio:</Caption>
                             <Title style={styles.contentValue}>{this.state.bio}</Title>
 
