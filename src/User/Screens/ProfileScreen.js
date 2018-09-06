@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as api from '../Api'
-import { ViewLoading } from '../../App/Components'
+import { ViewLoading, Container, Button } from '../../App'
 import {
     View,
     ScrollView,
@@ -9,8 +9,6 @@ import {
     Linking
 } from 'react-native'
 import {
-    Paper,
-    Button,
     Headline,
     Title,
     Subheading,
@@ -62,7 +60,7 @@ class ProfileScreen extends React.Component {
                         </View>
                     </View>
                     <View style={styles.content}>
-                        <Paper style={styles.paper}>
+                        <Container style={styles.Container}>
                             <Caption>Bio:</Caption>
                             <Title style={styles.contentValue}>{this.state.bio}</Title>
 
@@ -79,7 +77,7 @@ class ProfileScreen extends React.Component {
                             >
                                 {this.state.blog}
                             </Title>
-                        </Paper>
+                        </Container>
                         <Button
                             primary
                             raised
@@ -122,7 +120,7 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     content: { margin: 16 },
-    paper: {
+    container: {
         padding: 16,
         elevation: 6,
         marginTop: -56,

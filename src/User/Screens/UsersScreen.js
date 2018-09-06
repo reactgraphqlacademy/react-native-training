@@ -1,7 +1,8 @@
 import React from 'react'
 import * as api from '../Api'
 import { FlatList } from 'react-native'
-import { UserItem, ViewLoading } from '../components'
+import UserItem from '../Components/UserItem'
+import { ViewLoading } from '../../App'
 import { Divider } from 'react-native-paper'
 import { PROFILE_SCREEN } from '../index'
 

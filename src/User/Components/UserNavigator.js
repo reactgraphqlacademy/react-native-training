@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button } from 'react-native-paper'
+import { Button } from '../../App'
 import { createStackNavigator } from 'react-navigation'
 
-import UsersScreen from '../screens/UsersScreen'
-import Profile from '../screens/ProfileScreen'
+import UsersScreen from '../Screens/UsersScreen'
+import Profile from '../Screens/ProfileScreen'
 
 export const HOME_SCREEN = 'HOME_SCREEN'
 export const PROFILE_SCREEN = 'PROFILE_SCREEN'
