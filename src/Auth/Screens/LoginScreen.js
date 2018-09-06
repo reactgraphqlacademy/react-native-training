@@ -1,24 +1,13 @@
 import React from 'react'
-import { Image, StatusBar, StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 import { Button } from 'react-native-paper'
-import { HOME_SCREEN } from '../index'
+import { setUser } from 'react-native-authentication-helpers'
+import { PRIVATE_SCREEN } from '../..'
 
 class Auth extends React.Component {
-  /*
-    4. Set the title for this navigation view
-        (add whatever you want)
-  */
-
   login = () => {
-    /*
-      5. navigate to the HOME_SCREEN
-      Hints:
-        - you have a exported string that is the name
-          of the screen that you have to go
-        - you have access to `this.props.navigation.navigate()` method
-    */
+    this.props.navigation.navigate(PRIVATE_SCREEN)
   }
-
   render() {
     return (
       <View style={styles.container}>
