@@ -35,6 +35,22 @@ We are going to build a simple app with **three screens** as you can see below
 
 All the instructions are in the corresponding files, here are the headlines of what you have to do:
 
+Task:
+- App.js returns the src/Auth/LoginScreen.js
+- layout:
+  - Flexbox: elements must be centered on the screen
+  - add some T&C text to the login page or something that makes the student think about the type of View vs ScrollView
+  - Styles
+    - Textinput, Button, Title of the App, etc
+  - Forms
+    - Username and password -> Button/ TouchableHighlight to log in
+    - the T&C are hidden, and user click on "read T&C" and it's then displayed
+        - Tasks: add TouchableHighlight to "read T&C"
+        - Does the T&C fit in the screen? what can you do to make them fit
+  - ListView
+    - Task: replace import { LoginScreen } from './src/Auth' by import { UsersScreen } from './src/Users'
+    - In src/Users/Screens/UsersScreen.js, create a `FlatList` and show all the users from the API
+ 
 ### src/index.js`
 
 1.  Create a Stack Navigator (MainNavigator) with two screens: Home & Profile
