@@ -11,6 +11,7 @@ export { default as Title } from './Components/Title'
 export { default as Subheading } from './Components/Subheading'
 export { default as ListItem } from './Components/ListItem'
 export { default as Divider } from './Components/Divider'
+export { default as TextInput } from './Components/TextInput'
 
 // Navigation Names
 export { PUBLIC_SCREEN, PRIVATE_SCREEN } from './Navigator'
