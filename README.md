@@ -35,43 +35,50 @@ We are going to build a simple app with **three screens** as you can see below
 
 All the instructions are in the corresponding files, here are the headlines of what you have to do:
 
-Task:
+Tasks FOUNDATION
 - App.js returns the src/Auth/LoginScreen.js
 - layout:
-  - Flexbox: elements must be centered on the screen
-  - add some T&C text to the login page or something that makes the student think about the type of View vs ScrollView
+  - Flexbox: In Login Screen elements must be centered on the screen
   - Styles
     - Textinput, Button, Title of the App, etc
   - Forms
     - Username and password -> Button/ TouchableHighlight to log in
     - the T&C are hidden, and user click on "read T&C" and it's then displayed
         - Tasks: add TouchableHighlight to "read T&C"
-        - Does the T&C fit in the screen? what can you do to make them fit
+        - Does the T&C fit in the screen? what can you do to make them fit?
   - ListView
-    - Task: replace import { LoginScreen } from './src/Auth' by import { UsersScreen } from './src/Users'
-    - In src/Users/Screens/UsersScreen.js, create a `FlatList` and show all the users from the API
+    - Task: in App.js replace import { LoginScreen } from './src/Auth' by import { UsersScreen } from './src/Users'
+    - In src/Users/Screens/UsersScreen.js, create a FlatList and show all the users from the API. Question, why do you think we need to use a FlatList and not just a ScrollView?
+  - Bonus, style the ProfileScreen
  
-### src/index.js`
+Tasks NAVIGATION
+- git checkout solution-previous-exercise
+- yarn add react-navigation
+- Create a navigator in src/App/Navigator. 
+The Navigator should have two screens: LoginScreen and UsersScreen. Example using SwitchNavigator and StackNavigator: https://snack.expo.io/@horacio/composing-navigators 
 
-1.  Create a Stack Navigator (MainNavigator) with two screens: Home & Profile
-2.  Create a Switch Navigator (Navigator)with two screens: Auth & the MainNavigator
-3.  the App component should return the entryPoint of our app.
+Users should not be able to click on the back button and go back from UsersScreen to LoginScreen. Question, which type of navigator are you going to use? StackNavigator or SwhitchNavigator?
 
-### src/screens/AuthScreen.js
+- The initialRouteName for the src/App/Navigator should be the login screen
 
-4.  Set the title for this navigation view (add whatever you want)
-5.  implement the `login()` method. Navigate to the `HOME_SCREEN`
+- in src/screens/LoginScreen.js
+  - Set the title for this navigation view to "Sign in"
+  - implement the `login()` method. Navigate to the `HOME_SCREEN`
 
-### src/screens/HomeScreen.js
+- Implement a navigator in src/Users/Components/UserNavigator.js
+  - It should have two screens: UsersScreen and ProfileScreen
+  Users should not be able to click on the back button and go back from ProfileScreen to UsersScreen. Question, which type of navigator are you going to use? StackNavigator or SwhitchNavigator?
+  - The initialRouteName should be the UsersScreen
 
-6.  Create a `FlatList` and show all the users from the API
-7.  Finish the implementation of the handlePress of the `UserLItem`. Hint: you need to pass a parameter to the next screen
+- In src/App/Navigator.js replace the UsersScreen by UserNavigator
+- In src/Users/Screens/UsersScreen.js 
+- src/Users/Components/UserItem.js receives a function prop called handleItemPress that is executed when the user presses on the item. Implement that function in the renderItem method in src/Users/Screens/UsersScreen.js. Hint UsersScreen has a prop called navigation https://reactnavigation.org/docs/en/navigation-prop.html. You will need to use the navigation.navigate function https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens.  Hint 2: you need to pass a parameter to the next screen
+- The src/Users/Components/UserNavigator.js should have a Button with the text "Sign out" on the property [headeRright](https://reactnavigation.org/docs/en/stack-navigator.html#headerright) so that when the Button is pressed the app navigates to the login screen
 
-### src/screens/ProfileScreen.js
+-  In src/screens/ProfileScreen.js read the parameter sent from the previous Screen and use it to dispaly the right data
 
-8.  Read the Parameter sent from the previous Screen
-9.  Build the Layout for the Profile Page
-10. add a Button at the end of the Profile to open the users Github profile on the Browser (HINT: check the usage for `Linking` in React Native)
+Tasks Animations
+- 
 
 ### Bonus Excersices
 
