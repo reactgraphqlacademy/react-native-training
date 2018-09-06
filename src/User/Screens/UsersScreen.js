@@ -1,9 +1,9 @@
 import React from 'react'
 import * as api from '../Api'
 import { FlatList } from 'react-native'
-import { UserItem, ViewLoading } from '../components'
-import { Divider } from 'react-native-paper'
-import { PROFILE_SCREEN } from '../index'
+import UserItem from '../Components/UserItem'
+import { ViewLoading, Divider } from '../../App'
+import { PROFILE_SCREEN } from '../'
 
 class UsersScreen extends React.Component {
     static navigationOptions = ({ navigation }) => ({

@@ -1,8 +1,7 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-import { Button } from 'react-native-paper'
+import { StyleSheet, View } from 'react-native'
 import { setUser } from 'react-native-authentication-helpers'
-import { PRIVATE_SCREEN } from '../..'
+import { Button, TextInput, Title, PRIVATE_SCREEN } from '../../App'
 
 class Auth extends React.Component {
   login = () => {
@@ -11,6 +10,10 @@ class Auth extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <Title>Auth Screen</Title>
+        <View>
+          <TextInput />
+        </View>
         <Button primary raised onPress={this.login}>
           login
         </Button>

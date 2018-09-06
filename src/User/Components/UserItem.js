@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Image } from 'react-native'
-import { ListItem, Title, Subheading } from 'react-native-paper'
+import { Subheading, ListItem, Title } from '../../App'
 
 const UserItem = props => (
     <ListItem
