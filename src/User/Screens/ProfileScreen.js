@@ -1,6 +1,6 @@
 import * as React from 'react'
 import * as api from '../Api'
-import { ViewLoading, Paper, Button } from '../../App'
+import { ViewLoading, Paper, Button, Headline, Title, Subheading, Caption } from '../../App'
 import {
     View,
     ScrollView,
@@ -8,12 +8,6 @@ import {
     StyleSheet,
     Linking
 } from 'react-native'
-import {
-    Headline,
-    Title,
-    Subheading,
-    Caption,
-} from 'react-native-paper'
 
 class ProfileScreen extends React.Component {
     static navigationOptions = ({ navigation }) => ({
