@@ -1,20 +1,20 @@
-import React from 'react'
-import { createSwitchNavigator } from 'react-navigation'
-import { AuthNavigator } from '../Auth'
-import { UserNavigator } from '../User'
+import React from "react";
+import { createSwitchNavigator } from "react-navigation";
+import { AuthNavigator } from "../Auth";
+import PrivateNavigator from "./PrivateNavigator";
 
-export const PRIVATE_SCREEN = 'PRIVATE_SCREEN'
-export const PUBLIC_SCREEN = 'PUBLIC_SCREEN'
+export const PRIVATE_SCREEN = "PRIVATE_SCREEN";
+export const PUBLIC_SCREEN = "PUBLIC_SCREEN";
 
 const Navigator = createSwitchNavigator(
-    {
-        [PRIVATE_SCREEN]: UserNavigator,
-        [PUBLIC_SCREEN]: AuthNavigator
-    },
-    {
-        initialRouteName: PUBLIC_SCREEN,
-        headerMode: 'none'
-    }
-)
+  {
+    [PUBLIC_SCREEN]: AuthNavigator,
+    [PRIVATE_SCREEN]: PrivateNavigator
+  },
+  {
+    initialRouteName: PUBLIC_SCREEN,
+    headerMode: "none"
+  }
+);
 
-export default Navigator
+export default Navigator;

@@ -1,0 +1,2815 @@
+[
+  {
+    "created_at": "Mon Sep 10 16:42:29 +0000 2018",
+    "id": 1039192395865305088,
+    "id_str": "1039192395865305088",
+    "text": "RT @alex_lobera: I just published \u201cIntroduction to Redux \u2014 Redux explained with very simple examples\u201d https://t.co/MeDMfG4wjn",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "alex_lobera",
+          "name": "alex lobera",
+          "id": 31141581,
+          "id_str": "31141581",
+          "indices": [3, 15]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/MeDMfG4wjn",
+          "expanded_url": "https://medium.com/leanjs/introduction-to-redux-redux-explained-with-very-simple-examples-b39d7967ceb8",
+          "display_url": "medium.com/leanjs/introdu\u2026",
+          "indices": [102, 125]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"http://twitter.com/download/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Sep 10 16:40:39 +0000 2018",
+      "id": 1039191935594975235,
+      "id_str": "1039191935594975235",
+      "text": "I just published \u201cIntroduction to Redux \u2014 Redux explained with very simple examples\u201d https://t.co/MeDMfG4wjn",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/MeDMfG4wjn",
+            "expanded_url": "https://medium.com/leanjs/introduction-to-redux-redux-explained-with-very-simple-examples-b39d7967ceb8",
+            "display_url": "medium.com/leanjs/introdu\u2026",
+            "indices": [85, 108]
+          }
+        ]
+      },
+      "source": "\u003ca href=\"http://twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c/a\u003e",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 31141581,
+        "id_str": "31141581",
+        "name": "alex lobera",
+        "screen_name": "alex_lobera",
+        "location": "Londres, Inglaterra",
+        "description": "JavaScript passionate. Loves Lean, UX, and digital products that make social impact. Currently a React & GraphQL enthusiast.",
+        "url": "https://t.co/LZ2tuuzpgJ",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/LZ2tuuzpgJ",
+                "expanded_url": "http://leanjs.com",
+                "display_url": "leanjs.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 415,
+        "friends_count": 328,
+        "listed_count": 37,
+        "created_at": "Tue Apr 14 15:05:52 +0000 2009",
+        "favourites_count": 353,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 623,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "022330",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/947427749769240576/h6LOU4zh_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/947427749769240576/h6LOU4zh_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/31141581/1489697968",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 9,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 10 16:12:17 +0000 2018",
+    "id": 1039184797413908481,
+    "id_str": "1039184797413908481",
+    "text": "The Contest is OVER! \ud83c\udf89\ud83d\ude09\n\nA-a-and the WINNER is 89maciek (Instagram)!\n\nPlease, contact us to get your 50% Voucher \ud83d\udd25\u2026 https://t.co/hT01NjgoIF",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/hT01NjgoIF",
+          "expanded_url": "https://twitter.com/i/web/status/1039184797413908481",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [116, 139]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"https://www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite Inc.\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 10 14:14:09 +0000 2018",
+    "id": 1039155068203933696,
+    "id_str": "1039155068203933696",
+    "text": "and we are preparing a React Native Bootcamp, that will cover all those topics and: \n- Advanced animations\n- Gestur\u2026 https://t.co/Hqd2ZlP5tf",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/Hqd2ZlP5tf",
+          "expanded_url": "https://twitter.com/i/web/status/1039155068203933696",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [117, 140]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"http://twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c/a\u003e",
+    "in_reply_to_status_id": 1039155065267908608,
+    "in_reply_to_status_id_str": "1039155065267908608",
+    "in_reply_to_user_id": 770259608669683712,
+    "in_reply_to_user_id_str": "770259608669683712",
+    "in_reply_to_screen_name": "reactjsacademy",
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 10 14:14:08 +0000 2018",
+    "id": 1039155065267908608,
+    "id_str": "1039155065267908608",
+    "text": "on our React Native training we are going to cover:\n- Foundation\n- Layout\n- styling\n- animations\n- navigation\u2026 https://t.co/nHKDsWzTez",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/nHKDsWzTez",
+          "expanded_url": "https://twitter.com/i/web/status/1039155065267908608",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [111, 134]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"http://twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c/a\u003e",
+    "in_reply_to_status_id": 1039155063040737280,
+    "in_reply_to_status_id_str": "1039155063040737280",
+    "in_reply_to_user_id": 770259608669683712,
+    "in_reply_to_user_id_str": "770259608669683712",
+    "in_reply_to_screen_name": "reactjsacademy",
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 10 14:14:08 +0000 2018",
+    "id": 1039155063040737280,
+    "id_str": "1039155063040737280",
+    "text": "What would you like to build in our React Native trainings? Instagram clone or Twitter clone? We want to know your\u2026 https://t.co/qv6aabQKtz",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/qv6aabQKtz",
+          "expanded_url": "https://twitter.com/i/web/status/1039155063040737280",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [116, 139]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"http://twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c/a\u003e",
+    "in_reply_to_status_id": 1039155060196950016,
+    "in_reply_to_status_id_str": "1039155060196950016",
+    "in_reply_to_user_id": 770259608669683712,
+    "in_reply_to_user_id_str": "770259608669683712",
+    "in_reply_to_screen_name": "reactjsacademy",
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 10 14:14:07 +0000 2018",
+    "id": 1039155060196950016,
+    "id_str": "1039155060196950016",
+    "text": "What would you like to build in our React Native trainings? Instagram clone or Twitter clone? We want to know your\u2026 https://t.co/DnwMiQjBNH",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/DnwMiQjBNH",
+          "expanded_url": "https://twitter.com/i/web/status/1039155060196950016",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [116, 139]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"http://twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sun Sep 09 11:01:22 +0000 2018",
+    "id": 1038744164048007168,
+    "id_str": "1038744164048007168",
+    "text": "RT @leanjscom: \ud83d\udca5#NEWBLOG! \ud83d\udca5Check out the design case study for the new @reactjsacademy website by @paulw_design \"ReactJS Academy website -\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [{ "text": "NEWBLOG", "indices": [16, 24] }],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "leanjscom",
+          "name": "Lean JS",
+          "id": 778564054717726720,
+          "id_str": "778564054717726720",
+          "indices": [3, 13]
+        },
+        {
+          "screen_name": "reactjsacademy",
+          "name": "ReactJS Academy",
+          "id": 770259608669683712,
+          "id_str": "770259608669683712",
+          "indices": [71, 86]
+        },
+        {
+          "screen_name": "paulw_design",
+          "name": "Paul Woodley",
+          "id": 19261453,
+          "id_str": "19261453",
+          "indices": [98, 111]
+        }
+      ],
+      "urls": []
+    },
+    "source": "\u003ca href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Sep 07 11:46:01 +0000 2018",
+      "id": 1038030627495469058,
+      "id_str": "1038030627495469058",
+      "text": "\ud83d\udca5#NEWBLOG! \ud83d\udca5Check out the design case study for the new @reactjsacademy website by @paulw_design \"ReactJS Academy w\u2026 https://t.co/Niyl8jMTv7",
+      "truncated": true,
+      "entities": {
+        "hashtags": [{ "text": "NEWBLOG", "indices": [1, 9] }],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "reactjsacademy",
+            "name": "ReactJS Academy",
+            "id": 770259608669683712,
+            "id_str": "770259608669683712",
+            "indices": [56, 71]
+          },
+          {
+            "screen_name": "paulw_design",
+            "name": "Paul Woodley",
+            "id": 19261453,
+            "id_str": "19261453",
+            "indices": [83, 96]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/Niyl8jMTv7",
+            "expanded_url": "https://twitter.com/i/web/status/1038030627495469058",
+            "display_url": "twitter.com/i/web/status/1\u2026",
+            "indices": [117, 140]
+          }
+        ]
+      },
+      "source": "\u003ca href=\"https://buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c/a\u003e",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 778564054717726720,
+        "id_str": "778564054717726720",
+        "name": "Lean JS",
+        "screen_name": "leanjscom",
+        "location": "London, England",
+        "description": "We help you innovate incrementally and with quality. Lean + Design + Dev. Training available on https://t.co/qf8DuImTkD",
+        "url": "https://t.co/mRcyVqmn5q",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/mRcyVqmn5q",
+                "expanded_url": "http://www.leanjs.com",
+                "display_url": "leanjs.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/qf8DuImTkD",
+                "expanded_url": "http://reactjs.academy",
+                "display_url": "reactjs.academy",
+                "indices": [96, 119]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 159,
+        "friends_count": 295,
+        "listed_count": 1,
+        "created_at": "Wed Sep 21 11:58:30 +0000 2016",
+        "favourites_count": 227,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 523,
+        "lang": "en-gb",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/826804085940768769/Nlb5WqNg_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/826804085940768769/Nlb5WqNg_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/778564054717726720/1528476225",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 5,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Sep 07 07:40:48 +0000 2018",
+    "id": 1037968913026437121,
+    "id_str": "1037968913026437121",
+    "text": "RT @hhg2288: This is your chance to start learning React Native!!\n\nsee you there! \ud83d\udc4d\ud83c\udffb\ud83d\udcaa\ud83c\udffb\ud83c\udf89\ud83d\ude0e https://t.co/lto7VAZsks",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "hhg2288",
+          "name": "Horacio \ud83c\uddf5\ud83c\udde6\ud83c\uddea\ud83c\uddf8",
+          "id": 24702345,
+          "id_str": "24702345",
+          "indices": [3, 11]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/lto7VAZsks",
+          "expanded_url": "https://twitter.com/reactjsacademy/status/1037739789552893953",
+          "display_url": "twitter.com/reactjsacademy\u2026",
+          "indices": [89, 112]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"http://twitter.com/download/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Thu Sep 06 16:45:28 +0000 2018",
+      "id": 1037743595812540416,
+      "id_str": "1037743595812540416",
+      "text": "This is your chance to start learning React Native!!\n\nsee you there! \ud83d\udc4d\ud83c\udffb\ud83d\udcaa\ud83c\udffb\ud83c\udf89\ud83d\ude0e https://t.co/lto7VAZsks",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/lto7VAZsks",
+            "expanded_url": "https://twitter.com/reactjsacademy/status/1037739789552893953",
+            "display_url": "twitter.com/reactjsacademy\u2026",
+            "indices": [76, 99]
+          }
+        ]
+      },
+      "source": "\u003ca href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c/a\u003e",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 24702345,
+        "id_str": "24702345",
+        "name": "Horacio \ud83c\uddf5\ud83c\udde6\ud83c\uddea\ud83c\uddf8",
+        "screen_name": "hhg2288",
+        "location": "Barcelona",
+        "description": "Designer, Developer & Coach \u2022 husband \u2022 dad \u2022 web \u2022 mobile \u2022 React Native \u2022 ReactJS \u2022 GraphQL",
+        "url": "https://t.co/gLmcTLkbSq",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/gLmcTLkbSq",
+                "expanded_url": "http://www.hherrerag.com",
+                "display_url": "hherrerag.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 1020,
+        "friends_count": 800,
+        "listed_count": 85,
+        "created_at": "Mon Mar 16 14:54:49 +0000 2009",
+        "favourites_count": 3067,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 11731,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "D9D9D9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1012390852373737472/uDaLN_Il_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1012390852373737472/uDaLN_Il_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/24702345/1530207293",
+        "profile_link_color": "981CEB",
+        "profile_sidebar_border_color": "BABABA",
+        "profile_sidebar_fill_color": "D6D6D6",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": {
+        "id": "1a27537478dd8e38",
+        "url": "https://api.twitter.com/1.1/geo/id/1a27537478dd8e38.json",
+        "place_type": "city",
+        "name": "Barcelona",
+        "full_name": "Barcelona, Espa\u00f1a",
+        "country_code": "ES",
+        "country": "Espa\u00f1a",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [2.0524766, 41.3170475],
+              [2.2299781, 41.3170475],
+              [2.2299781, 41.4682658],
+              [2.0524766, 41.4682658]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1037739789552893953,
+      "quoted_status_id_str": "1037739789552893953",
+      "quoted_status": {
+        "created_at": "Thu Sep 06 16:30:20 +0000 2018",
+        "id": 1037739789552893953,
+        "id_str": "1037739789552893953",
+        "text": "CONTEST !!! \ud83d\udd25\n\nDo you want to get a 50% DISCOUNT on a ticket for our React Native 1-day training in London (Sept 17\u2026 https://t.co/EZ1880LWUR",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/EZ1880LWUR",
+              "expanded_url": "https://twitter.com/i/web/status/1037739789552893953",
+              "display_url": "twitter.com/i/web/status/1\u2026",
+              "indices": [117, 140]
+            }
+          ]
+        },
+        "source": "\u003ca href=\"https://www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite Inc.\u003c/a\u003e",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 770259608669683712,
+          "id_str": "770259608669683712",
+          "name": "ReactJS Academy",
+          "screen_name": "reactjsacademy",
+          "location": "London, England",
+          "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+          "url": "https://t.co/m7BEcrPu70",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/m7BEcrPu70",
+                  "expanded_url": "http://bit.ly/reactjsacademy",
+                  "display_url": "bit.ly/reactjsacademy",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 280,
+          "friends_count": 80,
+          "listed_count": 7,
+          "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+          "favourites_count": 199,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 294,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 9,
+        "favorite_count": 6,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "retweet_count": 1,
+      "favorite_count": 4,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1037739789552893953,
+    "quoted_status_id_str": "1037739789552893953",
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Sep 06 16:30:20 +0000 2018",
+    "id": 1037739789552893953,
+    "id_str": "1037739789552893953",
+    "text": "CONTEST !!! \ud83d\udd25\n\nDo you want to get a 50% DISCOUNT on a ticket for our React Native 1-day training in London (Sept 17\u2026 https://t.co/EZ1880LWUR",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/EZ1880LWUR",
+          "expanded_url": "https://twitter.com/i/web/status/1037739789552893953",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [117, 140]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"https://www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite Inc.\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 9,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Sep 05 20:51:59 +0000 2018",
+    "id": 1037443248955027461,
+    "id_str": "1037443248955027461",
+    "text": "RT @mxstbr: \ud83c\udf89\ud83c\udf89 Announcing styled-components v4 \ud83c\udf89\ud83c\udf89\n\n- 25% faster mounting, 7% faster updating\n- New global styling API\n- Native support for\u2026",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mxstbr",
+          "name": "Max Stoiber",
+          "id": 2451223458,
+          "id_str": "2451223458",
+          "indices": [3, 10]
+        }
+      ],
+      "urls": []
+    },
+    "source": "\u003ca href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Sep 05 07:45:02 +0000 2018",
+      "id": 1037245204812759040,
+      "id_str": "1037245204812759040",
+      "text": "\ud83c\udf89\ud83c\udf89 Announcing styled-components v4 \ud83c\udf89\ud83c\udf89\n\n- 25% faster mounting, 7% faster updating\n- New global styling API\n- Native\u2026 https://t.co/Zqcl9lbD5l",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Zqcl9lbD5l",
+            "expanded_url": "https://twitter.com/i/web/status/1037245204812759040",
+            "display_url": "twitter.com/i/web/status/1\u2026",
+            "indices": [116, 139]
+          }
+        ]
+      },
+      "source": "\u003ca href=\"https://mobile.twitter.com\" rel=\"nofollow\"\u003eTwitter Lite\u003c/a\u003e",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2451223458,
+        "id_str": "2451223458",
+        "name": "Max Stoiber",
+        "screen_name": "mxstbr",
+        "location": "Vienna, Austria",
+        "description": "Cofounder @withspectrum \ud83d\udcacAdvisor @EducativeInc \ud83d\udc68\ud83c\udffc\u200d\ud83c\udfeb Makes styled-components, react-boilerplate and micro-analytics \ud83d\udc85  Coffee geek, skier, traveller \u2615\ufe0f he/him",
+        "url": "https://t.co/Ak0DZZ5O5N",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/Ak0DZZ5O5N",
+                "expanded_url": "https://mxstbr.com/audits/",
+                "display_url": "mxstbr.com/audits/",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 20659,
+        "friends_count": 676,
+        "listed_count": 620,
+        "created_at": "Fri Apr 18 11:17:26 +0000 2014",
+        "favourites_count": 45325,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 30357,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "EEEEEE",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/763033229993574400/6frGyDyA_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/763033229993574400/6frGyDyA_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2451223458/1479507323",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 508,
+      "favorite_count": 1594,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 508,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Sep 05 11:35:06 +0000 2018",
+    "id": 1037303103190708224,
+    "id_str": "1037303103190708224",
+    "text": "Please, let us know \ud83d\ude09\n.\n.\n.\n#reactjs #javascript #es6 #coding #codingbootcamp #graphql #webdev #webdeveloper\u2026 https://t.co/9tUoezmTeG",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        { "text": "reactjs", "indices": [28, 36] },
+        { "text": "javascript", "indices": [37, 48] },
+        { "text": "es6", "indices": [49, 53] },
+        { "text": "coding", "indices": [54, 61] },
+        { "text": "codingbootcamp", "indices": [62, 77] },
+        { "text": "graphql", "indices": [78, 86] },
+        { "text": "webdev", "indices": [87, 94] },
+        { "text": "webdeveloper", "indices": [95, 108] }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/9tUoezmTeG",
+          "expanded_url": "https://twitter.com/i/web/status/1037303103190708224",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [110, 133]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"https://www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite Inc.\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 10,
+    "favorite_count": 9,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Sep 04 14:35:09 +0000 2018",
+    "id": 1036986025128669184,
+    "id_str": "1036986025128669184",
+    "text": "Don't miss your chance !\n\nIf you'd like to book a spot, just right your email in the comments below and we'll get i\u2026 https://t.co/mSb3oHUgBw",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/mSb3oHUgBw",
+          "expanded_url": "https://twitter.com/i/web/status/1036986025128669184",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [117, 140]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"https://www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite Inc.\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Sep 03 10:26:35 +0000 2018",
+    "id": 1036561084197597184,
+    "id_str": "1036561084197597184",
+    "text": "RT @hhg2288: what type of app you would like to build while learning React Native?\nRT plz :)\n\n#ReactNative #poll #learning #workshop",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        { "text": "ReactNative", "indices": [94, 106] },
+        { "text": "poll", "indices": [107, 112] },
+        { "text": "learning", "indices": [113, 122] },
+        { "text": "workshop", "indices": [123, 132] }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "hhg2288",
+          "name": "Horacio \ud83c\uddf5\ud83c\udde6\ud83c\uddea\ud83c\uddf8",
+          "id": 24702345,
+          "id_str": "24702345",
+          "indices": [3, 11]
+        }
+      ],
+      "urls": []
+    },
+    "source": "\u003ca href=\"http://twitter.com/download/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Sep 02 10:02:59 +0000 2018",
+      "id": 1036192756299964416,
+      "id_str": "1036192756299964416",
+      "text": "what type of app you would like to build while learning React Native?\nRT plz :)\n\n#ReactNative #poll #learning #workshop",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          { "text": "ReactNative", "indices": [81, 93] },
+          { "text": "poll", "indices": [94, 99] },
+          { "text": "learning", "indices": [100, 109] },
+          { "text": "workshop", "indices": [110, 119] }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "source": "\u003ca href=\"http://twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c/a\u003e",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 24702345,
+        "id_str": "24702345",
+        "name": "Horacio \ud83c\uddf5\ud83c\udde6\ud83c\uddea\ud83c\uddf8",
+        "screen_name": "hhg2288",
+        "location": "Barcelona",
+        "description": "Designer, Developer & Coach \u2022 husband \u2022 dad \u2022 web \u2022 mobile \u2022 React Native \u2022 ReactJS \u2022 GraphQL",
+        "url": "https://t.co/gLmcTLkbSq",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/gLmcTLkbSq",
+                "expanded_url": "http://www.hherrerag.com",
+                "display_url": "hherrerag.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 1020,
+        "friends_count": 800,
+        "listed_count": 85,
+        "created_at": "Mon Mar 16 14:54:49 +0000 2009",
+        "favourites_count": 3067,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 11731,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "D9D9D9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1012390852373737472/uDaLN_Il_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1012390852373737472/uDaLN_Il_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/24702345/1530207293",
+        "profile_link_color": "981CEB",
+        "profile_sidebar_border_color": "BABABA",
+        "profile_sidebar_fill_color": "D6D6D6",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 6,
+      "favorite_count": 4,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 6,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Aug 31 19:17:32 +0000 2018",
+    "id": 1035607537771528193,
+    "id_str": "1035607537771528193",
+    "text": "RT @alex_lobera: \u201cThe Great (and not so great) Gatsbyjs\u201d by Richard Moss https://t.co/Va3s74BAfu",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "alex_lobera",
+          "name": "alex lobera",
+          "id": 31141581,
+          "id_str": "31141581",
+          "indices": [3, 15]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/Va3s74BAfu",
+          "expanded_url": "https://medium.com/leanjs/the-great-and-not-so-great-gatsbyjs-788b5fb34e77",
+          "display_url": "medium.com/leanjs/the-gre\u2026",
+          "indices": [73, 96]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"http://twitter.com/download/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Fri Aug 31 14:59:57 +0000 2018",
+      "id": 1035542716745175041,
+      "id_str": "1035542716745175041",
+      "text": "\u201cThe Great (and not so great) Gatsbyjs\u201d by Richard Moss https://t.co/Va3s74BAfu",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/Va3s74BAfu",
+            "expanded_url": "https://medium.com/leanjs/the-great-and-not-so-great-gatsbyjs-788b5fb34e77",
+            "display_url": "medium.com/leanjs/the-gre\u2026",
+            "indices": [56, 79]
+          }
+        ]
+      },
+      "source": "\u003ca href=\"http://twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c/a\u003e",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 31141581,
+        "id_str": "31141581",
+        "name": "alex lobera",
+        "screen_name": "alex_lobera",
+        "location": "Londres, Inglaterra",
+        "description": "JavaScript passionate. Loves Lean, UX, and digital products that make social impact. Currently a React & GraphQL enthusiast.",
+        "url": "https://t.co/LZ2tuuzpgJ",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/LZ2tuuzpgJ",
+                "expanded_url": "http://leanjs.com",
+                "display_url": "leanjs.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 415,
+        "friends_count": 328,
+        "listed_count": 37,
+        "created_at": "Tue Apr 14 15:05:52 +0000 2009",
+        "favourites_count": 353,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 623,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "022330",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/947427749769240576/h6LOU4zh_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/947427749769240576/h6LOU4zh_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/31141581/1489697968",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 9,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Aug 29 14:05:06 +0000 2018",
+    "id": 1034804138209669126,
+    "id_str": "1034804138209669126",
+    "text": "REACT NATIVE. Sounds like a nightmare to you \ud83d\ude08? (Like if it's true)\n\nSpend ONE day to learn it \ud83d\ude80\n\n17 September. Lon\u2026 https://t.co/tmUaBN1SPm",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/tmUaBN1SPm",
+          "expanded_url": "https://twitter.com/i/web/status/1034804138209669126",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [117, 140]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"https://www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite Inc.\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 27 18:15:06 +0000 2018",
+    "id": 1034142276497403904,
+    "id_str": "1034142276497403904",
+    "text": "We've just finished an ama-a-azing Bootcamp in London and we already started getting ready for the next one!\n\nOh, b\u2026 https://t.co/pHDnWJ0USs",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/pHDnWJ0USs",
+          "expanded_url": "https://twitter.com/i/web/status/1034142276497403904",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [117, 140]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"https://www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite Inc.\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sun Aug 26 14:00:08 +0000 2018",
+    "id": 1033715723447816192,
+    "id_str": "1033715723447816192",
+    "text": "Here they are! thank you all for this amazing week! \ud83d\udcaa\ud83c\udffb\ud83d\udc4d\ud83c\udffb\ud83d\ude4f\ud83c\udffb\ud83d\ude4f\ud83c\udffb\n\n#reactjsacademy #Training #bootcamp #Alumni #proud\u2026 https://t.co/b9Ef527kVz",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        { "text": "reactjsacademy", "indices": [62, 77] },
+        { "text": "Training", "indices": [78, 87] },
+        { "text": "bootcamp", "indices": [88, 97] },
+        { "text": "Alumni", "indices": [98, 105] },
+        { "text": "proud", "indices": [106, 112] }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/b9Ef527kVz",
+          "expanded_url": "https://twitter.com/i/web/status/1033715723447816192",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [114, 137]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 8,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sun Aug 26 13:54:08 +0000 2018",
+    "id": 1033714211174666240,
+    "id_str": "1033714211174666240",
+    "text": "awesome picture Khaled!! \ud83d\udc4d\ud83c\udffb\ud83c\udf89\ud83d\udcaa\ud83c\udffb\ud83d\ude2c https://t.co/foRgyi9g63",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/foRgyi9g63",
+          "expanded_url": "https://twitter.com/khaled_hussain/status/1033671864202211329",
+          "display_url": "twitter.com/khaled_hussain\u2026",
+          "indices": [32, 55]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "01fac15539ff6509",
+      "url": "https://api.twitter.com/1.1/geo/id/01fac15539ff6509.json",
+      "place_type": "city",
+      "name": "Crawley",
+      "full_name": "Crawley, South East",
+      "country_code": "GB",
+      "country": "Reino Unido",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-0.236912, 51.088048],
+            [-0.136753, 51.088048],
+            [-0.136753, 51.167405],
+            [-0.236912, 51.167405]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 1033671864202211329,
+    "quoted_status_id_str": "1033671864202211329",
+    "quoted_status": {
+      "created_at": "Sun Aug 26 11:05:51 +0000 2018",
+      "id": 1033671864202211329,
+      "id_str": "1033671864202211329",
+      "text": "Passing on the knowledge already! \nWe\u2019re grateful @reactjsacademy \n\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f\n\n#reactjsacademy #bootcamp #training\u2026 https://t.co/VGMhPBlCt0",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          { "text": "reactjsacademy", "indices": [72, 87] },
+          { "text": "bootcamp", "indices": [88, 97] },
+          { "text": "training", "indices": [98, 107] }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "reactjsacademy",
+            "name": "ReactJS Academy",
+            "id": 770259608669683712,
+            "id_str": "770259608669683712",
+            "indices": [50, 65]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/VGMhPBlCt0",
+            "expanded_url": "https://twitter.com/i/web/status/1033671864202211329",
+            "display_url": "twitter.com/i/web/status/1\u2026",
+            "indices": [109, 132]
+          }
+        ]
+      },
+      "source": "\u003ca href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c/a\u003e",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 84544046,
+        "id_str": "84544046",
+        "name": "khaled hussain",
+        "screen_name": "khaled_hussain",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": { "description": { "urls": [] } },
+        "protected": false,
+        "followers_count": 22,
+        "friends_count": 267,
+        "listed_count": 0,
+        "created_at": "Fri Oct 23 09:04:59 +0000 2009",
+        "favourites_count": 566,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 22,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/723083564074545152/Pfvlo49h_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/723083564074545152/Pfvlo49h_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/84544046/1461232001",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 9,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "retweet_count": 1,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sun Aug 26 09:47:59 +0000 2018",
+    "id": 1033652266518151169,
+    "id_str": "1033652266518151169",
+    "text": "RT @naval: Teaching is more a way for the teacher to learn than for the student to learn.",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "naval",
+          "name": "Naval",
+          "id": 745273,
+          "id_str": "745273",
+          "indices": [3, 9]
+        }
+      ],
+      "urls": []
+    },
+    "source": "\u003ca href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Aug 25 00:09:22 +0000 2018",
+      "id": 1033144264165744641,
+      "id_str": "1033144264165744641",
+      "text": "Teaching is more a way for the teacher to learn than for the student to learn.",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "source": "\u003ca href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c/a\u003e",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 745273,
+        "id_str": "745273",
+        "name": "Naval",
+        "screen_name": "naval",
+        "location": "Here",
+        "description": "Present.",
+        "url": "https://t.co/Qe8nTXbnCS",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/Qe8nTXbnCS",
+                "expanded_url": "https://medium.com/@noahmadden/navalism-quotes-perceptions-by-naval-ravikant-a5fd60ac5788",
+                "display_url": "medium.com/@noahmadden/na\u2026",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 474318,
+        "friends_count": 643,
+        "listed_count": 8411,
+        "created_at": "Thu Feb 01 23:05:04 +0000 2007",
+        "favourites_count": 84987,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 17961,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "352726",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/749155852683055104/0StT9uYS_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/749155852683055104/0StT9uYS_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/745273/1355705777",
+        "profile_link_color": "D02B55",
+        "profile_sidebar_border_color": "829D5E",
+        "profile_sidebar_fill_color": "99CC33",
+        "profile_text_color": "3E4415",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1148,
+      "favorite_count": 4816,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1148,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Sat Aug 25 18:52:42 +0000 2018",
+    "id": 1033426962793025536,
+    "id_str": "1033426962793025536",
+    "text": "Thank you all!! this bootcamp was amazing because all of you attendees!!! \u2764\ufe0f\ud83d\udc4d\ud83c\udffb\ud83d\udcaa\ud83c\udffb\ud83d\ude0c\n.\nDon\u2019t miss the next one in Octo\u2026 https://t.co/ITDDYEoqYw",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/ITDDYEoqYw",
+          "expanded_url": "https://twitter.com/i/web/status/1033426962793025536",
+          "display_url": "twitter.com/i/web/status/1\u2026",
+          "indices": [117, 140]
+        }
+      ]
+    },
+    "source": "\u003ca href=\"https://buffer.com\" rel=\"nofollow\"\u003eBuffer\u003c/a\u003e",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 770259608669683712,
+      "id_str": "770259608669683712",
+      "name": "ReactJS Academy",
+      "screen_name": "reactjsacademy",
+      "location": "London, England",
+      "description": "Master React, Redux, and GraphQL quickly. Training for professional developers, learn in a few days to write complex UIs. Bootcamps, workshops and corp training",
+      "url": "https://t.co/m7BEcrPu70",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/m7BEcrPu70",
+              "expanded_url": "http://bit.ly/reactjsacademy",
+              "display_url": "bit.ly/reactjsacademy",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 280,
+      "friends_count": 80,
+      "listed_count": 7,
+      "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+      "favourites_count": 199,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 294,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  }
+]

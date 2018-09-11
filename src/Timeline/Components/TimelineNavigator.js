@@ -1,0 +1,1 @@
+export const TIMELINE_SCREEN = 'TIMELINE_SCREEN'

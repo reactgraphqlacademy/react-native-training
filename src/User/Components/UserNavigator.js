@@ -9,6 +9,7 @@ import { PUBLIC_SCREEN } from '../../App'
 
 export const HOME_SCREEN = 'HOME_SCREEN'
 export const PROFILE_SCREEN = 'PROFILE_SCREEN'
+export const USERS_SCREEN = 'USERS_SCREEN'
 
 const UserNavigator = createStackNavigator(
     {
