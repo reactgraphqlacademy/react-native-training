@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 import { setUser } from 'react-native-authentication-helpers'
-import { Button, TextInput, Title, PRIVATE_SCREEN } from '../../App'
+import { Button, TextInput, Title, Screen, PRIVATE_SCREEN } from '../../App'
 
 class Auth extends React.Component {
   login = () => {
@@ -9,7 +9,7 @@ class Auth extends React.Component {
   }
   render() {
     return (
-      <View style={styles.container}>
+      <Screen style={styles.container}>
         <Title>Auth Screen</Title>
         <View>
           <TextInput />
@@ -17,14 +17,13 @@ class Auth extends React.Component {
         <Button primary raised onPress={this.login}>
           login
         </Button>
-      </View>
+      </Screen>
     )
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
   }

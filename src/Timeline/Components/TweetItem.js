@@ -7,8 +7,8 @@ const Avatar = ({uri}) => (
   <Image style={styles.avatar} source={{uri}} />
 )
 
-const TweetItem = ({item}) => (
-  <TouchableOpacity>
+const TweetItem = ({item, handlePress}) => (
+  <TouchableOpacity onPress={handlePress}>
   <View style={styles.item}>
     <View style={styles.container}>
       <Avatar uri={item.user.profile_image_url_https} />

@@ -1,15 +1,13 @@
 import React from 'react'
-import { Platform } from 'react-native'
 import { createBottomTabNavigator } from 'react-navigation'
-import { Constants } from 'expo'
 
-import { TIMELINE_SCREEN, TimelineScreen } from '../Timeline'
+import { MAIN_TIMELINE_SCREEN, TimelineNavigator } from '../Timeline'
 import { UserNavigator, USERS_SCREEN } from '../User'
 import { Feather } from '@expo/vector-icons';
 
 const PrivateNavigator = createBottomTabNavigator({
-  [TIMELINE_SCREEN]: {
-    screen: TimelineScreen,
+  [MAIN_TIMELINE_SCREEN]: {
+    screen: TimelineNavigator,
     navigationOptions: {
       title: "Timeline",
       tabBarIcon: ({focused, tintColor}) => <Feather name="home" size={24} color={focused ? tintColor : "lightgrey" } />
@@ -24,7 +22,7 @@ const PrivateNavigator = createBottomTabNavigator({
   }
 },
 {
-  initialRoute: TIMELINE_SCREEN,
+  initialRoute: MAIN_TIMELINE_SCREEN,
   tabBarOptions: {
     showLabel: false,
     showIcon: true,

@@ -2,15 +2,21 @@ import React from 'react';
 import { View, FlatList, StyleSheet, Platform } from 'react-native';
 import * as api from '../Api'
 import TweetItem from '../Components/TweetItem';
-import { Constants } from 'expo'
+import { Screen } from '../../App'
+import { TWEET_DETAIL_SCREEN } from '../Components/TimelineNavigator'
 
-// fetch timeline
-// display all the tweets in a flatList
 
 class TimelineScreen extends React.Component {
+  static navigationOptions = {
+    title: "Timeline"
+  }
 
   state = {
     timeline: []
+  }
+
+  componentDidMount() {
+    this.fetchTimeline();
   }
 
   fetchTimeline = () => {
@@ -19,28 +25,22 @@ class TimelineScreen extends React.Component {
     })
   }
 
-  componentDidMount() {
-    this.fetchTimeline();
+  handleTweetPress = (id) => {
+    this.props.navigation.navigate({routeName: TWEET_DETAIL_SCREEN, params: { id }});
   }
 
   render() {
     return (
-      <FlatList
-        style={styles.container}
-        data={this.state.timeline}
-        renderItem={({item}) => <TweetItem item={item} />}
-        keyExtractor={item => item.id_str}
-      />
+      <Screen>
+        <FlatList
+          data={this.state.timeline}
+          renderItem={({item}) => <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id)} />}
+          keyExtractor={item => item.id_str}
+        />
+      </Screen>
     )
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    marginTop: Constants.statusBarHeight
-  }
-})
 
 TimelineScreen.defaultProps = {
   api

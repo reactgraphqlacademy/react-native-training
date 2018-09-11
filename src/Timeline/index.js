@@ -1,4 +1,1 @@
-export { default as TimelineScreen } from './Screens/TimelineScreen'
-import { TIMELINE_SCREEN } from './Components/TimelineNavigator'
-
-export { TIMELINE_SCREEN }
+export { default as TimelineNavigator, MAIN_TIMELINE_SCREEN } from './Components/TimelineNavigator'
