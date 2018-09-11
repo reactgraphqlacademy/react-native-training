@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, Text, Image, Dimensions } from 'react-native'
+import { StyleSheet, View, Text, Image, Dimensions, TouchableOpacity } from 'react-native'
 
 const { width, height } = Dimensions.get('window');
 
@@ -8,6 +8,7 @@ const Avatar = ({uri}) => (
 )
 
 const TweetItem = ({item}) => (
+  <TouchableOpacity>
   <View style={styles.item}>
     <View style={styles.container}>
       <Avatar uri={item.user.profile_image_url_https} />
@@ -21,6 +22,7 @@ const TweetItem = ({item}) => (
     </View>
     <View style={styles.divider} />
   </View>
+  </TouchableOpacity>
 )
 
 const styles = StyleSheet.create({
@@ -30,10 +32,9 @@ const styles = StyleSheet.create({
     marginVertical: 16,
   },
   avatar: {
-    width: 56,
-    height: 56,
-    borderRadius: 28,
-    backgroundColor: 'green'
+    width: 44,
+    height: 44,
+    borderRadius: 22,
   },
   tweet: {
     fontSize: 16,

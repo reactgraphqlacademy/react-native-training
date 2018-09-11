@@ -1,15 +1,13 @@
 import React from 'react';
-import { View, FlatList, Text, StyleSheet } from 'react-native';
+import { View, FlatList, StyleSheet, Platform } from 'react-native';
 import * as api from '../Api'
 import TweetItem from '../Components/TweetItem';
+import { Constants } from 'expo'
 
 // fetch timeline
 // display all the tweets in a flatList
 
 class TimelineScreen extends React.Component {
-  static navigationOptions = () => ({
-    title: "Timeline"
-  });
 
   state = {
     timeline: []
@@ -27,20 +25,20 @@ class TimelineScreen extends React.Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <FlatList
-          data={this.state.timeline}
-          renderItem={({item}) => <TweetItem item={item} />}
-          keyExtractor={item => item.id_str}
-        />
-      </View>
+      <FlatList
+        style={styles.container}
+        data={this.state.timeline}
+        renderItem={({item}) => <TweetItem item={item} />}
+        keyExtractor={item => item.id_str}
+      />
     )
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    marginTop: Constants.statusBarHeight
   }
 })
 
