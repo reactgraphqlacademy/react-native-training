@@ -50,12 +50,12 @@ Tasks FOUNDATION
     - Task: in App.js replace import { LoginScreen } from './src/Auth' by import { UsersScreen } from './src/Users'
     - In src/Users/Screens/UsersScreen.js, create a FlatList and show all the users from the API. Question, why do you think we need to use a FlatList and not just a ScrollView?
   - Bonus, style the ProfileScreen
- 
+
 Tasks NAVIGATION
 - git checkout solution-previous-exercise
 - yarn add react-navigation
-- Create a navigator in src/App/Navigator. 
-The Navigator should have two screens: LoginScreen and UsersScreen. Example using SwitchNavigator and StackNavigator: https://snack.expo.io/@horacio/composing-navigators 
+- Create a navigator in src/App/Navigator.
+The Navigator should have two screens: LoginScreen and UsersScreen. Example using SwitchNavigator and StackNavigator: https://snack.expo.io/@horacio/composing-navigators
 
 Users should not be able to click on the back button and go back from UsersScreen to LoginScreen. Question, which type of navigator are you going to use? StackNavigator or SwhitchNavigator?
 
@@ -71,14 +71,14 @@ Users should not be able to click on the back button and go back from UsersScree
   - The initialRouteName should be the UsersScreen
 
 - In src/App/Navigator.js replace the UsersScreen by UserNavigator
-- In src/Users/Screens/UsersScreen.js 
+- In src/Users/Screens/UsersScreen.js
 - src/Users/Components/UserItem.js receives a function prop called handleItemPress that is executed when the user presses on the item. Implement that function in the renderItem method in src/Users/Screens/UsersScreen.js. Hint UsersScreen has a prop called navigation https://reactnavigation.org/docs/en/navigation-prop.html. You will need to use the navigation.navigate function https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens.  Hint 2: you need to pass a parameter to the next screen
 - The src/Users/Components/UserNavigator.js should have a Button with the text "Sign out" on the property [headeRright](https://reactnavigation.org/docs/en/stack-navigator.html#headerright) so that when the Button is pressed the app navigates to the login screen
 
 -  In src/screens/ProfileScreen.js read the parameter sent from the previous Screen and use it to dispaly the right data
 
 Tasks Animations
-- 
+-
 
 ### Bonus Excersices
 
@@ -126,3 +126,4 @@ For this its best to checkout the solution branch, because you will need a file 
 - https://twitter.com/infinite_red
 - https://twitter.com/ChainReactConf
 - https://twitter.com/VladimirNovick
+- Twitter API auth process: https://stackoverflow.com/questions/45078952/twitter-api-application-only-authentication
