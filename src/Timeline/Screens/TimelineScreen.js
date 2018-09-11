@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, FlatList, Text, StyleSheet } from 'react-native';
 import * as api from '../Api'
+import TweetItem from '../Components/TweetItem';
 
 // fetch timeline
 // display all the tweets in a flatList
@@ -29,8 +30,8 @@ class TimelineScreen extends React.Component {
       <View style={styles.container}>
         <FlatList
           data={this.state.timeline}
-          renderItem={({item}) => <Text>{item.id}</Text>}
-          keyExtractor={item => item.id}
+          renderItem={({item}) => <TweetItem item={item} />}
+          keyExtractor={item => item.id_str}
         />
       </View>
     )

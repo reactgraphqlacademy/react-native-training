@@ -12,7 +12,8 @@ const Navigator = createSwitchNavigator(
     [PRIVATE_SCREEN]: PrivateNavigator
   },
   {
-    initialRouteName: PUBLIC_SCREEN,
+    //initialRouteName: PUBLIC_SCREEN,
+    initialRouteName: PRIVATE_SCREEN,
     headerMode: "none"
   }
 );
