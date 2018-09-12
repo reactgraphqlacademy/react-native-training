@@ -1,11 +1,8 @@
 import React from 'react'
-import { StyleSheet, View, Text, Image, Dimensions, TouchableOpacity } from 'react-native'
+import { StyleSheet, View, Text, Dimensions, TouchableOpacity } from 'react-native'
+import Avatar from '../Components/Avatar'
 
 const { width, height } = Dimensions.get('window');
-
-const Avatar = ({uri}) => (
-  <Image style={styles.avatar} source={{uri}} />
-)
 
 const TweetItem = ({item, handlePress}) => (
   <TouchableOpacity onPress={handlePress}>
@@ -13,7 +10,7 @@ const TweetItem = ({item, handlePress}) => (
     <View style={styles.container}>
       <Avatar uri={item.user.profile_image_url_https} />
       <View style={styles.itemContent}>
-        <View style={styles.contentHeader}>
+        <View style={styles.headerContent}>
           <Text style={styles.userName}>{item.user.name}</Text>
           <Text style={styles.userScreenName}>@{item.user.screen_name}</Text>
         </View>
@@ -31,11 +28,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 8,
     marginVertical: 16,
   },
-  avatar: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
-  },
   tweet: {
     fontSize: 16,
   },
@@ -48,7 +40,7 @@ const styles = StyleSheet.create({
     height: 1,
     backgroundColor: 'rgba(0,0,0,0.1)',
   },
-  contentHeader: {
+  headerContent: {
     flexDirection: 'row',
     marginBottom: 8
   },

@@ -11,7 +11,6 @@ const styles = StyleSheet.create({
   paper: {
     padding: 16,
     elevation: 6,
-    marginTop: -56,
     borderRadius: 4,
     marginBottom: 24
   }

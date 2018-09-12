@@ -54,7 +54,7 @@ class ProfileScreen extends React.Component {
                         </View>
                     </View>
                     <View style={styles.content}>
-                        <Paper>
+                        <Paper style={styles.contentWrapper}>
                             <Caption>Bio:</Caption>
                             <Title style={styles.contentValue}>{this.state.bio}</Title>
 
@@ -114,6 +114,9 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     content: { margin: 16 },
+    contentWrapper: {
+      marginTop: -56,
+    },
     link: {
         color: 'peru'
     },
