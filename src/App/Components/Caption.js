@@ -1,5 +1,17 @@
-import {
-  Caption
-} from 'react-native-paper'
+import React from 'react'
+import { Text, StyleSheet } from 'react-native'
 
-export default Caption;
+const Caption = ({style, text, ...rest}) => (
+  <Text style={[styles.caption, style]} {...rest}>
+    {text.toUpperCase()}
+  </Text>
+)
+
+const styles = StyleSheet.create({
+  caption: {
+    fontSize: 16,
+    color: "#333"
+  }
+})
+
+export default Caption

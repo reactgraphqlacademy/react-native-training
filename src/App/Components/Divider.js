@@ -1,3 +1,3 @@
-import { Divider } from 'react-native-paper'
+import { Divider } from 'react-native-elements'
 
 export default Divider

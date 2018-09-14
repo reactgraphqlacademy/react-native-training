@@ -1,6 +1,6 @@
 import {
   ListItem
-} from 'react-native-paper'
+} from 'react-native-elements'
 
 export default ListItem;
 

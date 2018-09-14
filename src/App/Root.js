@@ -1,11 +1,7 @@
 import React from 'react'
-import { Provider as ThemeProvider } from 'react-native-paper'
+
 import Navigator from './Navigator'
 
-const Root = () => (
-    <ThemeProvider>
-        <Navigator />
-    </ThemeProvider>
-)
+const Root = () => (<Navigator />)
 
 export default Root

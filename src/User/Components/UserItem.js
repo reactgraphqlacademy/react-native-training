@@ -4,14 +4,10 @@ import { Subheading, ListItem, Title } from '../../App'
 
 const UserItem = props => (
     <ListItem
-        title={<Title>{props.user.login}</Title>}
-        description={<Subheading>{props.user.score}</Subheading>}
-        avatar={
-            <Image
-                style={{ width: 44, height: 44, borderRadius: 22 }}
-                source={{ uri: props.user.avatar_url }}
-            />
-        }
+        title={props.user.login}
+        subtitle={props.user.score}
+        roundAvatar
+        avatar={{ uri: props.user.avatar_url }}
         onPress={props.handleItemPress}
     />
 )

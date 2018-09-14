@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, View, Text, Dimensions, TouchableOpacity } from 'react-native'
+import { Divider } from '../../App'
 import Avatar from '../Components/Avatar'
 
 const { width, height } = Dimensions.get('window');
@@ -17,7 +18,7 @@ const TweetItem = ({item, handlePress}) => (
         <Text style={styles.tweet}>{item.text}</Text>
       </View>
     </View>
-    <View style={styles.divider} />
+    <Divider />
   </View>
   </TouchableOpacity>
 )
@@ -34,11 +35,6 @@ const styles = StyleSheet.create({
   itemContent: {
     flex: 1,
     paddingLeft: 8,
-  },
-  divider: {
-    width,
-    height: 1,
-    backgroundColor: 'rgba(0,0,0,0.1)',
   },
   headerContent: {
     flexDirection: 'row',

@@ -102,8 +102,8 @@ For this its best to checkout the solution branch, because you will need a file 
 - https://facebook.github.io/react-native/
 - https://docs.expo.io/versions/latest/
 - https://reactnavigation.org/docs/en/getting-started.html
-- https://callstack.github.io/react-native-paper/
 - https://react-native-training.github.io/react-native-elements/
+- https://callstack.github.io/react-native-paper/
 - https://nativebase.io/
 - https://native.directory/
 
