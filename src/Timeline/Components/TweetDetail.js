@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native'
 import { Paper } from '../../App'
 import Avatar from '../Components/Avatar'
 import { Feather } from '@expo/vector-icons';
-import { stringify } from 'querystring';
 
 const IconButton = ({ icon }) => {
   let Icon;

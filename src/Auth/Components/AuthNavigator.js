@@ -10,7 +10,7 @@ export const SINGUP_SCREEN = 'SIGNUP_SCREEN'
 const AuthNavigator = createSwitchNavigator(
     {
         [LOGIN_SCREEN]: LoginScreen,
-        //[SINGUP_SCREEN]: SignUpScreen,
+        // [SINGUP_SCREEN]: SignUpScreen,
     },
     {
         initialRouteName: LOGIN_SCREEN,
