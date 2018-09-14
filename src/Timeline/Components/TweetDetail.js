@@ -61,7 +61,7 @@ const TweetDetail = ({tweet}) => {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 16,
+    margin: 8
   },
   header: {
     flexDirection: 'row',
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     fontWeight: '200'
   },
   tweetContent: {
-    margin: 16,
+    margin: 8,
   },
   tweet: {
     fontSize: 24,
@@ -96,7 +96,8 @@ const styles = StyleSheet.create({
     marginVertical: 12
   },
   footer: {
-    margin: 16,
+    marginVertical: 8,
+    marginHorizontal: 16,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',

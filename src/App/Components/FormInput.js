@@ -7,13 +7,17 @@ import {
 } from "react-native-elements";
 import PropTypes from 'prop-types'
 
-const FormInput = ({ label, value, style, ...rest}) => (
-  <View>
-    <FormLabel>{label}</FormLabel>
-    <BaseFormInput {...rest} value={value} />
-    {/* <FormValidationMessage>Error message</FormValidationMessage> */}
-  </View>
-);
+const FormInput = ({ label, value, style, onChangeText, ...rest}) => {
+  console.log(value);
+
+  return (
+    <View>
+      <FormLabel>{label}</FormLabel>
+      <BaseFormInput {...rest} value={value} onChangeText={onChangeText}/>
+      {/* <FormValidationMessage>Error message</FormValidationMessage> */}
+    </View>
+  )
+};
 
 FormInput.propTypes = {
   label: PropTypes.string.isRequired,

@@ -1,8 +1,10 @@
 import React from "react";
-import { StyleSheet, View, TextInput } from "react-native";
+import { StyleSheet } from "react-native";
 import { setUser } from "react-native-authentication-helpers";
 import { Constants } from "expo";
-import { Button, HeadLine, Title, Screen, PRIVATE_SCREEN, Headline, FormInput } from "../../App";
+import { Button } from 'react-native-elements'
+import { Title, Screen, PRIVATE_SCREEN, Headline, FormInput } from "../../App";
+import LoginHeader from '../Components/LoginHeader'
 
 class LoginScreen extends React.Component {
   state = {
@@ -14,15 +16,15 @@ class LoginScreen extends React.Component {
     this.props.navigation.navigate(PRIVATE_SCREEN);
   };
 
-  handleFormChange = ({ key, text }) => this.setState({ [key]: text });
+  handleFormChange = ({ key, value }) => this.setState({ [key]: value });
 
   render() {
     return (
       <Screen style={styles.container}>
-        <View style={styles.header}>
+        <LoginHeader>
           <Headline>Twitter Clone</Headline>
           <Title>@reactjsacademy</Title>
-        </View>
+        </LoginHeader>
         <FormInput
           label="Email"
           value={this.state.email}
@@ -36,6 +38,7 @@ class LoginScreen extends React.Component {
             this.handleFormChange({ key: "password", value })
           }
         />
+        <Button onPress={this.login} style={styles.submitButton} backgroundColor="#73CFEF" title="Login" />
       </Screen>
     );
   }
@@ -45,11 +48,9 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: Constants.statusBarHeight
   },
-  header: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: 120,
-    backgroundColor: '#73CFEF'
+  submitButton: {
+    marginVertical: 24,
+    backgroundColor: "red"
   }
 });
 

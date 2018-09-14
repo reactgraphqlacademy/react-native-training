@@ -1,8 +1,10 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, SafeAreaView } from 'react-native'
 
-const Screen = ({style, ...rest}) => (
-  <View style={[styles.screen, style]} {...rest} />
+const Screen = ({style, children, ...rest}) => (
+  <SafeAreaView style={{flex: 1}}>
+    <View style={[styles.screen, style]} {...rest}>{children}</View>
+  </SafeAreaView>
 )
 
 const styles = StyleSheet.create({

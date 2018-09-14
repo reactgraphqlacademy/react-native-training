@@ -9,7 +9,7 @@ const Paper = ({style, ...rest}) => (
 const styles = StyleSheet.create({
   paper: {
     backgroundColor: 'white',
-    padding: 16,
+    padding: 8,
     borderRadius: 4,
     marginBottom: 24
   }
