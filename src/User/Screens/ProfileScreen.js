@@ -117,7 +117,8 @@ const styles = StyleSheet.create({
   },
   content: { margin: 16 },
   contentWrapper: {
-    marginTop: -56
+    marginTop: -56,
+    padding: 16
   },
   link: {
     color: "peru"
