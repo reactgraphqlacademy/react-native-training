@@ -3,6 +3,7 @@ import { ScrollView, Text } from "react-native";
 import { Screen, ViewLoading } from "../../App";
 import TweetDetail from "../Components/TweetDetail";
 import * as api from "../Api";
+import { OTHER_USER_PROFILE } from "../Components/TimelineNavigator";
 
 class TweetDetailScreen extends React.Component {
   static navigationOptions = {
@@ -30,6 +31,13 @@ class TweetDetailScreen extends React.Component {
     }
   };
 
+  handleProfilePress = () => {
+    this.props.navigation.navigate({
+      routeName: OTHER_USER_PROFILE,
+      params: { userId: this.state.tweet.user.id_str }
+    });
+  };
+
   render() {
     return (
       <Screen>
@@ -40,7 +48,10 @@ class TweetDetailScreen extends React.Component {
             {this.state.error ? (
               <Text>{this.state.error}</Text>
             ) : (
-              <TweetDetail tweet={this.state.tweet} />
+              <TweetDetail
+                tweet={this.state.tweet}
+                handleProfilePress={this.handleProfilePress}
+              />
             )}
           </ScrollView>
         )}

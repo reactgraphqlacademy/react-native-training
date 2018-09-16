@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native'
-import { Paper } from '../../App'
+import { Paper, Screen } from '../../App'
 import Avatar from '../Components/Avatar'
 import { Feather } from '@expo/vector-icons';
 
@@ -8,16 +8,17 @@ const IconButton = ({ icon }) => {
   let Icon;
   switch (icon) {
     case "rt":
-      Icon = <Feather name="refresh-cw" size={24} color="lightgrey" />
+      Icon = "refresh-cw"
       break;
     case "likes":
-      Icon = <Feather name="heart" size={24} color="lightgrey" />
+      Icon = "heart"
       break;
     case "open":
-      Icon = <Feather name="share" size={24} color="lightgrey" />
+      Icon = "share"
       break;
   }
-  return Icon
+
+  return <Feather name={Icon} size={24} color="lightgrey" />
 }
 
 const TweetURL = ({urls}) => {
@@ -32,18 +33,20 @@ const TweetURL = ({urls}) => {
   }
 }
 
-const TweetDetail = ({tweet}) => {
+const TweetDetail = ({tweet, handleProfilePress}) => {
   const date = new Date(tweet.created_at);
   return (
-    <View style={styles.container}>
-      <Paper>
-        <View style={styles.header}>
-          <Avatar uri={tweet.user.profile_image_url_https} />
-          <View style={styles.contentHeader}>
-            <Text style={styles.userName}>{tweet.user.name}</Text>
-            <Text style={styles.userScreenName}>@{tweet.user.screen_name}</Text>
+    <Screen>
+      <Paper style={styles.paper}>
+        <TouchableOpacity onPress={handleProfilePress}>
+          <View style={styles.header}>
+            <Avatar uri={tweet.user.profile_image_url_https} />
+            <View style={styles.contentHeader}>
+              <Text style={styles.userName}>{tweet.user.name}</Text>
+              <Text style={styles.userScreenName}>@{tweet.user.screen_name}</Text>
+            </View>
           </View>
-        </View>
+        </TouchableOpacity>
         <View style={styles.tweetContent}>
           <Text style={styles.tweet}>{tweet.text}</Text>
           <TweetURL urls={tweet.entities.urls} />
@@ -55,13 +58,13 @@ const TweetDetail = ({tweet}) => {
           <IconButton icon="open" />
         </View>
       </Paper>
-    </View>
+    </Screen>
   )
 }
 
 const styles = StyleSheet.create({
-  container: {
-    margin: 8
+  paper: {
+    margin: 16
   },
   header: {
     flexDirection: 'row',

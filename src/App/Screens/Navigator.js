@@ -1,6 +1,6 @@
 import React from "react";
 import { createSwitchNavigator } from "react-navigation";
-import LoginScreen from "../Auth/Screens/LoginScreen";
+import LoginScreen from "../../Auth/Screens/LoginScreen";
 import PrivateNavigator from "./PrivateNavigator";
 
 export const PRIVATE_SCREEN = "PRIVATE_SCREEN";
@@ -13,7 +13,6 @@ const Navigator = createSwitchNavigator(
   },
   {
     initialRouteName: PUBLIC_SCREEN,
-    // initialRouteName: PRIVATE_SCREEN,
     headerMode: "none"
   }
 );

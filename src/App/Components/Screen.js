@@ -1,17 +1,8 @@
 import React from 'react'
-import { View, StyleSheet, SafeAreaView } from 'react-native'
+import { View } from 'react-native'
 
-const Screen = ({style, children, ...rest}) => (
-  <SafeAreaView style={{flex: 1}}>
-    <View style={[styles.screen, style]} {...rest}>{children}</View>
-  </SafeAreaView>
+const Screen = ({style = {}, ...props}) => (
+    <View style={[style, {flex: 1}]} {...props} />
 )
-
-const styles = StyleSheet.create({
-  screen: {
-    flex: 1,
-    backgroundColor: 'white'
-  }
-})
 
 export default Screen

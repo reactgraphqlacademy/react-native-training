@@ -13,7 +13,8 @@ export { default as ListItem } from './Components/ListItem'
 export { default as Divider } from './Components/Divider'
 export { default as FormInput } from './Components/FormInput'
 export { default as Screen } from './Components/Screen'
+export { default as Header } from './Components/Header'
 
 // Navigation Names
-export { PUBLIC_SCREEN, PRIVATE_SCREEN } from './Navigator'
+export { PUBLIC_SCREEN, PRIVATE_SCREEN } from './Screens/Navigator'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Navigator from './Navigator'
+import Navigator from './Screens/Navigator'
 
 const Root = () => (<Navigator />)
 

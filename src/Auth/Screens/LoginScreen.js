@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet } from "react-native";
+import { StyleSheet, StatusBar } from "react-native";
 import { setUser } from "react-native-authentication-helpers";
 import { Constants } from "expo";
 import { Button } from 'react-native-elements'
@@ -45,9 +45,6 @@ class LoginScreen extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    paddingTop: Constants.statusBarHeight
-  },
   submitButton: {
     marginVertical: 24,
     backgroundColor: "red"

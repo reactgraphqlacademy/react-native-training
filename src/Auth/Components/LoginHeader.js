@@ -1,4 +1,5 @@
 import React from 'react'
+import { Constants } from 'expo'
 import { View, StyleSheet } from 'react-native'
 
 const LoginHeader = ({children}) => {
@@ -17,6 +18,7 @@ const LoginHeader = ({children}) => {
 
 const styles = StyleSheet.create({
   header: {
+    paddingTop: Constants.statusBarHeight,
     alignItems: 'center',
     justifyContent: 'center',
     height: 140,

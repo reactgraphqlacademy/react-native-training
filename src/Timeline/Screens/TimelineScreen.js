@@ -3,7 +3,7 @@ import { View, FlatList, StyleSheet, Platform } from 'react-native';
 import * as api from '../Api'
 import TweetItem from '../Components/TweetItem';
 import { Screen } from '../../App'
-import { TWEET_DETAIL_SCREEN } from '../Components/TimelineNavigator'
+import { TWEET_DETAIL_SCREEN, OTHER_USER_PROFILE } from '../Components/TimelineNavigator'
 
 
 class TimelineScreen extends React.Component {
@@ -29,18 +29,26 @@ class TimelineScreen extends React.Component {
     this.props.navigation.navigate({routeName: TWEET_DETAIL_SCREEN, params: { id }});
   }
 
+  renderItem = ({item}) => <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id)} />
+
   render() {
     return (
-      <Screen>
+      <Screen style={styles.screen}>
         <FlatList
           data={this.state.timeline}
-          renderItem={({item}) => <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id)} />}
+          renderItem={this.renderItem}
           keyExtractor={item => item.id_str}
         />
       </Screen>
     )
   }
 }
+
+const styles = StyleSheet.create({
+  screen: {
+    backgroundColor: 'white'
+  }
+})
 
 TimelineScreen.defaultProps = {
   api
