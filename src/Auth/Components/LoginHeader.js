@@ -1,6 +1,7 @@
 import React from 'react'
 import { Constants } from 'expo'
 import { View, StyleSheet } from 'react-native'
+import { Colors } from '../../Utils'
 
 const LoginHeader = ({children}) => {
   const compoundedChildren = React.Children.map(children, child => (
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     height: 140,
-    backgroundColor: '#73CFEF'
+    backgroundColor: Colors.brand.primary
   }
 })
 

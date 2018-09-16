@@ -5,6 +5,7 @@ import { Constants } from "expo";
 import { Button } from 'react-native-elements'
 import { Title, Screen, PRIVATE_SCREEN, Headline, FormInput } from "../../App";
 import LoginHeader from '../Components/LoginHeader'
+import { Colors } from '../../Utils'
 
 class LoginScreen extends React.Component {
   state = {
@@ -38,7 +39,7 @@ class LoginScreen extends React.Component {
             this.handleFormChange({ key: "password", value })
           }
         />
-        <Button onPress={this.login} style={styles.submitButton} backgroundColor="#73CFEF" title="Login" />
+        <Button onPress={this.login} style={styles.submitButton} backgroundColor={Colors.brand.primary} title="Login" />
       </Screen>
     );
   }
@@ -47,7 +48,6 @@ class LoginScreen extends React.Component {
 const styles = StyleSheet.create({
   submitButton: {
     marginVertical: 24,
-    backgroundColor: "red"
   }
 });
 

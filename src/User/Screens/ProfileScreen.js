@@ -1,4 +1,5 @@
 import * as React from "react";
+import { View, ScrollView, Image, StyleSheet, Linking } from "react-native";
 import * as api from "../Api";
 import {
   ViewLoading,
@@ -9,7 +10,7 @@ import {
   Subheading,
   Caption
 } from "../../App";
-import { View, ScrollView, Image, StyleSheet, Linking } from "react-native";
+import { Colors } from '../../Utils'
 
 class ProfileScreen extends React.Component {
   static navigationOptions = ({ navigation }) => ({
@@ -94,7 +95,7 @@ const styles = StyleSheet.create({
   header: {
     flex: 1,
     height: 340,
-    backgroundColor: "#73CFEF",
+    backgroundColor: Colors.brand.primary,
     alignItems: "center",
     justifyContent: "flex-start"
   },

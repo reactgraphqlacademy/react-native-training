@@ -2,8 +2,8 @@ import React from 'react'
 import { createBottomTabNavigator } from 'react-navigation'
 
 import { TimelineNavigator, ProfileScreen, MAIN_TIMELINE_SCREEN, PROFILE_SCREEN } from '../../Timeline'
-import { UserNavigator, USERS_SCREEN } from '../../User'
 import { Feather } from '@expo/vector-icons';
+import { Colors } from '../../Utils'
 
 const PrivateNavigator = createBottomTabNavigator({
   [MAIN_TIMELINE_SCREEN]: {
@@ -18,7 +18,7 @@ const PrivateNavigator = createBottomTabNavigator({
     navigationOptions: {
       title: "Users",
       tabBarIcon: ({focused, tintColor}) => <Feather name="user" size={24} color={focused ? tintColor : "lightgrey" } />,
-      tabBarOnPress: ({ navigation}) => navigation.navigate({ routeName: PROFILE_SCREEN, params: { userId: "778564054717726720", noBack: true}})
+      tabBarOnPress: ({ navigation}) => navigation.navigate({ routeName: PROFILE_SCREEN, params: { userId: "778564054717726720", name: "LeanJS", noBack: true}})
     }
   }
 },
@@ -27,7 +27,7 @@ const PrivateNavigator = createBottomTabNavigator({
   tabBarOptions: {
     showLabel: false,
     showIcon: true,
-    activeTintColor: '#73CFEF',
+    activeTintColor: Colors.brand.primary,
     style: {
       backgroundColor: 'white',
     }

@@ -3,7 +3,7 @@ import { createStackNavigator } from 'react-navigation'
 import TimelineScreen from '../Screens/TimelineScreen';
 import TweetDetailScreen from '../Screens/TweetDetailScreen'
 import ProfileScreen from '../Screens/ProfileScreen';
-import { Header } from '../../App'
+import { Colors } from '../../Utils'
 
 export const MAIN_TIMELINE_SCREEN = 'MAIN_TIMELINE_SCREEN'
 export const TIMELINE_FEED_SCREEN = 'TIMELINE_FEED_SCREEN'
@@ -20,6 +20,12 @@ const TimelineNavigator = createStackNavigator({
   }
 }, {
   initialRouteName: TIMELINE_FEED_SCREEN,
+  navigationOptions: {
+    headerStyle: {
+      backgroundColor: Colors.brand.primary
+    },
+    headerTintColor: '#fff'
+  }
 })
 
 export default TimelineNavigator;

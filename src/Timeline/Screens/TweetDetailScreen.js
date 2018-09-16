@@ -34,7 +34,10 @@ class TweetDetailScreen extends React.Component {
   handleProfilePress = () => {
     this.props.navigation.navigate({
       routeName: OTHER_USER_PROFILE,
-      params: { userId: this.state.tweet.user.id_str }
+      params: {
+        userId: this.state.tweet.user.id_str,
+        name: this.state.tweet.user.name
+      }
     });
   };
 

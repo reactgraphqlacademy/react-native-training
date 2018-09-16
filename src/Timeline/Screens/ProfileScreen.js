@@ -5,7 +5,6 @@ import {
   StyleSheet,
   Image,
   Animated,
-  Dimensions,
   StatusBar
 } from "react-native";
 import { Constants } from 'expo'
@@ -13,16 +12,16 @@ import { Screen, ViewLoading } from "../../App";
 import { Header } from "react-native-elements";
 import { Feather } from '@expo/vector-icons'
 import * as api from "../Api";
+import { Layout, Colors } from '../../Utils'
 
-const HEADER_HEIGHT = 180;
+const HERO_HEIGHT = 180;
 const AVATAR_SIZE = 84;
-const { width } = Dimensions.get('window');
+const { width } = Layout.window
 
 class ProfileScreen extends React.Component {
   scrollY = new Animated.Value(0);
 
   static navigationOptions = {
-    title: "User",
     header: null,
   };
 
@@ -56,6 +55,8 @@ class ProfileScreen extends React.Component {
       outputRange: [0, 0, 1]
     });
 
+
+
     return (
       <Screen>
         {this.state.loading ? (
@@ -63,7 +64,7 @@ class ProfileScreen extends React.Component {
         ) : (
           <Animated.ScrollView
             scrollEventThrottle={1}
-            contentContainerStyle={{paddingTop: -64}}
+            //contentContainerStyle={{paddingTop: -64}}
             onScroll={Animated.event([
               {
                 nativeEvent: {
@@ -72,7 +73,7 @@ class ProfileScreen extends React.Component {
                   }
                 }
               }
-            ])}
+            ], { useNativeDriver: true})}
           >
             <View style={[styles.header]}>
               <Animated.Image
@@ -103,14 +104,14 @@ class ProfileScreen extends React.Component {
         }}>
         <Header
           outerContainerStyles={{
-            paddingTop: Constants.statusBarHeight,
+            paddingTop: Layout.notchHeight + 20,
             borderBottomColor: 'transparent',
             paddingBottom: 8,
-            height: 64
+            height: Layout.headerHeight
           }}
           leftComponent={!showBack ? <Feather onPress={() => this.props.navigation.goBack()} name="arrow-left" size={24} color="white" /> : null}
-          centerComponent={{ text: "User", style: { color: "#fff", fontWeight: '800', fontSize: 18 } }}
-          backgroundColor="#73CFEF"
+          centerComponent={{ text: this.props.navigation.getParam("name", "User Profile"), style: { color: "#fff", fontWeight: '600', fontSize: 18 } }}
+          backgroundColor={Colors.brand.primary}
         />
         <StatusBar barStyle="light-content" />
         </Animated.View>
@@ -121,12 +122,11 @@ class ProfileScreen extends React.Component {
 
 const styles = StyleSheet.create({
   header: {
-    height: HEADER_HEIGHT,
-    backgroundColor: "red",
+    height: HERO_HEIGHT,
     marginBottom: 16
   },
   headerCover: {
-    height: HEADER_HEIGHT,
+    height: HERO_HEIGHT,
     flex: 1
   },
   headerAvatar: {
