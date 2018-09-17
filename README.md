@@ -12,14 +12,19 @@ npm install
 
 ## Run your project
 
-There are Two major ways to run yout Expo projects locally: using EXP, or running it in your Simulator (Xcode or Android Studio, Genymotion...). I recommend installing exp in your cli and login into your account in order to run your project directly into your phone.
+There are Two major ways to run yout Expo projects locally: using EXPO CLI, or running it in your Simulator (Xcode or Android Studio, Genymotion...). I recommend installing exp in your cli and login into your account in order to run your project directly into your phone.
 
-### Using EXP
+### using Expo CLI
 
-- `npm install exp --global`. You can also install de desktop app (https://github.com/expo/xde)
-- `exp login` to login with your account (signup into expo.io required)
-- install the Expo client in your phone (and login)
-- in the repo directory: `exp start --lan`
+```bash
+yarn add global expo-cli
+# or
+
+npm i -g expo-cli
+expo init MY_PROJECT_NAME
+cd MY_PROJECT_NAME
+expo start
+```
 
 This will start the Bundler for the app and enables the app for visualization at your phone. Now you only need to go to your phone to the `Projects` tab and Voila!, there it is!!
 
@@ -27,75 +32,30 @@ Happy Coding!
 
 ## Excersice
 
-The Goal of this Excersice is to Introduce you to React Native development, helping you familiarize with its APIs and basic structure.
+### Foundation
 
-We are going to build a simple app with **three screens** as you can see below
+- Go to [Expo Snack](https://snack.expo.io) and create a Screen from Scratch. we recommend you to create the Login Screen. You can start coding from this [base Starter](https://snack.expo.io/@leanjscom/foundation-starter-example)
+- clone this repo and copy and paste your LoginScreen to use it.
+- fix the `TOCScreen` (`scr/Auth/Screens/TOCScreen`) so the user can see the whole content. you need to add something in order for the screen to scroll.
+- go to `src/Timeline/Screens/TimelineScreens` and implement a FlatList for the data that is fetched.
+- create a `TweetItem` component in `src/Timeline/Components` and use it in your FlatList.
 
-![App Screens](./rn-workshop-intro.png)
 
-All the instructions are in the corresponding files, here are the headlines of what you have to do:
+### Navigation
 
-Tasks FOUNDATION
-- App.js returns the src/Auth/LoginScreen.js
-- layout:
-  - Flexbox: In Login Screen elements must be centered on the screen
-  - Styles
-    - Textinput, Button, Title of the App, etc
-  - Forms
-    - Username and password -> Button/ TouchableHighlight to log in
-    - the T&C are hidden, and user click on "read T&C" and it's then displayed
-        - Tasks: add TouchableHighlight to "read T&C"
-        - Does the T&C fit in the screen? what can you do to make them fit?
-  - ListView
-    - Task: in App.js replace import { LoginScreen } from './src/Auth' by import { UsersScreen } from './src/Users'
-    - In src/Users/Screens/UsersScreen.js, create a FlatList and show all the users from the API. Question, why do you think we need to use a FlatList and not just a ScrollView?
-  - Bonus, style the ProfileScreen
+- go to `src/App/Screens/Navigator.js` and create a `SwitchNavigator`. Follow the instructions in the file.
+- in `src/App/Screens/PrivateNavigator`, finish the implementation of the TabNavigator.
+- in `src/Auth/Screens/LoginScreen` implement a navigation to the PRIVATE_SCREEN
+- go to `src/Timeline/Screens/TimelineNavigator` and complete the Navigator Implementation.
+- go to `src/Timeline/Components/TweetDetail.js`. Whenever the user press on top of the header, you need to navigate to the Profile View of that tweet's user. Hint: you are getting a method that you need to call onPress of that header. can you add an `onPress` prop directly to the header ???
 
-Tasks NAVIGATION
-- git checkout solution-previous-exercise
-- yarn add react-navigation
-- Create a navigator in src/App/Navigator.
-The Navigator should have two screens: LoginScreen and UsersScreen. Example using SwitchNavigator and StackNavigator: https://snack.expo.io/@horacio/composing-navigators
+### Animations
 
-Users should not be able to click on the back button and go back from UsersScreen to LoginScreen. Question, which type of navigator are you going to use? StackNavigator or SwhitchNavigator?
+- Go to [Expo Snack](https://snack.expo.io) and create a simple animation of a circle that changes the scale on `componentDidMount`.
+- Now trigger the animation whenever the user Presses the circle.
+- go to `src/Timeline/Screens/ProfileScreen` and animate the header onScroll. follow the instructions in the file.
 
-- The initialRouteName for the src/App/Navigator should be the login screen
 
-- in src/screens/LoginScreen.js
-  - Set the title for this navigation view to "Sign in"
-  - implement the `login()` method. Navigate to the `HOME_SCREEN`
-
-- Implement a navigator in src/Users/Components/UserNavigator.js
-  - It should have two screens: UsersScreen and ProfileScreen
-  Users should not be able to click on the back button and go back from ProfileScreen to UsersScreen. Question, which type of navigator are you going to use? StackNavigator or SwhitchNavigator?
-  - The initialRouteName should be the UsersScreen
-
-- In src/App/Navigator.js replace the UsersScreen by UserNavigator
-- In src/Users/Screens/UsersScreen.js
-- src/Users/Components/UserItem.js receives a function prop called handleItemPress that is executed when the user presses on the item. Implement that function in the renderItem method in src/Users/Screens/UsersScreen.js. Hint UsersScreen has a prop called navigation https://reactnavigation.org/docs/en/navigation-prop.html. You will need to use the navigation.navigate function https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens.  Hint 2: you need to pass a parameter to the next screen
-- The src/Users/Components/UserNavigator.js should have a Button with the text "Sign out" on the property [headeRright](https://reactnavigation.org/docs/en/stack-navigator.html#headerright) so that when the Button is pressed the app navigates to the login screen
-
--  In src/screens/ProfileScreen.js read the parameter sent from the previous Screen and use it to dispaly the right data
-
-Tasks Animations
--
-
-### Bonus Excersices
-
-For this its best to checkout the solution branch, because you will need a file that is in there :)
-
-- add a Logo `AuthScreen.js` on top of the Button
-- implement InfiniteScroll in HomeScreen with the `NextUrl`
-- create an Abstract Component for the Button, and replace them through all the app
-- add the `LoadingScreen` to the Switch Navigator as the initial Route
-- read the documentation for `react-native-authentication-helpers` and try to implement it.
-  - HINT: you can simply `setUser({ type: 'anonymous'})` for the porpuse of the Excersice.
-- when `logout`, clean the User and send it to `AUTH_SCREEN`
-
-## Workshop Resources
-
-- [WORKSHOP FEEDBACK (Thanks🙏)](http://bit.ly/rnw-london)
-- [EXAMPLE COMPOSING NAVIGATORS](https://snack.expo.io/@horacio/composing-navigators)
 
 ## Resources
 
