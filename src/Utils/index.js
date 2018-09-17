@@ -24,12 +24,18 @@ export const Layout = {
 export const Colors = {
   brand: {
     primary: "#73CFEF"
-  }
+  },
+  light: '#FFFFFF',
+  lightgrey: "lightgrey",
+  dark: '#000000'
 };
 
 export const Icons = {
-  favorite: `ios-bookmark-outline`,
-  favoriteActive: `ios-bookmark`,
+  back: `arrow-left`,
+  rt: 'refresh-cw',
+  likes: 'heart',
+  open: 'share',
+  close: 'x'
 };
 
 export const FontSizes = {

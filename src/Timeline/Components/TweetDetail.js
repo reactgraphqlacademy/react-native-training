@@ -3,23 +3,11 @@ import { View, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native'
 import { Paper, Screen } from '../../App'
 import Avatar from '../Components/Avatar'
 import { Feather } from '@expo/vector-icons';
+import { Icons, Colors } from '../../Utils'
 
-const IconButton = ({ icon }) => {
-  let Icon;
-  switch (icon) {
-    case "rt":
-      Icon = "refresh-cw"
-      break;
-    case "likes":
-      Icon = "heart"
-      break;
-    case "open":
-      Icon = "share"
-      break;
-  }
-
-  return <Feather name={Icon} size={24} color="lightgrey" />
-}
+const IconButton = ({ icon }) => (
+  <Feather name={Icons[icon]} size={24} color={Colors.lightgrey} />
+)
 
 const TweetURL = ({urls}) => {
   if (urls && urls.length > 0) {

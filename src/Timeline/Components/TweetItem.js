@@ -9,8 +9,6 @@ import {
 import { Divider } from "../../App";
 import Avatar from "../Components/Avatar";
 
-const { width, height } = Dimensions.get("window");
-
 const TweetItem = ({ item, handlePress }) => (
   <TouchableOpacity onPress={handlePress}>
     <View style={styles.item}>

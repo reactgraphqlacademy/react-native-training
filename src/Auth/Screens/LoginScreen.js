@@ -1,11 +1,12 @@
 import React from "react";
-import { StyleSheet, StatusBar } from "react-native";
+import { StyleSheet, TouchableOpacity, Text } from "react-native";
+
 import { setUser } from "react-native-authentication-helpers";
-import { Constants } from "expo";
 import { Button } from 'react-native-elements'
 import { Title, Screen, PRIVATE_SCREEN, Headline, FormInput } from "../../App";
 import LoginHeader from '../Components/LoginHeader'
 import { Colors } from '../../Utils'
+import { TOC_SCREEN } from "../Components/AuthNavigator";
 
 class LoginScreen extends React.Component {
   state = {
@@ -40,14 +41,25 @@ class LoginScreen extends React.Component {
           }
         />
         <Button onPress={this.login} style={styles.submitButton} backgroundColor={Colors.brand.primary} title="Login" />
+        <TouchableOpacity onPress={() => this.props.navigation.navigate({routeName: TOC_SCREEN})}>
+          <Text style={styles.tocText}>by login you accept the Terms and Conditions.</Text>
+        </TouchableOpacity>
       </Screen>
     );
   }
 }
 
 const styles = StyleSheet.create({
+  container: {
+    backgroundColor: Colors.light
+  },
   submitButton: {
     marginVertical: 24,
+  },
+  tocText: {
+    textAlign: 'center',
+    fontSize: 14,
+    color: Colors.lightgrey,
   }
 });
 

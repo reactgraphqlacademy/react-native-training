@@ -12,7 +12,7 @@ import { Screen, ViewLoading } from "../../App";
 import { Header } from "react-native-elements";
 import { Feather } from '@expo/vector-icons'
 import * as api from "../Api";
-import { Layout, Colors } from '../../Utils'
+import { Layout, Colors, Icons } from '../../Utils'
 
 const HERO_HEIGHT = 180;
 const AVATAR_SIZE = 84;
@@ -109,8 +109,8 @@ class ProfileScreen extends React.Component {
             paddingBottom: 8,
             height: Layout.headerHeight
           }}
-          leftComponent={!showBack ? <Feather onPress={() => this.props.navigation.goBack()} name="arrow-left" size={24} color="white" /> : null}
-          centerComponent={{ text: this.props.navigation.getParam("name", "User Profile"), style: { color: "#fff", fontWeight: '600', fontSize: 18 } }}
+          leftComponent={!showBack ? <Feather onPress={() => this.props.navigation.goBack()} name={Icons.back} size={24} color={Colors.light} /> : null}
+          centerComponent={{ text: this.props.navigation.getParam("name", "User Profile"), style: { color: Colors.light, fontWeight: '600', fontSize: 18 } }}
           backgroundColor={Colors.brand.primary}
         />
         <StatusBar barStyle="light-content" />
