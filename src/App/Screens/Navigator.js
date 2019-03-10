@@ -1,5 +1,5 @@
 import React from "react";
-import { createSwitchNavigator } from "react-navigation";
+import { createSwitchNavigator, createAppContainer } from "react-navigation";
 import { AuthNavigator } from "../../Auth";
 import PrivateNavigator from "./PrivateNavigator";
 
@@ -17,4 +17,4 @@ const Navigator = createSwitchNavigator(
   }
 );
 
-export default Navigator;
+export default createAppContainer(Navigator);

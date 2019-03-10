@@ -15,7 +15,7 @@ const UserNavigator = createStackNavigator(
     {
         [HOME_SCREEN]: {
             screen: UsersScreen,
-            navigationOptions: ({ navigation }) => ({
+            defaultNavigationOptions: ({ navigation }) => ({
                 headerRight: (
                     <Button
                         onPress={() => {

@@ -20,7 +20,7 @@ const TimelineNavigator = createStackNavigator({
   }
 }, {
   initialRouteName: TIMELINE_FEED_SCREEN,
-  navigationOptions: {
+  defaultNavigationOptions: {
     headerStyle: {
       backgroundColor: Colors.brand.primary
     },
