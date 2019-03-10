@@ -1,7 +1,7 @@
 import React from 'react'
 import { Constants } from 'expo'
 import { View, StyleSheet } from 'react-native'
-import { Colors } from '../../Utils'
+import { Colors } from '../utils'
 
 const LoginHeader = ({children}) => {
   const compoundedChildren = React.Children.map(children, child => (

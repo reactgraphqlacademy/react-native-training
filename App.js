@@ -1,3 +1,3 @@
-import { Root } from './src/App'
+import Root from './src/Screens/RootNavigator'
 
 export default Root

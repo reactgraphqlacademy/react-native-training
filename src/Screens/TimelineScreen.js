@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { FlatList } from 'react-native'
+import Screen from '../Components/Screen'
 import * as api from '../Api'
 import TweetItem from '../Components/TweetItem';
-import { Screen } from '../../App'
-import { TWEET_DETAIL_SCREEN } from '../Components/TimelineNavigator'
+import { TWEET_DETAIL_SCREEN } from './TimelineNavigator'
 
 
 class TimelineScreen extends React.Component {

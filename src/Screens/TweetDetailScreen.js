@@ -3,7 +3,7 @@ import { ScrollView, Text } from "react-native";
 import { Screen, ViewLoading } from "../../App";
 import TweetDetail from "../Components/TweetDetail";
 import * as api from "../Api";
-import { OTHER_USER_PROFILE } from "../Components/TimelineNavigator";
+import { OTHER_USER_PROFILE } from "./TimelineNavigator";
 
 class TweetDetailScreen extends React.Component {
   static navigationOptions = {

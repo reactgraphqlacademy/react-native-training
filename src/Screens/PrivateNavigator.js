@@ -1,9 +1,8 @@
-import React from 'react'
 import { createBottomTabNavigator } from 'react-navigation'
-
-import { TimelineNavigator, ProfileScreen, MAIN_TIMELINE_SCREEN, PROFILE_SCREEN } from '../../Timeline'
-import { Feather } from '@expo/vector-icons';
-import { Colors } from '../../Utils'
+import TimelineNavigator, { MAIN_TIMELINE_SCREEN, PROFILE_SCREEN } from './TimelineNavigator'
+import ProfileScreen from './ProfileScreen'
+// import { Feather } from '@expo/vector-icons';
+// import { Colors } from '../../utils'
 
 const PrivateNavigator = createBottomTabNavigator({
   [MAIN_TIMELINE_SCREEN]: {

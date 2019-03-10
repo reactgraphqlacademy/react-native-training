@@ -12,7 +12,7 @@ import { Screen, ViewLoading } from "../../App";
 import { Header } from "react-native-elements";
 import { Feather } from '@expo/vector-icons'
 import * as api from "../Api";
-import { Layout, Colors, Icons } from '../../Utils'
+import { Layout, Colors, Icons } from '../utils'
 
 const HERO_HEIGHT = 180;
 const AVATAR_SIZE = 84;

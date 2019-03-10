@@ -1,9 +1,8 @@
-import React from 'react'
 import { createStackNavigator } from 'react-navigation'
-import TimelineScreen from '../Screens/TimelineScreen';
-import TweetDetailScreen from '../Screens/TweetDetailScreen'
-import ProfileScreen from '../Screens/ProfileScreen';
-import { Colors } from '../../Utils'
+import TimelineScreen from './TimelineScreen';
+import TweetDetailScreen from './TweetDetailScreen'
+import ProfileScreen from './ProfileScreen';
+import { Colors } from '../utils'
 
 export const MAIN_TIMELINE_SCREEN = 'MAIN_TIMELINE_SCREEN'
 export const TIMELINE_FEED_SCREEN = 'TIMELINE_FEED_SCREEN'

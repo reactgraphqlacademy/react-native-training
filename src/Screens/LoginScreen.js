@@ -2,11 +2,14 @@ import React from "react";
 import { StyleSheet, TouchableOpacity, Text } from "react-native";
 
 import { setUser } from "react-native-authentication-helpers";
-import { Button } from 'react-native-elements'
-import { Title, Screen, PRIVATE_SCREEN, Headline, FormInput } from "../../App";
+import Button from '../Components/Button'
+import Title from '../Components/Title'
+import Screen from '../Components/Screen'
 import LoginHeader from '../Components/LoginHeader'
-import { Colors } from '../../Utils'
-import { TOC_SCREEN } from "../Components/AuthNavigator";
+import Headline from '../Components/Headline'
+import FormInput from '../Components/FormInput'
+import { Colors } from '../utils'
+import { TOC_SCREEN } from "./PublicNavigator";
 
 class LoginScreen extends React.Component {
   state = {

@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native'
 import { Paper, Screen } from '../../App'
 import Avatar from '../Components/Avatar'
 import { Feather } from '@expo/vector-icons';
-import { Icons, Colors } from '../../Utils'
+import { Icons, Colors } from '../utils'
 
 const IconButton = ({ icon }) => (
   <Feather name={Icons[icon]} size={24} color={Colors.lightgrey} />

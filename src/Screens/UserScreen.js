@@ -2,8 +2,8 @@ import React from 'react'
 import { Button } from '../../App'
 import { createStackNavigator } from 'react-navigation'
 
-import UsersScreen from '../Screens/UsersScreen'
-import Profile from '../Screens/ProfileScreen'
+import UsersScreen from './UsersScreen'
+import Profile from './ProfileScreen'
 
 import { PUBLIC_SCREEN } from '../../App'
 
