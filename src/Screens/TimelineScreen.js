@@ -1,8 +1,7 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
-import { FlatList } from 'react-native'
-import Screen from '../Components/Screen'
 import * as api from '../Api'
+import { FlatList, StyleSheet } from 'react-native'
+import Screen from '../Components/Screen'
 import TweetItem from '../Components/TweetItem';
 import { TWEET_DETAIL_SCREEN } from './TimelineNavigator'
 
@@ -33,6 +32,7 @@ class TimelineScreen extends React.Component {
   renderItem = ({item}) => <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id)} />
 
   render() {
+    alert('TimelineScreen');
     return (
       <Screen style={styles.screen}>
         <FlatList

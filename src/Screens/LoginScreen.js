@@ -10,6 +10,7 @@ import Headline from '../Components/Headline'
 import FormInput from '../Components/FormInput'
 import { Colors } from '../utils'
 import { TOC_SCREEN } from "./PublicNavigator";
+import { PRIVATE_SCREEN } from './RootNavigator'
 
 class LoginScreen extends React.Component {
   state = {

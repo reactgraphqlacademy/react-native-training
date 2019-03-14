@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, ScrollView, StyleSheet } from "react-native";
-import { Screen, Header } from "../../App";
+import Screen from "../Components/Screen";
+import Header from "../Components/Header";
 import { Feather } from "@expo/vector-icons";
 import { Layout, Icons, Colors } from "../utils";
 import TOCContent from '../Components/TOCContent'

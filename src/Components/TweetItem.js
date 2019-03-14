@@ -6,8 +6,8 @@ import {
   Dimensions,
   TouchableOpacity
 } from "react-native";
-import { Divider } from "../../App";
-import Avatar from "../Components/Avatar";
+import Avatar from "./Avatar";
+import Divider from './Divider';
 
 const TweetItem = ({ item, handlePress }) => (
   <TouchableOpacity onPress={handlePress}>
