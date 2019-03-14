@@ -6,18 +6,18 @@ export const fetchTimeline = () => {
   return Promise.resolve(timeline)
 }
 
-export const fetchTweetById = ({id}) => {
-  const tweet = timeline.filter(item => item.id === id);
-  return Promise.resolve(tweet);
+export const fetchTweetById = ({ id }) => {
+  const tweet = timeline.filter(item => item.id === id)
+  return Promise.resolve(tweet)
 }
 
 const localUsers = {
-  "770259608669683712": rjsa,
-  "778564054717726720": leanjs
+  '770259608669683712': rjsa,
+  '778564054717726720': leanjs,
 }
 
-export const fetchUser = ({userId}) => {
+export const fetchUser = ({ userId }) => {
   // here is where you go to your API and fetch a real user by ID
   const user = localUsers[userId]
-  return Promise.resolve(user);
+  return Promise.resolve(user)
 }

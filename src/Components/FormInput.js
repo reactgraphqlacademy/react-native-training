@@ -1,24 +1,18 @@
 import React from 'react'
-import { View } from "react-native";
-import {
-  FormLabel,
-  FormInput as BaseFormInput,
-} from "react-native-elements";
 import PropTypes from 'prop-types'
+import { View } from 'react-native'
+import { FormLabel, FormInput as BaseFormInput } from 'react-native-elements'
 
-const FormInput = ({ label, value, style, onChangeText, ...rest}) => {
-
-  return (
-    <View>
-      <FormLabel>{label}</FormLabel>
-      <BaseFormInput {...rest} value={value} onChangeText={onChangeText}/>
-    </View>
-  )
-};
+export const FormInput = ({ label, value, style, onChangeText, ...rest }) =>
+  <View>
+    <FormLabel>
+      {label}
+    </FormLabel>
+    <BaseFormInput {...rest} value={value} onChangeText={onChangeText} />
+  </View>
 
 FormInput.propTypes = {
   label: PropTypes.string.isRequired,
   value: PropTypes.string.isRequired,
+  onChangeText: PropTypes.func.isRequired,
 }
-
-export default FormInput

@@ -1,26 +1,20 @@
-import React from "react";
-import { StyleSheet } from "react-native";
-import { Text } from "react-native-elements";
+import React from 'react'
+import { Text } from 'react-native-elements'
 
-const Title = ({ style, ...rest }) => {
-  const primary = rest.parentColor === "primary";
+export const Title = ({ style, ...rest }) => {
+  const primary = rest.parentColor === 'primary'
   return (
     <Text
+      h1
       style={[
-        styles.title,
+        {
+          fontSize: 20,
+          fontWeight: '700',
+        },
         style,
-        { color: primary ? "white" : "black" }
+        { color: primary ? 'white' : 'black' },
       ]}
       {...rest}
     />
-  );
-};
-
-const styles = StyleSheet.create({
-  title: {
-    fontSize: 20,
-    fontWeight: "700"
-  }
-});
-
-export default Title;
+  )
+}

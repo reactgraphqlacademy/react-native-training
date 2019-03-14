@@ -1,15 +1,17 @@
-import React from "react";
-import { SafeAreaView, View } from "react-native";
-import { Colors } from "../utils";
+import React from 'react'
+import { View, SafeAreaView } from 'react-native'
+import { Colors } from '../config/utils'
 
-const Screen = ({ style = {}, children, ...props }) => (
-  <SafeAreaView
-    forceInset={{ top: "always" }}
-    style={[style, { flex: 1, backgroundColor: Colors.brand.primary }]}
-    {...props}
-  >
-  <View style={{flex: 1, backgroundColor: "#fff"}}>{children}</View>
-  </SafeAreaView>
-);
+export const Screen = ({ style = {}, children, ...rest }) =>
+  <React.Fragment>
+    <SafeAreaView
+      style={[style, { flex: 0, backgroundColor: Colors.brand.primary }]}
+    />
+    <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
+      <View style={{ flex: 1, backgroundColor: '#fff' }}>
+        {children}
+      </View>
+    </SafeAreaView>
+  </React.Fragment>
 
-export default Screen;
+export default Screen

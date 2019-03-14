@@ -1,11 +1,11 @@
-import React from "react";
-import { Text } from "react-native-elements";
+import React from 'react'
+import { Text } from 'react-native-elements'
 
-export default props => {
-  const primary = props.parentColor === "primary";
+export const Headline = ({ parentColor = 'primary', children, ...rest }) => {
+  const primary = parentColor === 'primary'
   return (
-    <Text {...props} h3 style={{ color: primary ? "white" : "black" }}>
-      {props.children}
+    <Text style={{ color: primary ? 'white' : 'black' }} {...rest}>
+      {children}
     </Text>
-  );
-};
+  )
+}

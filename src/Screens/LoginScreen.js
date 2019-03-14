@@ -1,28 +1,23 @@
-import React from "react";
-import { StyleSheet, TouchableOpacity, Text } from "react-native";
-
-import { setUser } from "react-native-authentication-helpers";
-import Button from '../Components/Button'
-import Title from '../Components/Title'
-import Screen from '../Components/Screen'
-import LoginHeader from '../Components/LoginHeader'
-import Headline from '../Components/Headline'
-import FormInput from '../Components/FormInput'
-import { Colors } from '../utils'
-import { TOC_SCREEN } from "./PublicNavigator";
+import React from 'react'
+import { StyleSheet, TouchableOpacity, Text, View } from 'react-native'
+import { Constants } from 'expo'
+import { Button } from 'react-native-elements'
+import { Title, Screen, Headline, FormInput } from '../Components'
+import { Colors } from '../config/utils'
+import { TOC_SCREEN } from './PublicNavigator'
 import { PRIVATE_SCREEN } from './RootNavigator'
 
-class LoginScreen extends React.Component {
+export class LoginScreen extends React.Component {
   state = {
-    email: "",
-    password: ""
-  };
+    email: '',
+    password: '',
+  }
 
   login = () => {
-    this.props.navigation.navigate(PRIVATE_SCREEN);
-  };
+    this.props.navigation.navigate(PRIVATE_SCREEN)
+  }
 
-  handleFormChange = ({ key, value }) => this.setState({ [key]: value });
+  handleFormChange = ({ key, value }) => this.setState({ [key]: value })
 
   render() {
     return (
@@ -34,28 +29,58 @@ class LoginScreen extends React.Component {
         <FormInput
           label="Email"
           value={this.state.email}
-          onChangeText={value => this.handleFormChange({ key: "email", value })}
+          onChangeText={value => this.handleFormChange({ key: 'email', value })}
         />
         <FormInput
           label="Password"
           value={this.state.password}
           secureTextEntry
           onChangeText={value =>
-            this.handleFormChange({ key: "password", value })
-          }
+            this.handleFormChange({ key: 'password', value })}
         />
-        <Button onPress={this.login} style={styles.submitButton} backgroundColor={Colors.brand.primary} title="Login" />
-        <TouchableOpacity onPress={() => this.props.navigation.navigate({routeName: TOC_SCREEN})}>
-          <Text style={styles.tocText}>by login you accept the Terms and Conditions.</Text>
+        <Button
+          onPress={this.login}
+          style={styles.submitButton}
+          backgroundColor={Colors.brand.primary}
+          title="Login"
+        />
+        <TouchableOpacity
+          onPress={() =>
+            this.props.navigation.navigate({ routeName: TOC_SCREEN })}
+        >
+          <Text style={styles.tocText}>
+            by login you accept the Terms and Conditions.
+          </Text>
         </TouchableOpacity>
       </Screen>
-    );
+    )
   }
+}
+
+const LoginHeader = ({ children }) => {
+  const compoundedChildren = React.Children.map(children, child =>
+    React.cloneElement(child, {
+      parentColor: 'primary',
+    })
+  )
+
+  return (
+    <View style={styles.header}>
+      {compoundedChildren}
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: Colors.light
+    backgroundColor: Colors.light,
+  },
+  header: {
+    paddingTop: Constants.statusBarHeight,
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 140,
+    backgroundColor: Colors.brand.primary,
   },
   submitButton: {
     marginVertical: 24,
@@ -64,7 +89,5 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 14,
     color: Colors.lightgrey,
-  }
-});
-
-export default LoginScreen;
+  },
+})

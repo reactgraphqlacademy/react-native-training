@@ -1,38 +1,40 @@
-import React from 'react';
+import React from 'react'
 import * as api from '../Api'
 import { FlatList, StyleSheet } from 'react-native'
-import Screen from '../Components/Screen'
-import TweetItem from '../Components/TweetItem';
+import { Screen, TweetItem } from '../Components'
 import { TWEET_DETAIL_SCREEN } from './TimelineNavigator'
 
-
-class TimelineScreen extends React.Component {
+export class TimelineScreen extends React.Component {
   static navigationOptions = {
-    title: "Timeline"
+    title: 'Timeline',
   }
 
   state = {
-    timeline: []
+    timeline: [],
   }
 
   componentDidMount() {
-    this.fetchTimeline();
+    this.fetchTimeline()
   }
 
   fetchTimeline = () => {
     this.props.api.fetchTimeline().then(timeline => {
-      this.setState({timeline});
+      this.setState({ timeline })
     })
   }
 
-  handleTweetPress = (id) => {
-    this.props.navigation.navigate({routeName: TWEET_DETAIL_SCREEN, params: { id }});
+  handleTweetPress = id => {
+    this.props.navigation.navigate({
+      routeName: TWEET_DETAIL_SCREEN,
+      params: { id },
+    })
   }
 
-  renderItem = ({item}) => <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id)} />
+  renderItem = ({ item }) =>
+    <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id)} />
 
   render() {
-    alert('TimelineScreen');
+    alert('TimelineScreen')
     return (
       <Screen style={styles.screen}>
         <FlatList
@@ -47,12 +49,10 @@ class TimelineScreen extends React.Component {
 
 const styles = StyleSheet.create({
   screen: {
-    backgroundColor: 'white'
-  }
+    backgroundColor: 'white',
+  },
 })
 
 TimelineScreen.defaultProps = {
-  api
+  api,
 }
-
-export default TimelineScreen
