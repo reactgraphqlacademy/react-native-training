@@ -1,6 +1,3 @@
-import rjsa from './data/rjsa_profile.json'
-import leanjs from './data/leanjs_profile.json'
-
 export const fetchTimeline = () => {
   return fetch(`https://rjsa-rn-api.glitch.me/tweets`)
     .then(response => response.json())
@@ -19,11 +16,6 @@ export const fetchTweetById = ({ id }) => {
       console.log(data);
     return data;
   })
-}
-
-const localUsers = {
-  '770259608669683712': rjsa,
-  '778564054717726720': leanjs,
 }
 
 export const fetchUser = ({ userId, name }) => {
