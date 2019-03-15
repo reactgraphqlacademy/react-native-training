@@ -22,6 +22,7 @@ const TweetURL = ({ urls }) => {
 }
 
 export const TweetDetail = ({ tweet, handleProfilePress }) => {
+  console.log(tweet);
   const date = new Date(tweet.created_at)
   return (
     <Screen>

@@ -1,14 +1,24 @@
-import timeline from './data/timeline.json'
 import rjsa from './data/rjsa_profile.json'
 import leanjs from './data/leanjs_profile.json'
 
 export const fetchTimeline = () => {
-  return Promise.resolve(timeline)
+  return fetch(`https://rjsa-rn-api.glitch.me/tweets`)
+    .then(response => response.json())
+    .then(data => {
+    return data.statuses;
+  })
 }
 
 export const fetchTweetById = ({ id }) => {
-  const tweet = timeline.filter(item => item.id === id)
-  return Promise.resolve(tweet)
+  console.log("ID => ", id);
+  const url = `https://rjsa-rn-api.glitch.me/tweets/${id}`
+  console.log("URL => ", url);
+  return fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+    return data;
+  })
 }
 
 const localUsers = {
@@ -16,8 +26,11 @@ const localUsers = {
   '778564054717726720': leanjs,
 }
 
-export const fetchUser = ({ userId }) => {
-  // here is where you go to your API and fetch a real user by ID
-  const user = localUsers[userId]
-  return Promise.resolve(user)
+export const fetchUser = ({ userId, name }) => {
+  return fetch(`https://rjsa-rn-api.glitch.me/users/${userId}/${name}`)
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+    return data;
+  });
 }

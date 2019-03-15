@@ -35,9 +35,10 @@ export class ProfileScreen extends React.Component {
 
   fetchUser = () => {
     const userId = this.props.navigation.getParam('userId')
-    if (userId) {
+    const name = this.props.navigation.getParam('name')
+    if (userId && name) {
       this.props.api
-        .fetchUser({ userId })
+        .fetchUser({ userId, name })
         .then(user => this.setState({ loading: false, user }))
     } else {
       this.setState({ error: 'no user available. please go back' })
