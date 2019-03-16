@@ -1,3 +1,4 @@
+import React from "react";
 import { createBottomTabNavigator } from "react-navigation";
 import {
   TimelineNavigator,
@@ -6,52 +7,56 @@ import {
 } from "./TimelineNavigator";
 import { ProfileScreen } from "./ProfileScreen";
 import { Colors } from "../config/utils";
-import Icon from '@expo/vector-icons/FontAwesome';
+import { Feather } from "@expo/vector-icons";
 
+const getTabBarIcon = (navigation, focused, tintColor) => {
+  const { routeName } = navigation.state;
+  let IconComponent = Feather;
+  let iconName;
+  if (routeName === MAIN_TIMELINE_SCREEN) {
+    iconName = `home`;
+  } else if (routeName === PROFILE_SCREEN) {
+    iconName = `user`;
+  }
+
+  // You can return any component that you like here!
+  return <IconComponent name={iconName} size={25} color={tintColor} />;
+};
 
 export const PrivateNavigator = createBottomTabNavigator(
   {
     [MAIN_TIMELINE_SCREEN]: {
       screen: TimelineNavigator,
       navigationOptions: () => ({
-        title: "Timeline",
+        title: "Timeline"
       })
     },
     [PROFILE_SCREEN]: {
       screen: ProfileScreen,
       navigationOptions: () => ({
-        title: "Users"
+        title: "Users",
+        tabBarOnPress: ({ navigation }) =>
+          navigation.navigate({
+            routeName: PROFILE_SCREEN,
+            params: {
+              userId: "770259608669683712",
+              name: "reactjsacademy",
+              noBack: true
+            }
+          })
       })
     }
   },
   {
     initialRoute: MAIN_TIMELINE_SCREEN,
-    navigationOptions: ({ navigation }) => ({
-      tabBarIcon: ({ focused, tintColor }) => {
-        const route = navigation.state.routeName;
-        const name = {
-          'MAIN_TIMELINE_SCREEN': "home",
-          'PROFILE_SCREEN': "user"
-        }[route];
-        console.log(route);
-        console.log(name);
-        return (
-          <Icon name={name}
-            size={24}
-            color={tintColor}
-          />
-        );
-      }
+    defaultNavigationOptions: ({ navigation }) => ({
+      tabBarIcon: ({ focused, tintColor }) =>
+        getTabBarIcon(navigation, focused, tintColor)
     }),
-    // tabBarOptions: {
-    //   activeTintColor: Colors.brand.primary,
-    //   activeBackgroundColor: "#f00",
-    //   inactiveTintColor: "gray",
-    //   showLabel: false,
-    //   showIcon: true,
-    //   style: {
-    //     backgroundColor: Colors.light
-    //   }
-    // }
+    tabBarOptions: {
+      activeTintColor: Colors.brand.primary,
+      inactiveTintColor: Colors.lightgrey,
+      showLabel: false
+    }
   }
 );

@@ -45,3 +45,5 @@ export const FontSizes = {
   bodyTitle: isSmallDevice ? 14 : 15,
   normalButton: isSmallDevice ? 15 : 16,
 }
+
+export const PROFILE_AVATAR_SIZE = 84

@@ -33,7 +33,7 @@ export class TimelineScreen extends React.Component {
   };
 
   renderItem = ({ item }) => (
-    <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id)} />
+    <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id_str)} />
   );
 
   render() {

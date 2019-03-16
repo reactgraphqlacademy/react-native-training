@@ -7,7 +7,7 @@ export const TweetItem = ({ item, handlePress }) =>
   <TouchableOpacity onPress={handlePress}>
     <View style={styles.item}>
       <View style={styles.container}>
-        <Avatar uri={item.user.profile_image_url_https} />
+        <Avatar image={item.user.profile_image_url_https} />
         <View style={styles.itemContent}>
           <View style={styles.headerContent}>
             <Text style={styles.userName}>

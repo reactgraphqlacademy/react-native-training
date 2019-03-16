@@ -78,7 +78,6 @@ const styles = StyleSheet.create({
   header: {
     paddingTop: Constants.statusBarHeight,
     alignItems: 'center',
-    justifyContent: 'center',
     height: 140,
     backgroundColor: Colors.brand.primary,
   },

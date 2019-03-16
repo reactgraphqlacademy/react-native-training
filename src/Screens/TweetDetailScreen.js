@@ -24,7 +24,11 @@ export class TweetDetailScreen extends React.Component {
     if (id) {
       this.props.api
         .fetchTweetById({ id })
-        .then(tweet => this.setState({ loading: false, tweet }));
+        .then(tweet => {
+          console.log(tweet);
+          this.setState({ loading: false, tweet })
+        });
+
     } else {
       this.setState({ error: "no tweet available. please go back" });
     }
@@ -35,7 +39,7 @@ export class TweetDetailScreen extends React.Component {
       routeName: OTHER_USER_PROFILE,
       params: {
         userId: this.state.tweet.user.id_str,
-        name: this.state.tweet.user.name
+        name: this.state.tweet.user.screen_name
       }
     });
   };
@@ -50,13 +54,10 @@ export class TweetDetailScreen extends React.Component {
             {this.state.error ? (
               <Text>{this.state.error}</Text>
             ) : (
-              // : <TweetDetail
-              //     tweet={this.state.tweet}
-              //     handleProfilePress={this.handleProfilePress}
-              //   />
-              <ScrollView>
-                <Text>{JSON.stringify(this.state.tweet, null, 4)}</Text>
-              </ScrollView>
+              <TweetDetail
+                tweet={this.state.tweet}
+                handleProfilePress={this.handleProfilePress}
+              />
             )}
           </ScrollView>
         )}

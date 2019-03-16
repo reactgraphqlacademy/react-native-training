@@ -5,12 +5,8 @@ export const Title = ({ style, ...rest }) => {
   const primary = rest.parentColor === 'primary'
   return (
     <Text
-      h1
+      h4
       style={[
-        {
-          fontSize: 20,
-          fontWeight: '700',
-        },
         style,
         { color: primary ? 'white' : 'black' },
       ]}

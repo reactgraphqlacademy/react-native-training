@@ -19,10 +19,11 @@ export const fetchTweetById = ({ id }) => {
 }
 
 export const fetchUser = ({ userId, name }) => {
+  console.log(`${userId} - ${name}`);
   return fetch(`https://rjsa-rn-api.glitch.me/users/${userId}/${name}`)
     .then(response => response.json())
     .then(data => {
       console.log(data);
-    return data;
+      return data;
   });
 }
