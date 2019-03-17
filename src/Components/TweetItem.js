@@ -3,11 +3,11 @@ import { StyleSheet, View, Text, TouchableOpacity } from 'react-native'
 import { Divider } from 'react-native-elements'
 import { Avatar } from './index'
 
-export const TweetItem = ({ item, handlePress }) =>
+export const TweetItem = ({ item, handlePress, withAvatar = true }) =>
   <TouchableOpacity onPress={handlePress}>
     <View style={styles.item}>
       <View style={styles.container}>
-        <Avatar image={item.user.profile_image_url_https} />
+        {withAvatar ? <Avatar image={item.user.profile_image_url_https} /> : null}
         <View style={styles.itemContent}>
           <View style={styles.headerContent}>
             <Text style={styles.userName}>

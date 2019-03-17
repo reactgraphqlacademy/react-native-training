@@ -5,9 +5,10 @@ import {
   StyleSheet,
   TouchableOpacity,
   Animated,
-  StatusBar
+  StatusBar,
+  FlatList
 } from "react-native";
-import { Screen, ViewLoading, Avatar } from "../Components";
+import { Screen, ViewLoading, Avatar, TweetItem } from "../Components";
 import { Header as TopBar, Button } from "react-native-elements";
 import { Feather } from "@expo/vector-icons";
 import * as api from "../Api";
@@ -70,43 +71,65 @@ export class ProfileScreen extends React.Component {
 
   state = {
     user: null,
-    loading: true
+    loading: true,
+    timeline: [],
+    userError: "",
+    timelineError: ""
   };
 
   componentDidMount() {
-    this.fetchUser();
+    this.getUsersData();
   }
 
-  fetchUser = () => {
+  getUsersData = () => {
     const userId = this.props.navigation.getParam("userId");
     const name = this.props.navigation.getParam("name");
+    this.fetchUser({ userId, name });
+    this.fetchTimeline({ userId, name });
+  }
+
+  fetchUser = ({ userId, name }) => {
     if (userId && name) {
       this.props.api.fetchUser({ userId, name }).then(user => {
-        console.log(user);
         this.setState({ loading: false, user });
       });
     } else {
-      this.setState({ error: "no user available. please go back" });
+      this.setState({ userError: "no user available. please go back" });
     }
   };
 
+  fetchTimeline = ({ userId, name }) => {
+    if (userId && name) {
+      this.props.api.fetchTimeline({ userId, name }).then(timeline => {
+        this.setState({ timeline });
+      });
+    } else {
+      this.setState({ timelineError: "no timeline data. sorry! :(" });
+    }
+  }
+
+  renderItem = ({ item }) => (
+    <TweetItem item={item} handlePress={() => {}} withAvatar={false} />
+  );
+
   render() {
+    console.log(Layout);
     const showBack = this.props.navigation.getParam("noBack");
     const { scrollY } = this;
 
     let opacity = scrollY.interpolate({
-      inputRange: [0, 60, 100],
+      inputRange: [0, 64, 100],
       outputRange: [0, 0, 1]
     });
-    const { user } = this.state;
+    const { user, timeline, loading } = this.state;
     return (
-      <Screen>
-        {this.state.loading ? (
+      <View>
+        {loading ? (
           <ViewLoading />
         ) : (
           <Animated.ScrollView
             scrollEventThrottle={1}
-            //contentContainerStyle={{paddingTop: -64}}
+            // contentContainerStyle={{paddingTop: -64}}
             onScroll={Animated.event(
               [
                 {
@@ -145,7 +168,18 @@ export class ProfileScreen extends React.Component {
               image={user.profile_image_url_https}
             />
             <View style={styles.content}>
-              <Text>{JSON.stringify(this.state.user, null, 4)}</Text>
+              {timeline.length == 0 ? (
+                <ViewLoading />
+              ) : (
+                <FlatList
+                  data={this.state.timeline}
+                  renderItem={this.renderItem}
+                  keyExtractor={item => item.id_str}
+                />
+                // <ScrollView>
+                //   <Text>{JSON.stringify(timeline, null, 4)}</Text>
+                // </ScrollView>
+              )}
             </View>
           </Animated.ScrollView>
         )}
@@ -159,7 +193,7 @@ export class ProfileScreen extends React.Component {
         >
           <TopBar
             outerContainerStyles={{
-              paddingTop: Layout.notchHeight + 20,
+              paddingTop: Layout.notchHeight,
               borderBottomColor: "transparent",
               paddingBottom: 8,
               height: Layout.headerHeight
@@ -182,7 +216,7 @@ export class ProfileScreen extends React.Component {
           />
           <StatusBar barStyle="light-content" />
         </Animated.View>
-      </Screen>
+      </View>
     );
   }
 }
@@ -202,8 +236,9 @@ const styles = StyleSheet.create({
     borderWidth: 4
   },
   headerContent: {
-    paddingVertical: 8,
-    paddingHorizontal: 16
+    padding: 16,
+    borderBottomColor: Colors.lightgrey,
+    borderBottomWidth: 1
   },
   userName: {
     fontSize: 18,
@@ -215,8 +250,8 @@ const styles = StyleSheet.create({
     fontWeight: "200"
   },
   content: {
-    padding: 16,
-    backgroundColor: Colors.lightgrey
+    paddingHorizontal: 16,
+    backgroundColor: Colors.light
   }
 });
 

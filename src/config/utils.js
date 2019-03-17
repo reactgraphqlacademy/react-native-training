@@ -3,10 +3,14 @@ import { Header } from 'react-navigation'
 
 const X_WIDTH = 375
 const X_HEIGHT = 812
+const XMAX_HEIGHT = 896
 const { height: D_HEIGHT, width: D_WIDTH } = Dimensions.get('window')
-const isIPhoneX =
-  Platform.OS === 'ios' && (D_HEIGHT === X_HEIGHT && D_WIDTH === X_WIDTH)
-const notchHeight = isIPhoneX ? 20 : 0
+export const isIPhoneX =
+Platform.OS === 'ios' &&
+!Platform.isPad &&
+!Platform.isTVOS &&
+((D_HEIGHT === X_HEIGHT || D_WIDTH === X_HEIGHT) || (D_HEIGHT === XMAX_HEIGHT || D_WIDTH === XMAX_HEIGHT))
+const notchHeight = isIPhoneX ? 24 : 0
 
 const isSmallDevice = D_WIDTH < 326
 

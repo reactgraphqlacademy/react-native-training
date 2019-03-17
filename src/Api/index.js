@@ -23,7 +23,14 @@ export const fetchUser = ({ userId, name }) => {
   return fetch(`https://rjsa-rn-api.glitch.me/users/${userId}/${name}`)
     .then(response => response.json())
     .then(data => {
-      console.log(data);
+      return data;
+  });
+}
+
+export const fetchUsersTimeline = ({ userId, name }) => {
+  return fetch(`https://rjsa-rn-api.glitch.me/users/${userId}/${name}/timeline`)
+    .then(response => response.json())
+    .then(data => {
       return data;
   });
 }
