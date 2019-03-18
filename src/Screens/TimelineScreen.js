@@ -3,6 +3,7 @@ import * as api from "../Api";
 import { FlatList, StyleSheet } from "react-native";
 import { Screen, TweetItem, ViewLoading } from "../Components";
 import { TWEET_DETAIL_SCREEN } from "./TimelineNavigator";
+import console = require("console");
 
 export class TimelineScreen extends React.Component {
   /*
@@ -26,13 +27,17 @@ export class TimelineScreen extends React.Component {
   };
 
   handleTweetPress = id => {
+    console.log('handlePress => ', id);
     /*
     - navigate to `TWEET_DETAIL_SCREEN` passing the id as a param
     */
   };
 
   renderItem = ({ item }) => (
-    <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id_str)} />
+    /*
+    - create a TweetItem component with this API:
+      <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id_str)} />
+    */
   );
 
   render() {
@@ -42,14 +47,9 @@ export class TimelineScreen extends React.Component {
         {timeline.length == 0 ? (
           <ViewLoading />
         ) : (
-          <FlatList
-            data={this.state.timeline}
-            renderItem={this.renderItem}
-            keyExtractor={item => item.id_str}
-          />
-          // <ScrollView>
-          //   <Text>{JSON.stringify(timeline, null, 4)}</Text>
-          // </ScrollView>
+          <ScrollView>
+            <Text>{JSON.stringify(timeline, null, 4)}</Text>
+          </ScrollView>
         )}
       </Screen>
     );

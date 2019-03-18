@@ -27,7 +27,6 @@ export const TOCScreen = ({ navigation }) =>
       }
       backgroundColor={Colors.brand.primary}
     />
-    <ScrollView>
       <View style={{ padding: 16 }}>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -347,5 +346,4 @@ export const TOCScreen = ({ navigation }) =>
           tincidunt libero libero.
         </Text>
       </View>
-    </ScrollView>
   </Screen>

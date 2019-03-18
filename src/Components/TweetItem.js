@@ -4,27 +4,9 @@ import { Divider } from 'react-native-elements'
 import { Avatar } from './index'
 
 export const TweetItem = ({ item, handlePress, withAvatar = true }) =>
-  <TouchableOpacity onPress={handlePress}>
-    <View style={styles.item}>
-      <View style={styles.container}>
-        {withAvatar ? <Avatar image={item.user.profile_image_url_https} /> : null}
-        <View style={styles.itemContent}>
-          <View style={styles.headerContent}>
-            <Text style={styles.userName}>
-              {item.user.name}
-            </Text>
-            <Text style={styles.userScreenName}>
-              @{item.user.screen_name}
-            </Text>
-          </View>
-          <Text style={styles.tweet}>
-            {item.text}
-          </Text>
-        </View>
-      </View>
-      <Divider />
-    </View>
-  </TouchableOpacity>
+  <View>
+    <Text>{JSON.stringify(item, null, 4)}</Text>
+  </View>
 
 const styles = StyleSheet.create({
   container: {
