@@ -1,5 +1,9 @@
 # React Native Workshop - ReactJSAcademy
 
+![Views Screenshots](./screenshots.jpg)
+
+You can checkout the individual original screenshots [here](./originals)
+
 ## Setup
 
 ```
