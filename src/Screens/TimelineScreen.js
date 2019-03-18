@@ -1,13 +1,13 @@
 import React from "react";
 import * as api from "../Api";
-import { FlatList, StyleSheet, Text, ScrollView } from "react-native";
+import { FlatList, StyleSheet } from "react-native";
 import { Screen, TweetItem, ViewLoading } from "../Components";
 import { TWEET_DETAIL_SCREEN } from "./TimelineNavigator";
 
 export class TimelineScreen extends React.Component {
-  static navigationOptions = {
-    title: "Timeline"
-  };
+  /*
+  - the header title for this view should be `Timeline`
+  */
 
   state = {
     timeline: []
@@ -26,10 +26,9 @@ export class TimelineScreen extends React.Component {
   };
 
   handleTweetPress = id => {
-    this.props.navigation.navigate({
-      routeName: TWEET_DETAIL_SCREEN,
-      params: { id }
-    });
+    /*
+    - navigate to `TWEET_DETAIL_SCREEN` passing the id as a param
+    */
   };
 
   renderItem = ({ item }) => (

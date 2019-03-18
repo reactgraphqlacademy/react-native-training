@@ -5,15 +5,13 @@ import { PrivateNavigator } from './PrivateNavigator'
 export const PRIVATE_SCREEN = 'PRIVATE_SCREEN'
 export const PUBLIC_SCREEN = 'PUBLIC_SCREEN'
 
-const MainNavigator = createSwitchNavigator(
-  {
-    [PUBLIC_SCREEN]: PublicNavigator,
-    [PRIVATE_SCREEN]: PrivateNavigator,
-  },
-  {
-    initialRouteName: PUBLIC_SCREEN,
-    headerMode: 'none',
-  }
-)
+/*
+- create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC views
+- this navigator should not have a header (hint: `headerMode`)
+- this is the initial navigator for the App, so you need to wrap
+  the entry point of your app with `createAppContainer`
+*/
 
-export const RootNavigator = createAppContainer(MainNavigator)
+const MainNavigator = "create a switch navigator here"
+
+export const RootNavigator = "you should call a function here passing the `MainNavigator`"

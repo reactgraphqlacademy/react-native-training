@@ -1,0 +1,193 @@
+{
+  "created_at": "Sun Mar 17 11:46:28 +0000 2019",
+  "id": 1107246820953083900,
+  "id_str": "1107246820953083904",
+  "text": "RT @ReactAmsterdam: The #JavaScript ecosystem is moving to #TypeScript. Fast. TypeScript has some unique, very powerful features that fit v…",
+  "truncated": false,
+  "entities": {
+    "hashtags": [
+      { "text": "JavaScript", "indices": [24, 35] },
+      { "text": "TypeScript", "indices": [59, 70] }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "ReactAmsterdam",
+        "name": "React Amsterdam",
+        "id": 3023155108,
+        "id_str": "3023155108",
+        "indices": [3, 18]
+      }
+    ],
+    "urls": []
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 1605976506,
+    "id_str": "1605976506",
+    "name": "Armando Magalhães",
+    "screen_name": "armand1m",
+    "location": "Amsterdam, The Netherlands",
+    "description": "Capixaba Software Engineer based in Amsterdam. Working at @TravixEng mostly with Distributed Services and Javascript.",
+    "url": "https://t.co/SnLziuboIM",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/SnLziuboIM",
+            "expanded_url": "https://github.com/armand1m",
+            "display_url": "github.com/armand1m",
+            "indices": [0, 23]
+          }
+        ]
+      },
+      "description": { "urls": [] }
+    },
+    "protected": false,
+    "followers_count": 564,
+    "friends_count": 540,
+    "listed_count": 18,
+    "created_at": "Fri Jul 19 14:03:31 +0000 2013",
+    "favourites_count": 13240,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": true,
+    "verified": false,
+    "statuses_count": 27132,
+    "lang": "pt",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "131516",
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+    "profile_background_tile": true,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/1075059671713636352/fALbpr7N_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1075059671713636352/fALbpr7N_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1605976506/1531701927",
+    "profile_link_color": "000000",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "EFEFEF",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": true,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": false,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "regular"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Fri Mar 08 08:00:28 +0000 2019",
+    "id": 1103928456071413800,
+    "id_str": "1103928456071413767",
+    "text": "The #JavaScript ecosystem is moving to #TypeScript. Fast. TypeScript has some unique, very powerful features that f… https://t.co/WfwjPuXzlp",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        { "text": "JavaScript", "indices": [4, 15] },
+        { "text": "TypeScript", "indices": [39, 50] }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/WfwjPuXzlp",
+          "expanded_url": "https://twitter.com/i/web/status/1103928456071413767",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [117, 140]
+        }
+      ]
+    },
+    "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 3023155108,
+      "id_str": "3023155108",
+      "name": "React Amsterdam",
+      "screen_name": "ReactAmsterdam",
+      "location": "Amsterdam",
+      "description": "#ReactJS community behind #ReactAmsterdam Conference and Meetups organized in 🇳🇱. Next conf coming up in April 2019.",
+      "url": "https://t.co/eArkQOxoUl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/eArkQOxoUl",
+              "expanded_url": "https://react.amsterdam",
+              "display_url": "react.amsterdam",
+              "indices": [0, 23]
+            }
+          ]
+        },
+        "description": { "urls": [] }
+      },
+      "protected": false,
+      "followers_count": 4086,
+      "friends_count": 1758,
+      "listed_count": 129,
+      "created_at": "Sat Feb 07 12:14:52 +0000 2015",
+      "favourites_count": 1427,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 2045,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/3023155108/1547111694",
+      "profile_link_color": "00BB33",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 9,
+    "favorite_count": 19,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "retweet_count": 9,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "lang": "en"
+}

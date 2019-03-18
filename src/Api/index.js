@@ -1,36 +1,43 @@
+import timeline from './timeline'
+import tweet from './tweet'
+import user from './user'
+import userTimeline from './userTimeline'
+
+// const API_URL = ""
+
 export const fetchTimeline = () => {
-  return fetch(`https://rjsa-rn-api.glitch.me/tweets`)
-    .then(response => response.json())
-    .then(data => {
-    return data.statuses;
-  })
+  // return fetch(`${API_URL}/tweets`)
+  //   .then(response => response.json())
+  //   .then(data => {
+  //   return data.statuses;
+  // })
+  return timeline
 }
 
 export const fetchTweetById = ({ id }) => {
-  console.log("ID => ", id);
-  const url = `https://rjsa-rn-api.glitch.me/tweets/${id}`
-  console.log("URL => ", url);
-  return fetch(url)
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-    return data;
-  })
+  // return fetch(`${API_URL}/tweets/${id}`)
+  //   .then(response => response.json())
+  //   .then(data => {
+  //     console.log(data);
+  //   return data;
+  // })
+  return tweet
 }
 
 export const fetchUser = ({ userId, name }) => {
-  console.log(`${userId} - ${name}`);
-  return fetch(`https://rjsa-rn-api.glitch.me/users/${userId}/${name}`)
-    .then(response => response.json())
-    .then(data => {
-      return data;
-  });
+  // return fetch(`${API_URL}/users/${userId}/${name}`)
+  //   .then(response => response.json())
+  //   .then(data => {
+  //     return data;
+  // });
+  return user
 }
 
 export const fetchUsersTimeline = ({ userId, name }) => {
-  return fetch(`https://rjsa-rn-api.glitch.me/users/${userId}/${name}/timeline`)
-    .then(response => response.json())
-    .then(data => {
-      return data;
-  });
+  // return fetch(`${API_URL}/users/${userId}/${name}/timeline`)
+  //   .then(response => response.json())
+  //   .then(data => {
+  //     return data;
+  // });
+  return userTimeline
 }

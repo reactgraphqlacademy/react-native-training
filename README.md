@@ -34,20 +34,52 @@ Happy Coding!
 
 ### Foundation
 
-- Go to [Expo Snack](https://snack.expo.io) and create a Screen from Scratch. we recommend you to create the Login Screen. You can start coding from this [base Starter](https://snack.expo.io/@leanjscom/foundation-starter-example)
+- Go to [Expo Snack](https://snack.expo.io) and create a Screen from Scratch. we recommend you to create the Login Screen.
 - clone this repo and copy and paste your LoginScreen to use it.
-- fix the `TOCScreen` (`scr/Auth/Screens/TOCScreen`) so the user can see the whole content. you need to add something in order for the screen to scroll.
-- go to `src/Timeline/Screens/TimelineScreens` and implement a FlatList for the data that is fetched.
+- fix the `TOCScreen` (`src/Screens/TOCScreen.js`) so the user can see the whole content. you need to add something in order for the screen to scroll.
+- go to `src/Screens/TimelineScreens` and implement a FlatList for the data that is fetched.
 - create a `TweetItem` component in `src/Timeline/Components` and use it in your FlatList.
-
 
 ### Navigation
 
-- go to `src/App/Screens/Navigator.js` and create a `SwitchNavigator`. Follow the instructions in the file.
-- in `src/App/Screens/PrivateNavigator`, finish the implementation of the TabNavigator.
-- in `src/Auth/Screens/LoginScreen` implement a navigation to the PRIVATE_SCREEN
-- go to `src/Timeline/Screens/TimelineNavigator` and complete the Navigator Implementation.
-- go to `src/Timeline/Components/TweetDetail.js`. Whenever the user press on top of the header, you need to navigate to the Profile View of that tweet's user. Hint: you are getting a method that you need to call onPress of that header. can you add an `onPress` prop directly to the header ???
+#### `src/Screens/PublicNavigator.js`
+
+- create a Stack Navigator that shows the LoginScreen & the Terms and Conditions screen
+- Add some options to the navigator:
+  - headerMode: none
+  - initialRouteName: LOGIN_SCREEN (optional)
+  - mode: 'modal'
+
+*Hint:* use the strings above to name your screens to maintain consistency when navigating.
+
+#### `src/Screens/RootNavigator.js`
+
+- create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC view (check the imports!)
+- this navigator should not have a header (hint: `headerMode`)
+- this is the initial navigator for the App, so you need to wrap the entry point of your app with `createAppContainer`
+
+#### `src/Screens/TimelineNavigator.js`
+
+- create a stach Navigator for the TimeLine tab.
+
+```js
+  [TIMELINE_FEED_SCREEN]: TimelineScreen,
+  [TWEET_DETAIL_SCREEN]: TweetDetailScreen,
+  [OTHER_USER_PROFILE]: ProfileScreen,
+
+```
+
+- the header backgroundColor for this navigator should be `Colors.brand.primary` and the header content is `white`.
+
+#### `src/Screens/TimelineNavigator.js`
+
+- the header title for this view should be `Timeline`
+- navigate to `TWEET_DETAIL_SCREEN` passing the id as a param
+
+#### `src/Screens/PrivateNavigator.js`
+
+- Define getTabBarIcon and use if to assign Icons to both Views
+- Render the `TimelineNavigator` here instead of the `TimelineScreen`. HINT: you should implement something here inside `defaultNavigationOptions`
 
 ### Animations
 
