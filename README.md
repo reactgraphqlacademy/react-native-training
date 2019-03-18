@@ -38,7 +38,7 @@ Happy Coding!
 - clone this repo and copy and paste your LoginScreen to use it.
 - fix the `TOCScreen` (`src/Screens/TOCScreen.js`) so the user can see the whole content. you need to add something in order for the screen to scroll.
 - go to `src/Screens/TimelineScreens` and implement a FlatList for the data that is fetched.
-- create a `TweetItem` component in `src/Timeline/Components` and use it in your FlatList.
+- create a `TweetItem` component in `src/Components/TweetItem` and use it in your FlatList.
 
 ### Navigation
 
