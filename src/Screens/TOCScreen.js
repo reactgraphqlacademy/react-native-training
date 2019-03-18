@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { View, Text, ScrollView } from 'react-native'
-import Screen from '../Components/Screen'
+import { Screen } from '../Components'
 import { Header } from 'react-native-elements'
 import { Feather } from '@expo/vector-icons'
 import { Layout, Icons, Colors } from '../config/utils'
@@ -10,11 +10,8 @@ import { Layout, Icons, Colors } from '../config/utils'
 export const TOCScreen = ({ navigation }) =>
   <Screen>
     <Header
-      outerContainerStyles={{
-        paddingTop: Layout.notchHeight + 20,
+      containerStyle={{
         borderBottomColor: 'transparent',
-        paddingBottom: 8,
-        height: Layout.headerHeight,
       }}
       centerComponent={{
         text: 'Terms and Conditions',

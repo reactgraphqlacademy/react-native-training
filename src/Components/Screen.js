@@ -13,5 +13,3 @@ export const Screen = ({ style = {}, children, ...rest }) =>
       </View>
     </SafeAreaView>
   </React.Fragment>
-
-export default Screen

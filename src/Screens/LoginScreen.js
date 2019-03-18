@@ -26,32 +26,34 @@ export class LoginScreen extends React.Component {
           <Headline>Twitter Clone</Headline>
           <Title>@reactjsacademy</Title>
         </LoginHeader>
-        <FormInput
-          label="Email"
-          value={this.state.email}
-          onChangeText={value => this.handleFormChange({ key: 'email', value })}
-        />
-        <FormInput
-          label="Password"
-          value={this.state.password}
-          secureTextEntry
-          onChangeText={value =>
-            this.handleFormChange({ key: 'password', value })}
-        />
-        <Button
-          onPress={this.login}
-          style={styles.submitButton}
-          backgroundColor={Colors.brand.primary}
-          title="Login"
-        />
-        <TouchableOpacity
-          onPress={() =>
-            this.props.navigation.navigate({ routeName: TOC_SCREEN })}
-        >
-          <Text style={styles.tocText}>
-            by login you accept the Terms and Conditions.
-          </Text>
-        </TouchableOpacity>
+        <View style={styles.content}>
+          <FormInput
+            label="Email"
+            value={this.state.email}
+            onChangeText={value => this.handleFormChange({ key: 'email', value })}
+          />
+          <FormInput
+            label="Password"
+            value={this.state.password}
+            secureTextEntry
+            onChangeText={value =>
+              this.handleFormChange({ key: 'password', value })}
+          />
+          <Button
+            onPress={this.login}
+            style={styles.submitButton}
+            backgroundColor={Colors.brand.primary}
+            title="Login"
+          />
+          <TouchableOpacity
+            onPress={() =>
+              this.props.navigation.navigate({ routeName: TOC_SCREEN })}
+          >
+            <Text style={styles.tocText}>
+              by login you accept the Terms and Conditions.
+            </Text>
+          </TouchableOpacity>
+        </View>
       </Screen>
     )
   }
@@ -75,6 +77,9 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: Colors.light,
   },
+  content: {
+    padding: 16
+  },
   header: {
     paddingTop: Constants.statusBarHeight,
     alignItems: 'center',
@@ -82,7 +87,8 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.brand.primary,
   },
   submitButton: {
-    marginVertical: 24,
+    marginVertical: 32,
+    marginHorizontal: 8
   },
   tocText: {
     textAlign: 'center',
