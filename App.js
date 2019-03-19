@@ -1,3 +1,3 @@
-import { LoginScreen } from './src/Screens/LoginScreen'
+import { RootNavigator } from './src/Screens/RootNavigator'
 
-export default LoginScreen;
+export default RootNavigator;
