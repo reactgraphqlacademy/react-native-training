@@ -5,9 +5,9 @@ import { Screen, TweetItem, ViewLoading } from "../Components";
 import { TWEET_DETAIL_SCREEN } from "./TimelineNavigator";
 
 export class TimelineScreen extends React.Component {
-  /*
-  - the header title for this view should be `Timeline`
-  */
+  static navigationOptions = {
+    title: 'Timeline'
+  }
 
   state = {
     timeline: []
@@ -26,9 +26,7 @@ export class TimelineScreen extends React.Component {
   };
 
   handleTweetPress = id => {
-    /*
-    - navigate to `TWEET_DETAIL_SCREEN` passing the id as a param
-    */
+    this.props.navigation.navigate(TWEET_DETAIL_SCREEN, { id })
   };
 
   renderItem = ({ item }) => (

@@ -3,25 +3,30 @@ import { createBottomTabNavigator } from "react-navigation";
 import {
   // TimelineNavigator,
   MAIN_TIMELINE_SCREEN,
-  PROFILE_SCREEN
+  PROFILE_SCREEN,
+  TimelineNavigator
 } from "./TimelineNavigator";
 import { ProfileScreen } from "./ProfileScreen";
 import { Colors } from "../config/utils";
 import { Feather } from "@expo/vector-icons";
 
-import { TimelineScreen } from "./TimelineScreen";
-
 const getTabBarIcon = (navigation, focused, tintColor) => {
-  /*
-  - Define getTabBarIcon and use if to assign Icons to both Views
-  */
+  const route = navigation.state.routeName
+  let iconName;
+  if (route === MAIN_TIMELINE_SCREEN) {
+    iconName = 'home'
+  } else if (route === PROFILE_SCREEN) {
+    iconName = 'user'
+  }
+
+  return <Feather size={24} name={iconName} color={tintColor} />
 };
 
 export const PrivateNavigator = createBottomTabNavigator(
   {
     [MAIN_TIMELINE_SCREEN]: {
       // Render your TimelineNavigator here instead of the `TimelineScreen`
-      screen: TimelineScreen,
+      screen: TimelineNavigator,
       navigationOptions: () => ({
         title: "Timeline"
       })
@@ -48,6 +53,10 @@ export const PrivateNavigator = createBottomTabNavigator(
       activeTintColor: Colors.brand.primary,
       inactiveTintColor: Colors.lightgrey,
       showLabel: false
-    }
+    },
+    defaultNavigationOptions: ({ navigation }) => ({
+      tabBarIcon: ({focused, tintColor }) =>
+        getTabBarIcon(navigation, focused, tintColor)
+    })
   }
 );

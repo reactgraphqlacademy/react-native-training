@@ -1,5 +1,8 @@
 import { createStackNavigator } from 'react-navigation'
 import { Colors } from '../config/utils'
+import { TimelineScreen} from './TimelineScreen'
+import {TweetDetailScreen} from './TweetDetailScreen'
+import { ProfileScreen} from './ProfileScreen'
 
 export const MAIN_TIMELINE_SCREEN = 'MAIN_TIMELINE_SCREEN'
 export const TIMELINE_FEED_SCREEN = 'TIMELINE_FEED_SCREEN'
@@ -20,4 +23,15 @@ export const OTHER_USER_PROFILE = 'OTHER_USER_PROFILE'
   and the header content is white.
 */
 
-export const TimelineNavigator = "Timeline Stach Navigator Here"
+export const TimelineNavigator = createStackNavigator({
+  [TIMELINE_FEED_SCREEN]: TimelineScreen,
+  [TWEET_DETAIL_SCREEN]: TweetDetailScreen,
+  [OTHER_USER_PROFILE]: ProfileScreen,
+}, {
+  defaultNavigationOptions: {
+    headerStyle: {
+      backgroundColor: Colors.brand.primary
+    },
+    headerTintColor: '#fff',
+  }
+})

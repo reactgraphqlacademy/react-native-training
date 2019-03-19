@@ -20,4 +20,11 @@ export const TOC_SCREEN = 'TOC_SCREEN'
   consistency when navigating.
 */
 
-export const PublicNavigator = "CREATE ME" // ????
+export const PublicNavigator = createStackNavigator({
+  [LOGIN_SCREEN]: LoginScreen,
+  [TOC_SCREEN]: TOCScreen
+},
+{
+  headerMode: 'none',
+  mode: 'modal'
+})

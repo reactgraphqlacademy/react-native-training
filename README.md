@@ -64,7 +64,8 @@ Happy Coding!
 
 #### `src/Screens/TimelineNavigator.js`
 
-- create a stach Navigator for the TimeLine tab.
+- Render your TimelineNavigator here instead of the `TimelineScreen`
+- create a stack Navigator for the TimeLine tab.
 
 ```js
   [TIMELINE_FEED_SCREEN]: TimelineScreen,
@@ -75,7 +76,7 @@ Happy Coding!
 
 - the header backgroundColor for this navigator should be `Colors.brand.primary` and the header content is `white`.
 
-#### `src/Screens/TimelineNavigator.js`
+#### `src/Screens/TimelineScreen.js`
 
 - the header title for this view should be `Timeline`
 - navigate to `TWEET_DETAIL_SCREEN` passing the id as a param

@@ -11,7 +11,7 @@ export const fetchTimeline = () => {
   //   .then(data => {
   //   return data.statuses;
   // })
-  return Promise.resolve(timeline);
+  return Promise.resolve(timeline.statuses);
 }
 
 export const fetchTweetById = ({ id }) => {
