@@ -18,16 +18,13 @@ export class TimelineScreen extends React.Component {
   }
 
   fetchTimeline = () => {
-
-    this.props.api
-      .fetchTimeline()
-      .then(timeline => {
-        this.setState({ timeline });
-      });
+    this.props.api.fetchTimeline().then(({ statuses }) => {
+      this.setState({ timeline: statuses });
+    });
   };
 
   handleTweetPress = id => {
-    console.log('handlePress => ', id);
+    console.log("handlePress => ", id);
     /*
     - navigate to `TWEET_DETAIL_SCREEN` passing the id as a param
     */
@@ -36,7 +33,7 @@ export class TimelineScreen extends React.Component {
     - create a TweetItem component with this API:
       <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id_str)} />
     */
-  renderItem = ({ item }) => null
+  renderItem = ({ item }) => null;
 
   render() {
     const { timeline } = this.state;
@@ -45,9 +42,7 @@ export class TimelineScreen extends React.Component {
         {timeline.length == 0 ? (
           <ViewLoading />
         ) : (
-
-            <Text>{JSON.stringify(timeline, null, 4)}</Text>
-
+          <Text>{JSON.stringify(timeline, null, 4)}</Text>
         )}
       </Screen>
     );
