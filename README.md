@@ -42,9 +42,9 @@ Happy Coding!
 
 We are going to start by creating the Login screen. Go to [Expo Snack](https://snack.expo.io) and create the following Screen from Scratch:
 
-![Login Screen](./originals/login-small.PNG)
+![Login Screen](./originals/login-sm.PNG)
 
-[You can download a bigger image for the Login screen here](./originals/login-small.PNG)
+[You can download a bigger image for the Login screen here](./originals/login.PNG)
 
 You can use the following components:
 
