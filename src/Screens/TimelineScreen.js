@@ -1,9 +1,8 @@
 import React from "react";
 import * as api from "../Api";
-import { FlatList, StyleSheet } from "react-native";
+import { FlatList, StyleSheet, ScrollView, Text } from "react-native";
 import { Screen, TweetItem, ViewLoading } from "../Components";
 import { TWEET_DETAIL_SCREEN } from "./TimelineNavigator";
-import console = require("console");
 
 export class TimelineScreen extends React.Component {
   /*
@@ -19,6 +18,7 @@ export class TimelineScreen extends React.Component {
   }
 
   fetchTimeline = () => {
+
     this.props.api
       .fetchTimeline()
       .then(timeline => {
@@ -32,13 +32,11 @@ export class TimelineScreen extends React.Component {
     - navigate to `TWEET_DETAIL_SCREEN` passing the id as a param
     */
   };
-
-  renderItem = ({ item }) => (
-    /*
+  /*
     - create a TweetItem component with this API:
       <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id_str)} />
     */
-  );
+  renderItem = ({ item }) => null
 
   render() {
     const { timeline } = this.state;
@@ -47,9 +45,9 @@ export class TimelineScreen extends React.Component {
         {timeline.length == 0 ? (
           <ViewLoading />
         ) : (
-          <ScrollView>
+
             <Text>{JSON.stringify(timeline, null, 4)}</Text>
-          </ScrollView>
+
         )}
       </Screen>
     );
