@@ -11,7 +11,9 @@ export const fetchTimeline = () => {
   //   .then(data => {
   //   return data.statuses;
   // })
-  return timeline
+
+  return Promise.resolve(timeline)
+  //return timeline
 }
 
 export const fetchTweetById = ({ id }) => {
@@ -21,7 +23,7 @@ export const fetchTweetById = ({ id }) => {
   //     console.log(data);
   //   return data;
   // })
-  return tweet
+  return Promise.resolve(tweet)
 }
 
 export const fetchUser = ({ userId, name }) => {
@@ -30,7 +32,8 @@ export const fetchUser = ({ userId, name }) => {
   //   .then(data => {
   //     return data;
   // });
-  return user
+  // return
+  return Promise.resolve(user)
 }
 
 export const fetchUsersTimeline = ({ userId, name }) => {
@@ -39,5 +42,5 @@ export const fetchUsersTimeline = ({ userId, name }) => {
   //   .then(data => {
   //     return data;
   // });
-  return userTimeline
+  return Promise.resolve(userTimeline)
 }

@@ -14,7 +14,8 @@ export class LoginScreen extends React.Component {
   }
 
   login = () => {
-    this.props.navigation.navigate(PRIVATE_SCREEN)
+    // this.props.navigation.navigate(PRIVATE_SCREEN)
+    alert('LOGIN')
   }
 
   handleFormChange = ({ key, value }) => this.setState({ [key]: value })
@@ -47,7 +48,7 @@ export class LoginScreen extends React.Component {
           />
           <TouchableOpacity
             onPress={() =>
-              this.props.navigation.navigate({ routeName: TOC_SCREEN })}
+              alert('TOC!')}
           >
             <Text style={styles.tocText}>
               by login you accept the Terms and Conditions.
