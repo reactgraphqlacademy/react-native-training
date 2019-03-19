@@ -2,7 +2,7 @@
 
 ![Views Screenshots](./screenshots.jpg)
 
-You can checkout the individual original screenshots [here](./originals)
+You can check out the individual original screenshots [here](./originals)
 
 ## Setup
 
@@ -34,15 +34,50 @@ This will start the Bundler for the app and enables the app for visualization at
 
 Happy Coding!
 
-## Excersice
+## Exercise
 
 ### Foundation
 
-- Go to [Expo Snack](https://snack.expo.io) and create a Screen from Scratch. we recommend you to create the Login Screen.
-- clone this repo and copy and paste your LoginScreen to use it.
-- fix the `TOCScreen` (`src/Screens/TOCScreen.js`) so the user can see the whole content. you need to add something in order for the screen to scroll.
-- go to `src/Screens/TimelineScreens` and implement a FlatList for the data that is fetched.
-- create a `TweetItem` component in `src/Components/TweetItem` and use it in your FlatList.
+#### Part 1
+
+We are going to start by creating the Login screen. Go to [Expo Snack](https://snack.expo.io) and create the following Screen from Scratch:
+
+![Login Screen](./originals/login-small.PNG)
+
+[You can download a bigger image for the Login screen here](./originals/login-small.PNG)
+
+You can use the following components:
+
+- `import { TextInput } from 'react-native-paper';`
+- `import { Button } from 'react-native-paper';`
+
+Note react-native-paper is already included by default in Snack
+
+#### Bonus exercise
+
+Create your custom TextInput and Button
+
+#### Part 2
+
+To get started
+
+```
+ git clone https://github.com/reactjsacademy/react-native-training.git
+ git checkout foundation
+ cd react-native-training
+ npm install
+```
+
+Tasks:
+1- (Optional) Paste your LoginScreen from the part 1 Snack into `src/Screens/LoginScreen.js`
+2- Change the root component of the application from LoginScreen to TOCScreen. To do this change the default export in App.js.
+3- There is a bug in `src/Screens/TOCScreen.js`, it can't display all the content. You need to change the View so it has scroll.
+4- Nice! we've got our first view with a scroll. Next it's going to use a more performant scroll for long lists. First, change the root component of the application from TOCScreen to TimelineScreens.
+5- Go to `src/Screens/TimelineScreens` and implement a FlatList for the data that is fetched. There are some comments with hints. If you need some help, raise your hand :)
+
+#### Bonus exercise
+
+Add likes and retweets to each tweet in the FlatList. You can use the following icons [https://docs.expo.io/versions/latest/guides/icons/](https://docs.expo.io/versions/latest/guides/icons/)
 
 ### Navigation
 
@@ -54,7 +89,7 @@ Happy Coding!
   - initialRouteName: LOGIN_SCREEN (optional)
   - mode: 'modal'
 
-*Hint:* use the strings above to name your screens to maintain consistency when navigating.
+_Hint:_ use the strings above to name your screens to maintain consistency when navigating.
 
 #### `src/Screens/RootNavigator.js`
 
@@ -90,8 +125,6 @@ Happy Coding!
 - Go to [Expo Snack](https://snack.expo.io) and create a simple animation of a circle that changes the scale on `componentDidMount`.
 - Now trigger the animation whenever the user Presses the circle.
 - go to `src/Timeline/Screens/ProfileScreen` and animate the header onScroll. follow the instructions in the file.
-
-
 
 ## Resources
 
