@@ -70,11 +70,11 @@ To get started
 
 Tasks:
 
-1. (Optional) Paste your LoginScreen from the part 1 Snack into `src/Screens/LoginScreen.js`
-2. Change the root component of the application from LoginScreen to TOCScreen. To do this change the default export in App.js.
-3. There is a bug in `src/Screens/TOCScreen.js`, it can't display all the content. You need to change the View so it has scroll.
-4. Nice! we've got our first view with a scroll. Next it's going to use a more performant scroll for long lists. First, change the root component of the application from TOCScreen to TimelineScreens.
-5. Go to `src/Screens/TimelineScreens` and implement a FlatList for the data that is fetched. There are some comments with hints. If you need some help, raise your hand :)
+- [ ] 1. (Optional) Paste your LoginScreen from the part 1 Snack into `src/Screens/LoginScreen.js`
+- [ ] 2. Change the root component of the application from LoginScreen to TOCScreen. To do this change the default export in App.js.
+- [ ] 3. There is a bug in `src/Screens/TOCScreen.js`, it can't display all the content. You need to change the View so it has scroll.
+- [ ] 4. Nice! we've got our first view with a scroll. Next it's going to use a more performant scroll for long lists. First, change the root component of the application from TOCScreen to TimelineScreens.
+- [ ] 5. Go to `src/Screens/TimelineScreens` and implement a FlatList for the data that is fetched. There are some comments with hints. If you need some help, raise your hand :)
 
 #### Bonus exercise
 
