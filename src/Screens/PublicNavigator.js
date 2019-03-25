@@ -15,7 +15,7 @@ export const TOC_SCREEN = 'TOC_SCREEN'
     - headerMode: none
     - initialRouteName: LOGIN_SCREEN (optional)
     - mode: 'modal'
-    Hint: https://reactnavigation.org/docs/en/stack-navigator.html#routeconfigs
+    Hint: https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig
 */
 
 export const PublicNavigator = "CREATE ME"
