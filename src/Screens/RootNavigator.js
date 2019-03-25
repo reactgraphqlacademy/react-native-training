@@ -1,9 +1,10 @@
-import { createSwitchNavigator, createAppContainer } from 'react-navigation'
-import { PublicNavigator } from './PublicNavigator'
-import { PrivateNavigator } from './PrivateNavigator'
+import { createSwitchNavigator, createAppContainer } from "react-navigation";
+import { PublicNavigator } from "./PublicNavigator";
+import { PrivateNavigator } from "./PrivateNavigator";
+import { LoginScreen } from "./LoginScreen";
 
-export const PRIVATE_SCREEN = 'PRIVATE_SCREEN'
-export const PUBLIC_SCREEN = 'PUBLIC_SCREEN'
+export const PRIVATE_SCREEN = "PRIVATE_SCREEN";
+export const PUBLIC_SCREEN = "PUBLIC_SCREEN";
 
 /*
 - create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC views
@@ -12,6 +13,7 @@ export const PUBLIC_SCREEN = 'PUBLIC_SCREEN'
   the entry point of your app with `createAppContainer`
 */
 
-const MainNavigator = "create a switch navigator here"
+const MainNavigator = "create a switch navigator here";
 
-export const RootNavigator = "you should call a function here passing the `MainNavigator`"
+// You'll change this export in exercise 2
+export const RootNavigator = LoginScreen;
