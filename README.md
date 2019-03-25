@@ -93,7 +93,7 @@ Add likes and retweets to each tweet in the FlatList. You can use the following 
     - initialRouteName: LOGIN_SCREEN (optional)
 
 _Hints:_  
- - Use the strings above to name your screens to maintain consistency when navigating.
+ - Use the constants LOGIN_SCREEN and TOC_SCREEN defined in the PublicNavigator.js to name your screens to maintain consistency when navigating.
  - [https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions](https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions)
 
 
