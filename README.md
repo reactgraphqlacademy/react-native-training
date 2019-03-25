@@ -82,7 +82,7 @@ Add likes and retweets to each tweet in the FlatList. You can use the following 
 
 ### Navigation
 
-#### `src/Screens/PublicNavigator.js`
+#### Exercise 1 `src/Screens/PublicNavigator.js`
 
  1. Create a Stack Navigator that shows the LoginScreen & the Terms and Conditions screen. Tips:
     - You can read the official doc here [https://reactnavigation.org/docs/en/stack-navigator.html](https://reactnavigation.org/docs/en/stack-navigator.html)
@@ -97,13 +97,13 @@ _Hints:_
  - [https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions](https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions)
 
 
-#### `src/Screens/RootNavigator.js`
+####  Exercise 2 `src/Screens/RootNavigator.js`
 
 - create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC view (check the imports!)
 - this navigator should not have a header (hint: `headerMode`)
 - this is the initial navigator for the App, so you need to wrap the entry point of your app with `createAppContainer`
 
-#### `src/Screens/TimelineNavigator.js`
+####  Exercise 3 `src/Screens/TimelineNavigator.js`
 
 - create a stack Navigator for the TimeLine tab.
 
@@ -116,12 +116,12 @@ _Hints:_
 
 - the header backgroundColor for this navigator should be `Colors.brand.primary` and the header content is `white`.
 
-#### `src/Screens/TimelineNavigator.js`
+####  Exercise 4 `src/Screens/TimelineNavigator.js`
 
 - the header title for this view should be `Timeline`
 - navigate to `TWEET_DETAIL_SCREEN` passing the id as a param
 
-#### `src/Screens/PrivateNavigator.js`
+#### Bonus exercise `src/Screens/PrivateNavigator.js`
 
 - Define getTabBarIcon and use if to assign Icons to both Views
 - Render the `TimelineNavigator` here instead of the `TimelineScreen`. HINT: you should implement something here inside `defaultNavigationOptions`
