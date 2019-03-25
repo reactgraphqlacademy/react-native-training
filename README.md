@@ -135,6 +135,7 @@ _Hints:_
 ## Resources
 
 - https://facebook.github.io/react-native/
+- https://medium.com/leanjs/organizing-a-react-native-project-by-concern-91cc99be4e28
 - https://docs.expo.io/versions/latest/
 - https://reactnavigation.org/docs/en/getting-started.html
 - https://react-native-training.github.io/react-native-elements/
