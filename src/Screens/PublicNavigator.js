@@ -13,8 +13,8 @@ export const TOC_SCREEN = 'TOC_SCREEN'
 
   2. Add some options to the navigator
     - headerMode: none
-    - initialRouteName: LOGIN_SCREEN (optional)
     - mode: 'modal'
+    - initialRouteName: LOGIN_SCREEN (optional)
     Hint: https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions
 */
 
