@@ -84,7 +84,7 @@ Add likes and retweets to each tweet in the FlatList. You can use the following 
 
 #### `src/Screens/PublicNavigator.js`
 
- 1. Create a Stach Navigator that shows the LoginScreen & the Terms and Conditions screen. Tips:
+ 1. Create a Stack Navigator that shows the LoginScreen & the Terms and Conditions screen. Tips:
     - You can read the official doc here [https://reactnavigation.org/docs/en/stack-navigator.html](https://reactnavigation.org/docs/en/stack-navigator.html)
     - You can use the above LOGIN_SCREEN and TOC_SCREEN as route names
   2. Add some options to the navigator
@@ -105,7 +105,7 @@ _Hints:_
 
 #### `src/Screens/TimelineNavigator.js`
 
-- create a stach Navigator for the TimeLine tab.
+- create a stack Navigator for the TimeLine tab.
 
 ```js
   [TIMELINE_FEED_SCREEN]: TimelineScreen,
