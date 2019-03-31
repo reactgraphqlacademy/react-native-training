@@ -82,26 +82,26 @@ Add likes and retweets to each tweet in the FlatList. You can use the following 
 
 ### Navigation
 
-#### Exercise 1 `src/Screens/PublicNavigator.js`
+#### Exercise 1 
 
- 1. Create a Stack Navigator that shows the LoginScreen & the Terms and Conditions screen. Tips:
+ 1. Create a Stack Navigator in `src/Screens/PublicNavigator.js` that shows the LoginScreen & the Terms and Conditions screen. Tips:
     - You can read the official doc here [https://reactnavigation.org/docs/en/stack-navigator.html](https://reactnavigation.org/docs/en/stack-navigator.html)
     - You can use the above LOGIN_SCREEN and TOC_SCREEN as route names
  2. Add some options to the navigator
     - headerMode: none
     - mode: 'modal'
     - initialRouteName: LOGIN_SCREEN (optional)
+ 
+ 3. Update the entry point of the app with `createAppContainer` using the PublicNavigator in `src/Screens/RootNavigator.js`.
 
 _Hints:_  
- - Use the constants LOGIN_SCREEN and TOC_SCREEN defined in the PublicNavigator.js to name your screens to maintain consistency when navigating.
+ - In `src/Screens/PublicNavigator.js` you can use the constants LOGIN_SCREEN and TOC_SCREEN defined in the PublicNavigator.js to name your screens to maintain consistency when navigating.
  - [https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions](https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions)
 
 
-####  Exercise 2 `src/Screens/RootNavigator.js`
+####  Exercise 2
 
-- create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC view (check the imports!)
-- this navigator should not have a header (hint: `headerMode`)
-- this is the initial navigator for the App, so you need to wrap the entry point of your app with `createAppContainer`
+1. In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC view (check the imports!). You need to update the entry point of your app in `createAppContainer`.
 
 ####  Exercise 3 `src/Screens/TimelineNavigator.js`
 
