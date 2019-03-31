@@ -114,7 +114,9 @@ In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` 
 
 ```
 
-2. Let's style our Navigator! We need to pass an extra parameter to change the configuration as follows. The header backgroundColor for this navigator should be `Colors.brand.primary`, and the header content should be `white` (check the imports for the colors in `src/Screens/TimelineNavigator.js`). Hint use the `defaultNavigationOptions  [https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig](https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig)
+2. Let's style our Navigator! We need to pass an extra parameter to change the configuration as follows. 
+- [ ] 2.1. The header backgroundColor for this navigator should be `Colors.brand.primary`. Hint use the `headerStyle` in `defaultNavigationOptions` [https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig](https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig)
+- [ ] 2.2. The [headerTintColor](https://reactnavigation.org/docs/en/stack-navigator.html#headertintcolor) should be `white` (check the imports for the colors in `src/Screens/TimelineNavigator.js`). Hint 
 
 ####  Exercise 4 `src/Screens/TimelineNavigator.js`
 
