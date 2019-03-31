@@ -103,18 +103,18 @@ _Hints:_
 
 In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC view (check the imports!). You need to update the entry point of your app in `createAppContainer`.
 
-####  Exercise 3 `src/Screens/TimelineNavigator.js`
+####  Exercise 3
 
-- create a stack Navigator for the TimeLine tab.
+1. In `src/Screens/TimelineNavigator.js` create a stack Navigator ([https://reactnavigation.org/docs/en/stack-navigator.html](https://reactnavigation.org/docs/en/stack-navigator.html)) for the TimeLine using the following screens:
 
 ```js
   [TIMELINE_FEED_SCREEN]: TimelineScreen,
   [TWEET_DETAIL_SCREEN]: TweetDetailScreen,
-  [OTHER_USER_PROFILE]: ProfileScreen,
+  [USER_PROFILE]: ProfileScreen,
 
 ```
 
-- the header backgroundColor for this navigator should be `Colors.brand.primary` and the header content is `white`.
+2. Let's style our Navigator! We need to pass an extra parameter to change the configuration as follows. The header backgroundColor for this navigator should be `Colors.brand.primary`, and the header content is `white`. Hint https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig
 
 ####  Exercise 4 `src/Screens/TimelineNavigator.js`
 
