@@ -2,7 +2,7 @@ import { createSwitchNavigator, createAppContainer } from "react-navigation";
 import { PublicNavigator } from "./PublicNavigator";
 import { TimelineNavigator } from "./TimelineNavigator";
 
-export const PRIVATE_SCREEN = "TIMELINE_SCREEN";
+export const PRIVATE_SCREEN = "PRIVATE_SCREEN";
 export const PUBLIC_SCREEN = "PUBLIC_SCREEN";
 
 const MainNavigator = createSwitchNavigator({
