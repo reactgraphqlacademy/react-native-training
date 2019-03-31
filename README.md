@@ -101,7 +101,7 @@ _Hints:_
 
 ####  Exercise 2
 
-1. In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC view (check the imports!). You need to update the entry point of your app in `createAppContainer`.
+In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC view (check the imports!). You need to update the entry point of your app in `createAppContainer`.
 
 ####  Exercise 3 `src/Screens/TimelineNavigator.js`
 
