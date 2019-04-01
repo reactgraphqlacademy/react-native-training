@@ -7,12 +7,13 @@ export const PRIVATE_SCREEN = "PRIVATE_SCREEN";
 export const PUBLIC_SCREEN = "PUBLIC_SCREEN";
 
 /*
-- Create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC views
+EXERCISE PART 1 
 - This is the initial navigator for the App, so you need to wrap
-  the entry point of your app with `createAppContainer`. You can check the documentation here https://reactnavigation.org/docs/en/app-containers.html
+  the entry point of your app with `createAppContainer` using the PublicNavigator
+
+EXERCISE PART 2 (HEADS UP! DON'T DO THIS UNTIL PART 2)
+- create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC views
+- this navigator should not have a header (hint: `headerMode`)
 */
 
-const MainNavigator = "create a switch navigator here";
-
-// You'll change this export in exercise 2
 export const RootNavigator = LoginScreen;
