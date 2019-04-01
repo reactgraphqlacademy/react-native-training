@@ -39,7 +39,7 @@ export class TimelineScreen extends React.Component {
   render() {
     const { timeline } = this.state;
     return (
-      <Screen style={styles.screen}>
+      <Screen>
         {timeline.length == 0 ? (
           <ViewLoading />
         ) : (
@@ -53,12 +53,6 @@ export class TimelineScreen extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  screen: {
-    backgroundColor: "white"
-  }
-});
 
 TimelineScreen.defaultProps = {
   api
