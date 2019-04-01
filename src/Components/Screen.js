@@ -2,7 +2,7 @@ import React from 'react'
 import { View, SafeAreaView } from 'react-native'
 import { Colors } from '../config/utils'
 
-export const Screen = ({ style = {}, children, ...rest }) =>
+export const Screen = ({ style = {}, children, ...rest }) => (
   <React.Fragment>
     <SafeAreaView
       style={[style, { flex: 0, backgroundColor: Colors.brand.primary }]}
@@ -13,3 +13,4 @@ export const Screen = ({ style = {}, children, ...rest }) =>
       </View>
     </SafeAreaView>
   </React.Fragment>
+);
