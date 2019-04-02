@@ -2,7 +2,7 @@ import React from "react";
 import * as api from "../Api";
 import { FlatList, StyleSheet } from "react-native";
 import { Screen, TweetItem, ViewLoading } from "../Components";
-import { TWEET_DETAIL_SCREEN } from "./PrivateNavigator";
+import { TWEET_DETAIL_SCREEN } from "./TimelineNavigator";
 
 export class TimelineScreen extends React.Component {
   /*
@@ -10,6 +10,9 @@ export class TimelineScreen extends React.Component {
 
   2.1. Set the header title for this view should be `Timeline`
   */
+  static navigationOptions = {
+    title: 'Timeline'
+  }
 
   state = {
     timeline: []
@@ -33,6 +36,7 @@ export class TimelineScreen extends React.Component {
     passing the `id` as a parameter.
     Hint: https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens
     */
+    this.props.navigation.navigate({ routeName: TWEET_DETAIL_SCREEN, params: { id }});
   };
 
   renderItem = ({ item }) => (

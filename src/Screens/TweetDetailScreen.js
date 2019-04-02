@@ -10,6 +10,9 @@ export class TweetDetailScreen extends React.Component {
 
   2.1. Set the header title for this view should be `Tweet`
   */
+  static navigationOptions = {
+    title: 'Tweet'
+  }
 
   state = {
     tweet: null,
@@ -50,6 +53,13 @@ export class TweetDetailScreen extends React.Component {
 
     Hint: https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens
     */
+      this.props.navigation.navigate({
+        routeName: USER_PROFILE,
+        params: {
+          userId: this.state.tweet.user.id_str,
+          name: this.state.tweet.user.screen_name
+        }
+      })
   };
 
   render() {
