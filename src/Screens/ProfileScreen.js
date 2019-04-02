@@ -5,6 +5,8 @@ import {
   StyleSheet,
   TouchableOpacity,
   Animated,
+  ScrollView,
+  Image,
   StatusBar,
   FlatList
 } from "react-native";
@@ -63,8 +65,6 @@ const FollowButton = ({ following = false }) => (
   </TouchableOpacity>
 );
 export class ProfileScreen extends React.Component {
-  scrollY = new Animated.Value(0);
-
   static navigationOptions = {
     header: null
   };
@@ -113,38 +113,18 @@ export class ProfileScreen extends React.Component {
   );
 
   render() {
-    console.log(Layout);
     const showBack = this.props.navigation.getParam("noBack");
-    const { scrollY } = this;
-
-    let opacity = scrollY.interpolate({
-      inputRange: [0, 64, 100],
-      outputRange: [0, 0, 1]
-    });
     const { user, timeline, loading } = this.state;
     return (
       <View>
         {loading ? (
           <ViewLoading />
         ) : (
-          <Animated.ScrollView
+          <ScrollView
             scrollEventThrottle={1}
-            // contentContainerStyle={{paddingTop: -64}}
-            onScroll={Animated.event(
-              [
-                {
-                  nativeEvent: {
-                    contentOffset: {
-                      y: this.scrollY
-                    }
-                  }
-                }
-              ],
-              { useNativeDriver: true }
-            )}
           >
             <View style={[styles.header]}>
-              <Animated.Image
+              <Image
                 resizeMode="cover"
                 style={[styles.headerCover]}
                 source={{ uri: user.profile_banner_url }}
@@ -176,16 +156,12 @@ export class ProfileScreen extends React.Component {
                   renderItem={this.renderItem}
                   keyExtractor={item => item.id_str}
                 />
-                // <ScrollView>
-                //   <Text>{JSON.stringify(timeline, null, 4)}</Text>
-                // </ScrollView>
               )}
             </View>
-          </Animated.ScrollView>
+          </ScrollView>
         )}
-        <Animated.View
+        <View
           style={{
-            opacity,
             position: "absolute",
             top: 0,
             width
@@ -215,7 +191,7 @@ export class ProfileScreen extends React.Component {
             backgroundColor={Colors.brand.primary}
           />
           <StatusBar barStyle="light-content" />
-        </Animated.View>
+        </View>
       </View>
     );
   }
