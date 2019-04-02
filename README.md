@@ -82,7 +82,7 @@ Add likes and retweets to each tweet in the FlatList. You can use the following 
 
 ### Navigation
 
-#### Exercise 1 
+#### Exercise 1
 
  1. Create a Stack Navigator in `src/Screens/PublicNavigator.js` that shows the LoginScreen & the Terms and Conditions screen. Tips:
     - You can read the official doc here [https://reactnavigation.org/docs/en/stack-navigator.html](https://reactnavigation.org/docs/en/stack-navigator.html)
@@ -91,10 +91,10 @@ Add likes and retweets to each tweet in the FlatList. You can use the following 
     - headerMode: none
     - mode: 'modal'
     - initialRouteName: LOGIN_SCREEN (optional)
- 
+
  3. Update the entry point of the app with `createAppContainer` using the PublicNavigator in `src/Screens/RootNavigator.js`.
 
-_Hints:_  
+_Hints:_
  - In `src/Screens/PublicNavigator.js` you can use the constants LOGIN_SCREEN and TOC_SCREEN defined in the PublicNavigator.js to name your screens to maintain consistency when navigating.
  - [https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions](https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions)
 
@@ -114,14 +114,32 @@ In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` 
 
 ```
 
-2. Let's style our Navigator! We need to pass an extra parameter to change the configuration as follows. 
+2. Let's style our Navigator! We need to pass an extra parameter to change the configuration as follows.
   2.1. The header backgroundColor for this navigator should be `Colors.brand.primary`. Hint use the `headerStyle` in `defaultNavigationOptions` [https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig](https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig)
-  2.2. The [headerTintColor](https://reactnavigation.org/docs/en/stack-navigator.html#headertintcolor) should be `Colors.light` (check the imports for the colors in `src/Screens/TimelineNavigator.js`). 
+  2.2. The [headerTintColor](https://reactnavigation.org/docs/en/stack-navigator.html#headertintcolor) should be `Colors.light` (check the imports for the colors in `src/Screens/TimelineNavigator.js`).
 
-####  Exercise 4 `src/Screens/TimelineNavigator.js`
+####  Exercise 4
 
-- the header title for this view should be `Timeline`
-- navigate to `TWEET_DETAIL_SCREEN` passing the id as a param
+1. in `src/Screens/TimelineScreen.js`:
+  1.1. the header title for this view should be `Timeline`
+  1.2. Implement the `handleTweetPress` method to send the user to the `TWEET_DETAIL_SCREEN` screen,
+    passing the `id` as a parameter. Hint:
+    [https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens)
+
+2. in `src/Screens/TweetDetailScreen.js`
+  2.1. Set the header title for this view should be `Tweet`
+  2.2. Implement the `handleProfilePress` method to send the user to the `USER_PROFILE` screen,
+  passing the parameters below:
+
+  ```js
+    {
+      userId: this.state.tweet.user.id_str,
+      name: this.state.tweet.user.screen_name
+    }
+  ```
+
+  Hint: [https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens)
+
 
 #### Bonus exercise `src/Screens/PrivateNavigator.js`
 
