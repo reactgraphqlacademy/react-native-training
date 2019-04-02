@@ -20,5 +20,5 @@ const getTabBarIcon = (navigation, focused, tintColor) => {
   return <Feather size={24} name={iconName} color={tintColor} />
 };
 
-// create me from scratch! :)
+// create me from scratch! GOOD LUCK :P
 export const PrivateNavigator = TimelineNavigator

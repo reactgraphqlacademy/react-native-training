@@ -5,9 +5,11 @@ import * as api from "../Api";
 import { USER_PROFILE } from "./TimelineNavigator";
 
 export class TweetDetailScreen extends React.Component {
-  static navigationOptions = {
-    title: "Tweet"
-  };
+  /*
+  EXERCISE 4:
+
+  2.1. Set the header title for this view should be `Tweet`
+  */
 
   state = {
     tweet: null,
@@ -36,8 +38,19 @@ export class TweetDetailScreen extends React.Component {
 
   handleProfilePress = () => {
     /*
-    1.1 when the user clicks in the profile header, navigate to the USER_PROFILE
-    passing the below parameters:
+
+    2.2. Implement the `handleProfilePress` method to send the user to the `USER_PROFILE` screen,
+    passing the parameters below:
+
+    ```js
+      {
+        userId: this.state.tweet.user.id_str,
+        name: this.state.tweet.user.screen_name
+      }
+    ```
+
+    Hint: https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens
+
     */
   };
 
