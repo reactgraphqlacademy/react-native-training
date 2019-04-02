@@ -1,0 +1,3593 @@
+{
+  "statuses": [
+    {
+      "created_at": "Sun Mar 17 11:46:28 +0000 2019",
+      "id": 1107246820953083900,
+      "id_str": "1107246820953083904",
+      "text": "RT @ReactAmsterdam: The #JavaScript ecosystem is moving to #TypeScript. Fast. TypeScript has some unique, very powerful features that fit v…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          { "text": "JavaScript", "indices": [24, 35] },
+          { "text": "TypeScript", "indices": [59, 70] }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [3, 18]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1605976506,
+        "id_str": "1605976506",
+        "name": "Armando Magalhães",
+        "screen_name": "armand1m",
+        "location": "Amsterdam, The Netherlands",
+        "description": "Capixaba Software Engineer based in Amsterdam. Working at @TravixEng mostly with Distributed Services and Javascript.",
+        "url": "https://t.co/SnLziuboIM",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/SnLziuboIM",
+                "expanded_url": "https://github.com/armand1m",
+                "display_url": "github.com/armand1m",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 564,
+        "friends_count": 540,
+        "listed_count": 18,
+        "created_at": "Fri Jul 19 14:03:31 +0000 2013",
+        "favourites_count": 13240,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 27132,
+        "lang": "pt",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1075059671713636352/fALbpr7N_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1075059671713636352/fALbpr7N_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1605976506/1531701927",
+        "profile_link_color": "000000",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Mar 08 08:00:28 +0000 2019",
+        "id": 1103928456071413800,
+        "id_str": "1103928456071413767",
+        "text": "The #JavaScript ecosystem is moving to #TypeScript. Fast. TypeScript has some unique, very powerful features that f… https://t.co/WfwjPuXzlp",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            { "text": "JavaScript", "indices": [4, 15] },
+            { "text": "TypeScript", "indices": [39, 50] }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/WfwjPuXzlp",
+              "expanded_url": "https://twitter.com/i/web/status/1103928456071413767",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [117, 140]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3023155108,
+          "id_str": "3023155108",
+          "name": "React Amsterdam",
+          "screen_name": "ReactAmsterdam",
+          "location": "Amsterdam",
+          "description": "#ReactJS community behind #ReactAmsterdam Conference and Meetups organized in 🇳🇱. Next conf coming up in April 2019.",
+          "url": "https://t.co/eArkQOxoUl",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/eArkQOxoUl",
+                  "expanded_url": "https://react.amsterdam",
+                  "display_url": "react.amsterdam",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 4086,
+          "friends_count": 1758,
+          "listed_count": 129,
+          "created_at": "Sat Feb 07 12:14:52 +0000 2015",
+          "favourites_count": 1427,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 2045,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3023155108/1547111694",
+          "profile_link_color": "00BB33",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 9,
+        "favorite_count": 19,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 9,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Mar 16 10:54:50 +0000 2019",
+      "id": 1106871439314030600,
+      "id_str": "1106871439314030592",
+      "text": "@VladimirNovick @HasuraHQ @zeithq @javivelasco @ReactAmsterdam @bookingcom @framer @mweststrate Yep @TQams is pretty good!",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "VladimirNovick",
+            "name": "Vladimir Novick",
+            "id": 2272235102,
+            "id_str": "2272235102",
+            "indices": [0, 15]
+          },
+          {
+            "screen_name": "HasuraHQ",
+            "name": "Hasura",
+            "id": 3014430913,
+            "id_str": "3014430913",
+            "indices": [16, 25]
+          },
+          {
+            "screen_name": "zeithq",
+            "name": "ZEIT",
+            "id": 4686835494,
+            "id_str": "4686835494",
+            "indices": [26, 33]
+          },
+          {
+            "screen_name": "javivelasco",
+            "name": "Javi Velasco",
+            "id": 62632858,
+            "id_str": "62632858",
+            "indices": [34, 46]
+          },
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [47, 62]
+          },
+          {
+            "screen_name": "bookingcom",
+            "name": "Booking.com",
+            "id": 26516576,
+            "id_str": "26516576",
+            "indices": [63, 74]
+          },
+          {
+            "screen_name": "framer",
+            "name": "Framer",
+            "id": 1056838028,
+            "id_str": "1056838028",
+            "indices": [75, 82]
+          },
+          {
+            "screen_name": "mweststrate",
+            "name": "michel.codes",
+            "id": 37636440,
+            "id_str": "37636440",
+            "indices": [83, 95]
+          },
+          {
+            "screen_name": "TQams",
+            "name": "TQ",
+            "id": 4155602421,
+            "id_str": "4155602421",
+            "indices": [100, 106]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": 1106536077358231600,
+      "in_reply_to_status_id_str": "1106536077358231554",
+      "in_reply_to_user_id": 2272235102,
+      "in_reply_to_user_id_str": "2272235102",
+      "in_reply_to_screen_name": "VladimirNovick",
+      "user": {
+        "id": 15118521,
+        "id_str": "15118521",
+        "name": "Koen Bok",
+        "screen_name": "koenbok",
+        "location": "Amsterdam, Berlin",
+        "description": "Maker of @framer. Previously founded Sofa and at Facebook. Ex nihilo.",
+        "url": "https://t.co/PTDkVoL7Zz",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/PTDkVoL7Zz",
+                "expanded_url": "http://koenbok.com",
+                "display_url": "koenbok.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 11248,
+        "friends_count": 2140,
+        "listed_count": 357,
+        "created_at": "Sat Jun 14 17:59:19 +0000 2008",
+        "favourites_count": 7212,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 5759,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/877761532326625280/5aLb9Ld2_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/877761532326625280/5aLb9Ld2_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/15118521/1537186783",
+        "profile_link_color": "052342",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "222222",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Mar 16 07:56:17 +0000 2019",
+      "id": 1106826503843659800,
+      "id_str": "1106826503843659777",
+      "text": "RT @ReactAmsterdam: The #JavaScript ecosystem is moving to #TypeScript. Fast. TypeScript has some unique, very powerful features that fit v…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          { "text": "JavaScript", "indices": [24, 35] },
+          { "text": "TypeScript", "indices": [59, 70] }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [3, 18]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 15178166,
+        "id_str": "15178166",
+        "name": "mafersolorzano",
+        "screen_name": "mafersolorzano",
+        "location": "",
+        "description": "Dont fear failure. Not failure, but low aim, is the crime. In great attempts it is glorious even to fail-B.Lee",
+        "url": "https://t.co/8vjxdvUeje",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/8vjxdvUeje",
+                "expanded_url": "https://www.youtube.com/playlist?list=PLJKYHZT5qlzGC1pNDGGS4RjKXyGs9frv8",
+                "display_url": "youtube.com/playlist?list=…",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 220,
+        "friends_count": 884,
+        "listed_count": 30,
+        "created_at": "Fri Jun 20 09:18:30 +0000 2008",
+        "favourites_count": 8569,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 2468,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": true,
+        "profile_background_color": "709397",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1104392260840509440/CkCgdJWg_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1104392260840509440/CkCgdJWg_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/15178166/1491668476",
+        "profile_link_color": "FF3300",
+        "profile_sidebar_border_color": "86A4A6",
+        "profile_sidebar_fill_color": "A0C5C7",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Mar 08 08:00:28 +0000 2019",
+        "id": 1103928456071413800,
+        "id_str": "1103928456071413767",
+        "text": "The #JavaScript ecosystem is moving to #TypeScript. Fast. TypeScript has some unique, very powerful features that f… https://t.co/WfwjPuXzlp",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            { "text": "JavaScript", "indices": [4, 15] },
+            { "text": "TypeScript", "indices": [39, 50] }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/WfwjPuXzlp",
+              "expanded_url": "https://twitter.com/i/web/status/1103928456071413767",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [117, 140]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3023155108,
+          "id_str": "3023155108",
+          "name": "React Amsterdam",
+          "screen_name": "ReactAmsterdam",
+          "location": "Amsterdam",
+          "description": "#ReactJS community behind #ReactAmsterdam Conference and Meetups organized in 🇳🇱. Next conf coming up in April 2019.",
+          "url": "https://t.co/eArkQOxoUl",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/eArkQOxoUl",
+                  "expanded_url": "https://react.amsterdam",
+                  "display_url": "react.amsterdam",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 4086,
+          "friends_count": 1758,
+          "listed_count": 129,
+          "created_at": "Sat Feb 07 12:14:52 +0000 2015",
+          "favourites_count": 1427,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 2045,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3023155108/1547111694",
+          "profile_link_color": "00BB33",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 9,
+        "favorite_count": 19,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 9,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Mar 16 05:09:46 +0000 2019",
+      "id": 1106784599655407600,
+      "id_str": "1106784599655407616",
+      "text": "RT @VladimirNovick: Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and @zeithq wi…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          { "text": "GraphQL", "indices": [76, 84] },
+          { "text": "Serverless", "indices": [89, 100] }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "VladimirNovick",
+            "name": "Vladimir Novick",
+            "id": 2272235102,
+            "id_str": "2272235102",
+            "indices": [3, 18]
+          },
+          {
+            "screen_name": "HasuraHQ",
+            "name": "Hasura",
+            "id": 3014430913,
+            "id_str": "3014430913",
+            "indices": [115, 124]
+          },
+          {
+            "screen_name": "zeithq",
+            "name": "ZEIT",
+            "id": 4686835494,
+            "id_str": "4686835494",
+            "indices": [129, 136]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 116102261,
+        "id_str": "116102261",
+        "name": "Rajoshi Ghosh",
+        "screen_name": "rajoshighosh",
+        "location": "Bangalore/San Francisco",
+        "description": "Co-founder @HasuraHQ. co-organizer @graphqlasia. Previously, @astar_research, @MESTAfrica. Erstwhile computational biologist.",
+        "url": "https://t.co/fSjMrZmMF4",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/fSjMrZmMF4",
+                "expanded_url": "http://hasura.io",
+                "display_url": "hasura.io",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 1596,
+        "friends_count": 1226,
+        "listed_count": 71,
+        "created_at": "Sun Feb 21 05:06:09 +0000 2010",
+        "favourites_count": 2207,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 1700,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/943488565752750080/zzcmyyck_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/943488565752750080/zzcmyyck_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/116102261/1417451301",
+        "profile_link_color": "FF691F",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Mar 15 12:42:13 +0000 2019",
+        "id": 1106536077358231600,
+        "id_str": "1106536077358231554",
+        "text": "Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and… https://t.co/MMkM9YduNR",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            { "text": "GraphQL", "indices": [56, 64] },
+            { "text": "Serverless", "indices": [69, 80] }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "HasuraHQ",
+              "name": "Hasura",
+              "id": 3014430913,
+              "id_str": "3014430913",
+              "indices": [95, 104]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/MMkM9YduNR",
+              "expanded_url": "https://twitter.com/i/web/status/1106536077358231554",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [110, 133]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 2272235102,
+          "id_str": "2272235102",
+          "name": "Vladimir Novick",
+          "screen_name": "VladimirNovick",
+          "location": "",
+          "description": "#DevRel 🥑 @HasuraHQ, @googledevexpert, consultant, author, speaker, @3factorRadio host, #ReasonML, #web #react #reactnative, #GraphQL, #IoT, #VR, #AR dev",
+          "url": "https://t.co/C96wGzdSQM",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/C96wGzdSQM",
+                  "expanded_url": "http://vnovick.com",
+                  "display_url": "vnovick.com",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 1781,
+          "friends_count": 787,
+          "listed_count": 55,
+          "created_at": "Wed Jan 01 23:57:31 +0000 2014",
+          "favourites_count": 2644,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 1744,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2272235102/1549448004",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 5,
+        "favorite_count": 14,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 19:27:22 +0000 2019",
+      "id": 1106638035205021700,
+      "id_str": "1106638035205021697",
+      "text": "@AhmedElGabri @glambertmtl @ReactAmsterdam Nice!",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "AhmedElGabri",
+            "name": "Ahmed El Gabri",
+            "id": 16080060,
+            "id_str": "16080060",
+            "indices": [0, 13]
+          },
+          {
+            "screen_name": "glambertmtl",
+            "name": "Guillaume Lambert",
+            "id": 22402889,
+            "id_str": "22402889",
+            "indices": [14, 26]
+          },
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [27, 42]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": 1106636861462798300,
+      "in_reply_to_status_id_str": "1106636861462798338",
+      "in_reply_to_user_id": 16080060,
+      "in_reply_to_user_id_str": "16080060",
+      "in_reply_to_screen_name": "AhmedElGabri",
+      "user": {
+        "id": 1880237935,
+        "id_str": "1880237935",
+        "name": "Vladimir Milenko",
+        "screen_name": "AsTexKG",
+        "location": "Amsterdam",
+        "description": "Software Enginer @uber",
+        "url": null,
+        "entities": { "description": { "urls": [] } },
+        "protected": false,
+        "followers_count": 34,
+        "friends_count": 82,
+        "listed_count": 0,
+        "created_at": "Wed Sep 18 17:13:44 +0000 2013",
+        "favourites_count": 86,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 281,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1077300886626553859/AqpwQ4Ha_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1077300886626553859/AqpwQ4Ha_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1880237935/1502836063",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 19:22:42 +0000 2019",
+      "id": 1106636861462798300,
+      "id_str": "1106636861462798338",
+      "text": "@AsTexKG @glambertmtl @ReactAmsterdam Every FED from AMS &amp; MTL + Jonas",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "AsTexKG",
+            "name": "Vladimir Milenko",
+            "id": 1880237935,
+            "id_str": "1880237935",
+            "indices": [0, 8]
+          },
+          {
+            "screen_name": "glambertmtl",
+            "name": "Guillaume Lambert",
+            "id": 22402889,
+            "id_str": "22402889",
+            "indices": [9, 21]
+          },
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [22, 37]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"https://tapbots.com/software/tweetbot/mac\" rel=\"nofollow\">Tweetbot for Mac</a>",
+      "in_reply_to_status_id": 1106607028322078700,
+      "in_reply_to_status_id_str": "1106607028322078721",
+      "in_reply_to_user_id": 1880237935,
+      "in_reply_to_user_id_str": "1880237935",
+      "in_reply_to_screen_name": "AsTexKG",
+      "user": {
+        "id": 16080060,
+        "id_str": "16080060",
+        "name": "Ahmed El Gabri",
+        "screen_name": "AhmedElGabri",
+        "location": "Amsterdam, Netherlands",
+        "description": "Principal Software Developer @lightspeedhq JavaScript, Vim, CLI, CSS, ⚽️ &🍕",
+        "url": "https://t.co/O1Kq161brs",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/O1Kq161brs",
+                "expanded_url": "https://gabri.me",
+                "display_url": "gabri.me",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 871,
+        "friends_count": 744,
+        "listed_count": 96,
+        "created_at": "Mon Sep 01 09:29:21 +0000 2008",
+        "favourites_count": 1351,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 34841,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "1F2325",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/545611840449818625/XhJ66rrd_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/545611840449818625/XhJ66rrd_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/16080060/1535794398",
+        "profile_link_color": "2758D8",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "F9F9F9",
+        "profile_text_color": "222222",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 17:24:09 +0000 2019",
+      "id": 1106607028322078700,
+      "id_str": "1106607028322078721",
+      "text": "@glambertmtl @ReactAmsterdam Haa. Who else is coming?",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "glambertmtl",
+            "name": "Guillaume Lambert",
+            "id": 22402889,
+            "id_str": "22402889",
+            "indices": [0, 12]
+          },
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [13, 28]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": 1106371653242626000,
+      "in_reply_to_status_id_str": "1106371653242626049",
+      "in_reply_to_user_id": 22402889,
+      "in_reply_to_user_id_str": "22402889",
+      "in_reply_to_screen_name": "glambertmtl",
+      "user": {
+        "id": 1880237935,
+        "id_str": "1880237935",
+        "name": "Vladimir Milenko",
+        "screen_name": "AsTexKG",
+        "location": "Amsterdam",
+        "description": "Software Enginer @uber",
+        "url": null,
+        "entities": { "description": { "urls": [] } },
+        "protected": false,
+        "followers_count": 34,
+        "friends_count": 82,
+        "listed_count": 0,
+        "created_at": "Wed Sep 18 17:13:44 +0000 2013",
+        "favourites_count": 86,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 281,
+        "lang": "ru",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1077300886626553859/AqpwQ4Ha_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1077300886626553859/AqpwQ4Ha_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1880237935/1502836063",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 14:05:19 +0000 2019",
+      "id": 1106556987989524500,
+      "id_str": "1106556987989524480",
+      "text": "RT @VladimirNovick: Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and @zeithq wi…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          { "text": "GraphQL", "indices": [76, 84] },
+          { "text": "Serverless", "indices": [89, 100] }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "VladimirNovick",
+            "name": "Vladimir Novick",
+            "id": 2272235102,
+            "id_str": "2272235102",
+            "indices": [3, 18]
+          },
+          {
+            "screen_name": "HasuraHQ",
+            "name": "Hasura",
+            "id": 3014430913,
+            "id_str": "3014430913",
+            "indices": [115, 124]
+          },
+          {
+            "screen_name": "zeithq",
+            "name": "ZEIT",
+            "id": 4686835494,
+            "id_str": "4686835494",
+            "indices": [129, 136]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 16726629,
+        "id_str": "16726629",
+        "name": "Jamie Barton",
+        "screen_name": "notrab",
+        "location": "England, United Kingdom",
+        "description": "I'm into GraphQL, JavaScript & React",
+        "url": "https://t.co/hwMb7NCPH8",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/hwMb7NCPH8",
+                "expanded_url": "https://medium.com/@notrab",
+                "display_url": "medium.com/@notrab",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 1668,
+        "friends_count": 290,
+        "listed_count": 182,
+        "created_at": "Mon Oct 13 20:07:25 +0000 2008",
+        "favourites_count": 7008,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 24101,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "EBEBEB",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1091787065589751808/TEwiXQ-7_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1091787065589751808/TEwiXQ-7_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/16726629/1552653233",
+        "profile_link_color": "F53B57",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Mar 15 12:42:13 +0000 2019",
+        "id": 1106536077358231600,
+        "id_str": "1106536077358231554",
+        "text": "Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and… https://t.co/MMkM9YduNR",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            { "text": "GraphQL", "indices": [56, 64] },
+            { "text": "Serverless", "indices": [69, 80] }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "HasuraHQ",
+              "name": "Hasura",
+              "id": 3014430913,
+              "id_str": "3014430913",
+              "indices": [95, 104]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/MMkM9YduNR",
+              "expanded_url": "https://twitter.com/i/web/status/1106536077358231554",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [110, 133]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 2272235102,
+          "id_str": "2272235102",
+          "name": "Vladimir Novick",
+          "screen_name": "VladimirNovick",
+          "location": "",
+          "description": "#DevRel 🥑 @HasuraHQ, @googledevexpert, consultant, author, speaker, @3factorRadio host, #ReasonML, #web #react #reactnative, #GraphQL, #IoT, #VR, #AR dev",
+          "url": "https://t.co/C96wGzdSQM",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/C96wGzdSQM",
+                  "expanded_url": "http://vnovick.com",
+                  "display_url": "vnovick.com",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 1781,
+          "friends_count": 787,
+          "listed_count": 55,
+          "created_at": "Wed Jan 01 23:57:31 +0000 2014",
+          "favourites_count": 2644,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 1744,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2272235102/1549448004",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 5,
+        "favorite_count": 14,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 13:40:22 +0000 2019",
+      "id": 1106550709137354800,
+      "id_str": "1106550709137354752",
+      "text": "RT @matheusfrndes: Reasons to attend @ReactAmsterdam:\n1. @timneutkens will be there\n2. It's in Amsterdam 😍 https://t.co/LUdeS0wk2e",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "matheusfrndes",
+            "name": "Matheus Fernandes",
+            "id": 747383997362241500,
+            "id_str": "747383997362241536",
+            "indices": [3, 17]
+          },
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [37, 52]
+          },
+          {
+            "screen_name": "timneutkens",
+            "name": "Tim",
+            "id": 1189966273,
+            "id_str": "1189966273",
+            "indices": [57, 69]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/LUdeS0wk2e",
+            "expanded_url": "https://twitter.com/zeithq/status/1106235526678339584",
+            "display_url": "twitter.com/zeithq/status/…",
+            "indices": [107, 130]
+          }
+        ]
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3023155108,
+        "id_str": "3023155108",
+        "name": "React Amsterdam",
+        "screen_name": "ReactAmsterdam",
+        "location": "Amsterdam",
+        "description": "#ReactJS community behind #ReactAmsterdam Conference and Meetups organized in 🇳🇱. Next conf coming up in April 2019.",
+        "url": "https://t.co/eArkQOxoUl",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/eArkQOxoUl",
+                "expanded_url": "https://react.amsterdam",
+                "display_url": "react.amsterdam",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 4086,
+        "friends_count": 1758,
+        "listed_count": 129,
+        "created_at": "Sat Feb 07 12:14:52 +0000 2015",
+        "favourites_count": 1427,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 2045,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3023155108/1547111694",
+        "profile_link_color": "00BB33",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Mar 14 16:49:14 +0000 2019",
+        "id": 1106235849619005400,
+        "id_str": "1106235849619005440",
+        "text": "Reasons to attend @ReactAmsterdam:\n1. @timneutkens will be there\n2. It's in Amsterdam 😍 https://t.co/LUdeS0wk2e",
+        "truncated": false,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "ReactAmsterdam",
+              "name": "React Amsterdam",
+              "id": 3023155108,
+              "id_str": "3023155108",
+              "indices": [18, 33]
+            },
+            {
+              "screen_name": "timneutkens",
+              "name": "Tim",
+              "id": 1189966273,
+              "id_str": "1189966273",
+              "indices": [38, 50]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/LUdeS0wk2e",
+              "expanded_url": "https://twitter.com/zeithq/status/1106235526678339584",
+              "display_url": "twitter.com/zeithq/status/…",
+              "indices": [88, 111]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 747383997362241500,
+          "id_str": "747383997362241536",
+          "name": "Matheus Fernandes",
+          "screen_name": "matheusfrndes",
+          "location": "🇧🇷",
+          "description": "SVP, Engineering @zeithq | Co-authored https://t.co/xMF22BnfdK",
+          "url": "https://t.co/IXJK6mxMPf",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/IXJK6mxMPf",
+                  "expanded_url": "https://matheus.sh",
+                  "display_url": "matheus.sh",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "https://t.co/xMF22BnfdK",
+                  "expanded_url": "https://getkap.co",
+                  "display_url": "getkap.co",
+                  "indices": [39, 62]
+                }
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 1139,
+          "friends_count": 1857,
+          "listed_count": 39,
+          "created_at": "Mon Jun 27 11:00:05 +0000 2016",
+          "favourites_count": 4557,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 2192,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/948013896601866240/5OzmB5q7_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/948013896601866240/5OzmB5q7_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/747383997362241536/1467027432",
+          "profile_link_color": "E81C4F",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 1106235526678339600,
+        "quoted_status_id_str": "1106235526678339584",
+        "quoted_status": {
+          "created_at": "Thu Mar 14 16:47:57 +0000 2019",
+          "id": 1106235526678339600,
+          "id_str": "1106235526678339584",
+          "text": "ZEITer @timneutkens will be at React Amsterdam 2019 to share what's next for Next.js https://t.co/tcZxCsL8Q3",
+          "truncated": false,
+          "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+              {
+                "screen_name": "timneutkens",
+                "name": "Tim",
+                "id": 1189966273,
+                "id_str": "1189966273",
+                "indices": [7, 19]
+              }
+            ],
+            "urls": [
+              {
+                "url": "https://t.co/tcZxCsL8Q3",
+                "expanded_url": "https://twitter.com/ReactAmsterdam/status/1090888772412153856",
+                "display_url": "twitter.com/ReactAmsterdam…",
+                "indices": [85, 108]
+              }
+            ]
+          },
+          "metadata": { "iso_language_code": "en", "result_type": "recent" },
+          "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 4686835494,
+            "id_str": "4686835494",
+            "name": "ZEIT",
+            "screen_name": "zeithq",
+            "location": "San Francisco, CA",
+            "description": "Our mission is to make cloud computing accessible to everyone.\n\nStatus: @zeit_status",
+            "url": "https://t.co/SZ433P4VmW",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "https://t.co/SZ433P4VmW",
+                    "expanded_url": "https://zeit.co",
+                    "display_url": "zeit.co",
+                    "indices": [0, 23]
+                  }
+                ]
+              },
+              "description": { "urls": [] }
+            },
+            "protected": false,
+            "followers_count": 23981,
+            "friends_count": 22,
+            "listed_count": 448,
+            "created_at": "Fri Jan 01 03:49:12 +0000 2016",
+            "favourites_count": 1343,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1466,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1095887975781670912/bHjpwZem_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1095887975781670912/bHjpwZem_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/4686835494/1520187343",
+            "profile_link_color": "000000",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": true,
+          "quoted_status_id": 1090888772412153900,
+          "quoted_status_id_str": "1090888772412153856",
+          "retweet_count": 12,
+          "favorite_count": 81,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
+        "retweet_count": 1,
+        "favorite_count": 16,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": true,
+      "quoted_status_id": 1106235526678339600,
+      "quoted_status_id_str": "1106235526678339584",
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 13:08:55 +0000 2019",
+      "id": 1106542794468978700,
+      "id_str": "1106542794468978688",
+      "text": "RT @wbroek: @VladimirNovick @HasuraHQ @zeithq @javivelasco @ReactAmsterdam @bookingcom @framer @koenbok @mweststrate Maybe @TQams, @B_conne…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "wbroek",
+            "name": "Wouter",
+            "id": 1483401,
+            "id_str": "1483401",
+            "indices": [3, 10]
+          },
+          {
+            "screen_name": "VladimirNovick",
+            "name": "Vladimir Novick",
+            "id": 2272235102,
+            "id_str": "2272235102",
+            "indices": [12, 27]
+          },
+          {
+            "screen_name": "HasuraHQ",
+            "name": "Hasura",
+            "id": 3014430913,
+            "id_str": "3014430913",
+            "indices": [28, 37]
+          },
+          {
+            "screen_name": "zeithq",
+            "name": "ZEIT",
+            "id": 4686835494,
+            "id_str": "4686835494",
+            "indices": [38, 45]
+          },
+          {
+            "screen_name": "javivelasco",
+            "name": "Javi Velasco",
+            "id": 62632858,
+            "id_str": "62632858",
+            "indices": [46, 58]
+          },
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [59, 74]
+          },
+          {
+            "screen_name": "bookingcom",
+            "name": "Booking.com",
+            "id": 26516576,
+            "id_str": "26516576",
+            "indices": [75, 86]
+          },
+          {
+            "screen_name": "framer",
+            "name": "Framer",
+            "id": 1056838028,
+            "id_str": "1056838028",
+            "indices": [87, 94]
+          },
+          {
+            "screen_name": "koenbok",
+            "name": "Koen Bok",
+            "id": 15118521,
+            "id_str": "15118521",
+            "indices": [95, 103]
+          },
+          {
+            "screen_name": "mweststrate",
+            "name": "michel.codes",
+            "id": 37636440,
+            "id_str": "37636440",
+            "indices": [104, 116]
+          },
+          {
+            "screen_name": "TQams",
+            "name": "TQ",
+            "id": 4155602421,
+            "id_str": "4155602421",
+            "indices": [123, 129]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2272235102,
+        "id_str": "2272235102",
+        "name": "Vladimir Novick",
+        "screen_name": "VladimirNovick",
+        "location": "",
+        "description": "#DevRel 🥑 @HasuraHQ, @googledevexpert, consultant, author, speaker, @3factorRadio host, #ReasonML, #web #react #reactnative, #GraphQL, #IoT, #VR, #AR dev",
+        "url": "https://t.co/C96wGzdSQM",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/C96wGzdSQM",
+                "expanded_url": "http://vnovick.com",
+                "display_url": "vnovick.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 1781,
+        "friends_count": 787,
+        "listed_count": 55,
+        "created_at": "Wed Jan 01 23:57:31 +0000 2014",
+        "favourites_count": 2644,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 1744,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2272235102/1549448004",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Mar 15 12:55:20 +0000 2019",
+        "id": 1106539375859507200,
+        "id_str": "1106539375859507200",
+        "text": "@VladimirNovick @HasuraHQ @zeithq @javivelasco @ReactAmsterdam @bookingcom @framer @koenbok @mweststrate Maybe… https://t.co/9CzYfXPxDu",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "VladimirNovick",
+              "name": "Vladimir Novick",
+              "id": 2272235102,
+              "id_str": "2272235102",
+              "indices": [0, 15]
+            },
+            {
+              "screen_name": "HasuraHQ",
+              "name": "Hasura",
+              "id": 3014430913,
+              "id_str": "3014430913",
+              "indices": [16, 25]
+            },
+            {
+              "screen_name": "zeithq",
+              "name": "ZEIT",
+              "id": 4686835494,
+              "id_str": "4686835494",
+              "indices": [26, 33]
+            },
+            {
+              "screen_name": "javivelasco",
+              "name": "Javi Velasco",
+              "id": 62632858,
+              "id_str": "62632858",
+              "indices": [34, 46]
+            },
+            {
+              "screen_name": "ReactAmsterdam",
+              "name": "React Amsterdam",
+              "id": 3023155108,
+              "id_str": "3023155108",
+              "indices": [47, 62]
+            },
+            {
+              "screen_name": "bookingcom",
+              "name": "Booking.com",
+              "id": 26516576,
+              "id_str": "26516576",
+              "indices": [63, 74]
+            },
+            {
+              "screen_name": "framer",
+              "name": "Framer",
+              "id": 1056838028,
+              "id_str": "1056838028",
+              "indices": [75, 82]
+            },
+            {
+              "screen_name": "koenbok",
+              "name": "Koen Bok",
+              "id": 15118521,
+              "id_str": "15118521",
+              "indices": [83, 91]
+            },
+            {
+              "screen_name": "mweststrate",
+              "name": "michel.codes",
+              "id": 37636440,
+              "id_str": "37636440",
+              "indices": [92, 104]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/9CzYfXPxDu",
+              "expanded_url": "https://twitter.com/i/web/status/1106539375859507200",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [112, 135]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"https://tapbots.com/software/tweetbot/mac\" rel=\"nofollow\">Tweetbot for Mac</a>",
+        "in_reply_to_status_id": 1106536077358231600,
+        "in_reply_to_status_id_str": "1106536077358231554",
+        "in_reply_to_user_id": 2272235102,
+        "in_reply_to_user_id_str": "2272235102",
+        "in_reply_to_screen_name": "VladimirNovick",
+        "user": {
+          "id": 1483401,
+          "id_str": "1483401",
+          "name": "Wouter",
+          "screen_name": "wbroek",
+          "location": "iPhone: 50.917611,5.919552",
+          "description": "Software Evangelist | Apple lover | Web developer | iPhone developer | iPad developer | Android developer | Blackberry developer | HTML5 & CSS3 frontender",
+          "url": "http://t.co/ZBhm09kQ8n",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/ZBhm09kQ8n",
+                  "expanded_url": "http://www.linkedin.com/in/wbroek",
+                  "display_url": "linkedin.com/in/wbroek",
+                  "indices": [0, 22]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 839,
+          "friends_count": 988,
+          "listed_count": 80,
+          "created_at": "Mon Mar 19 09:01:47 +0000 2007",
+          "favourites_count": 216,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 10632,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/568535435/wouterk_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/568535435/wouterk_normal.jpg",
+          "profile_link_color": "5D1501",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "608DAE",
+          "profile_text_color": "000000",
+          "profile_use_background_image": true,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 12:55:20 +0000 2019",
+      "id": 1106539375859507200,
+      "id_str": "1106539375859507200",
+      "text": "@VladimirNovick @HasuraHQ @zeithq @javivelasco @ReactAmsterdam @bookingcom @framer @koenbok @mweststrate Maybe… https://t.co/9CzYfXPxDu",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "VladimirNovick",
+            "name": "Vladimir Novick",
+            "id": 2272235102,
+            "id_str": "2272235102",
+            "indices": [0, 15]
+          },
+          {
+            "screen_name": "HasuraHQ",
+            "name": "Hasura",
+            "id": 3014430913,
+            "id_str": "3014430913",
+            "indices": [16, 25]
+          },
+          {
+            "screen_name": "zeithq",
+            "name": "ZEIT",
+            "id": 4686835494,
+            "id_str": "4686835494",
+            "indices": [26, 33]
+          },
+          {
+            "screen_name": "javivelasco",
+            "name": "Javi Velasco",
+            "id": 62632858,
+            "id_str": "62632858",
+            "indices": [34, 46]
+          },
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [47, 62]
+          },
+          {
+            "screen_name": "bookingcom",
+            "name": "Booking.com",
+            "id": 26516576,
+            "id_str": "26516576",
+            "indices": [63, 74]
+          },
+          {
+            "screen_name": "framer",
+            "name": "Framer",
+            "id": 1056838028,
+            "id_str": "1056838028",
+            "indices": [75, 82]
+          },
+          {
+            "screen_name": "koenbok",
+            "name": "Koen Bok",
+            "id": 15118521,
+            "id_str": "15118521",
+            "indices": [83, 91]
+          },
+          {
+            "screen_name": "mweststrate",
+            "name": "michel.codes",
+            "id": 37636440,
+            "id_str": "37636440",
+            "indices": [92, 104]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/9CzYfXPxDu",
+            "expanded_url": "https://twitter.com/i/web/status/1106539375859507200",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [112, 135]
+          }
+        ]
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"https://tapbots.com/software/tweetbot/mac\" rel=\"nofollow\">Tweetbot for Mac</a>",
+      "in_reply_to_status_id": 1106536077358231600,
+      "in_reply_to_status_id_str": "1106536077358231554",
+      "in_reply_to_user_id": 2272235102,
+      "in_reply_to_user_id_str": "2272235102",
+      "in_reply_to_screen_name": "VladimirNovick",
+      "user": {
+        "id": 1483401,
+        "id_str": "1483401",
+        "name": "Wouter",
+        "screen_name": "wbroek",
+        "location": "iPhone: 50.917611,5.919552",
+        "description": "Software Evangelist | Apple lover | Web developer | iPhone developer | iPad developer | Android developer | Blackberry developer | HTML5 & CSS3 frontender",
+        "url": "http://t.co/ZBhm09kQ8n",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/ZBhm09kQ8n",
+                "expanded_url": "http://www.linkedin.com/in/wbroek",
+                "display_url": "linkedin.com/in/wbroek",
+                "indices": [0, 22]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 839,
+        "friends_count": 988,
+        "listed_count": 80,
+        "created_at": "Mon Mar 19 09:01:47 +0000 2007",
+        "favourites_count": 216,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 10632,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/568535435/wouterk_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/568535435/wouterk_normal.jpg",
+        "profile_link_color": "5D1501",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "608DAE",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 12:49:53 +0000 2019",
+      "id": 1106538005970313200,
+      "id_str": "1106538005970313216",
+      "text": "RT @VladimirNovick: Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and @zeithq wi…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          { "text": "GraphQL", "indices": [76, 84] },
+          { "text": "Serverless", "indices": [89, 100] }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "VladimirNovick",
+            "name": "Vladimir Novick",
+            "id": 2272235102,
+            "id_str": "2272235102",
+            "indices": [3, 18]
+          },
+          {
+            "screen_name": "HasuraHQ",
+            "name": "Hasura",
+            "id": 3014430913,
+            "id_str": "3014430913",
+            "indices": [115, 124]
+          },
+          {
+            "screen_name": "zeithq",
+            "name": "ZEIT",
+            "id": 4686835494,
+            "id_str": "4686835494",
+            "indices": [129, 136]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3014430913,
+        "id_str": "3014430913",
+        "name": "Hasura",
+        "screen_name": "HasuraHQ",
+        "location": "San Francisco/ Bangalore",
+        "description": "The Hasura GraphQL Engine gives you realtime, high performance GraphQL on any Postgres app. Now supports event triggers 👉https://t.co/fSjMrZmMF4",
+        "url": "https://t.co/4G4l0OwRwv",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/4G4l0OwRwv",
+                "expanded_url": "https://github.com/hasura/graphql-engine",
+                "display_url": "github.com/hasura/graphql…",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/fSjMrZmMF4",
+                "expanded_url": "http://hasura.io",
+                "display_url": "hasura.io",
+                "indices": [121, 144]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 3183,
+        "friends_count": 233,
+        "listed_count": 103,
+        "created_at": "Mon Feb 09 14:03:04 +0000 2015",
+        "favourites_count": 4934,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 3179,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1080392405134667778/l4LIh_7L_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1080392405134667778/l4LIh_7L_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3014430913/1541223571",
+        "profile_link_color": "303B4E",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Mar 15 12:42:13 +0000 2019",
+        "id": 1106536077358231600,
+        "id_str": "1106536077358231554",
+        "text": "Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and… https://t.co/MMkM9YduNR",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            { "text": "GraphQL", "indices": [56, 64] },
+            { "text": "Serverless", "indices": [69, 80] }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "HasuraHQ",
+              "name": "Hasura",
+              "id": 3014430913,
+              "id_str": "3014430913",
+              "indices": [95, 104]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/MMkM9YduNR",
+              "expanded_url": "https://twitter.com/i/web/status/1106536077358231554",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [110, 133]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 2272235102,
+          "id_str": "2272235102",
+          "name": "Vladimir Novick",
+          "screen_name": "VladimirNovick",
+          "location": "",
+          "description": "#DevRel 🥑 @HasuraHQ, @googledevexpert, consultant, author, speaker, @3factorRadio host, #ReasonML, #web #react #reactnative, #GraphQL, #IoT, #VR, #AR dev",
+          "url": "https://t.co/C96wGzdSQM",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/C96wGzdSQM",
+                  "expanded_url": "http://vnovick.com",
+                  "display_url": "vnovick.com",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 1781,
+          "friends_count": 787,
+          "listed_count": 55,
+          "created_at": "Wed Jan 01 23:57:31 +0000 2014",
+          "favourites_count": 2644,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 1744,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2272235102/1549448004",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 5,
+        "favorite_count": 14,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 12:47:15 +0000 2019",
+      "id": 1106537341022167000,
+      "id_str": "1106537341022167041",
+      "text": "RT @VladimirNovick: Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and @zeithq wi…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          { "text": "GraphQL", "indices": [76, 84] },
+          { "text": "Serverless", "indices": [89, 100] }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "VladimirNovick",
+            "name": "Vladimir Novick",
+            "id": 2272235102,
+            "id_str": "2272235102",
+            "indices": [3, 18]
+          },
+          {
+            "screen_name": "HasuraHQ",
+            "name": "Hasura",
+            "id": 3014430913,
+            "id_str": "3014430913",
+            "indices": [115, 124]
+          },
+          {
+            "screen_name": "zeithq",
+            "name": "ZEIT",
+            "id": 4686835494,
+            "id_str": "4686835494",
+            "indices": [129, 136]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 568356025,
+        "id_str": "568356025",
+        "name": "Shahidh K Muhammed",
+        "screen_name": "shahidh_k",
+        "location": "Bengaluru, India",
+        "description": "Design Engineer by training, Polyglot @HasuraHQ. #Kubernetes #GraphQL",
+        "url": null,
+        "entities": { "description": { "urls": [] } },
+        "protected": false,
+        "followers_count": 1067,
+        "friends_count": 605,
+        "listed_count": 17,
+        "created_at": "Tue May 01 16:44:20 +0000 2012",
+        "favourites_count": 1273,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1514,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/932155972398727171/2jQVtTnb_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/932155972398727171/2jQVtTnb_normal.jpg",
+        "profile_link_color": "ABB8C2",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Mar 15 12:42:13 +0000 2019",
+        "id": 1106536077358231600,
+        "id_str": "1106536077358231554",
+        "text": "Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and… https://t.co/MMkM9YduNR",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            { "text": "GraphQL", "indices": [56, 64] },
+            { "text": "Serverless", "indices": [69, 80] }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "HasuraHQ",
+              "name": "Hasura",
+              "id": 3014430913,
+              "id_str": "3014430913",
+              "indices": [95, 104]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/MMkM9YduNR",
+              "expanded_url": "https://twitter.com/i/web/status/1106536077358231554",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [110, 133]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 2272235102,
+          "id_str": "2272235102",
+          "name": "Vladimir Novick",
+          "screen_name": "VladimirNovick",
+          "location": "",
+          "description": "#DevRel 🥑 @HasuraHQ, @googledevexpert, consultant, author, speaker, @3factorRadio host, #ReasonML, #web #react #reactnative, #GraphQL, #IoT, #VR, #AR dev",
+          "url": "https://t.co/C96wGzdSQM",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/C96wGzdSQM",
+                  "expanded_url": "http://vnovick.com",
+                  "display_url": "vnovick.com",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 1781,
+          "friends_count": 787,
+          "listed_count": 55,
+          "created_at": "Wed Jan 01 23:57:31 +0000 2014",
+          "favourites_count": 2644,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 1744,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2272235102/1549448004",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 5,
+        "favorite_count": 14,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 12:42:19 +0000 2019",
+      "id": 1106536099567018000,
+      "id_str": "1106536099567017984",
+      "text": "RT @VladimirNovick: Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and @zeithq wi…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          { "text": "GraphQL", "indices": [76, 84] },
+          { "text": "Serverless", "indices": [89, 100] }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "VladimirNovick",
+            "name": "Vladimir Novick",
+            "id": 2272235102,
+            "id_str": "2272235102",
+            "indices": [3, 18]
+          },
+          {
+            "screen_name": "HasuraHQ",
+            "name": "Hasura",
+            "id": 3014430913,
+            "id_str": "3014430913",
+            "indices": [115, 124]
+          },
+          {
+            "screen_name": "zeithq",
+            "name": "ZEIT",
+            "id": 4686835494,
+            "id_str": "4686835494",
+            "indices": [129, 136]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://localhost.com\" rel=\"nofollow\">Serverless Tweet/Retweet Bot</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 971620109197312000,
+        "id_str": "971620109197312000",
+        "name": "Serverless Fan",
+        "screen_name": "ServerlessFan",
+        "location": "Sri Lanka",
+        "description": "#Serverless #Computing",
+        "url": null,
+        "entities": { "description": { "urls": [] } },
+        "protected": false,
+        "followers_count": 1667,
+        "friends_count": 6,
+        "listed_count": 63,
+        "created_at": "Thu Mar 08 05:34:20 +0000 2018",
+        "favourites_count": 7,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 105989,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/973611685822058497/yRRo9D52_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/973611685822058497/yRRo9D52_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/971620109197312000/1525426121",
+        "profile_link_color": "000000",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Fri Mar 15 12:42:13 +0000 2019",
+        "id": 1106536077358231600,
+        "id_str": "1106536077358231554",
+        "text": "Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and… https://t.co/MMkM9YduNR",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            { "text": "GraphQL", "indices": [56, 64] },
+            { "text": "Serverless", "indices": [69, 80] }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "HasuraHQ",
+              "name": "Hasura",
+              "id": 3014430913,
+              "id_str": "3014430913",
+              "indices": [95, 104]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/MMkM9YduNR",
+              "expanded_url": "https://twitter.com/i/web/status/1106536077358231554",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [110, 133]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 2272235102,
+          "id_str": "2272235102",
+          "name": "Vladimir Novick",
+          "screen_name": "VladimirNovick",
+          "location": "",
+          "description": "#DevRel 🥑 @HasuraHQ, @googledevexpert, consultant, author, speaker, @3factorRadio host, #ReasonML, #web #react #reactnative, #GraphQL, #IoT, #VR, #AR dev",
+          "url": "https://t.co/C96wGzdSQM",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/C96wGzdSQM",
+                  "expanded_url": "http://vnovick.com",
+                  "display_url": "vnovick.com",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 1781,
+          "friends_count": 787,
+          "listed_count": 55,
+          "created_at": "Wed Jan 01 23:57:31 +0000 2014",
+          "favourites_count": 2644,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 1744,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2272235102/1549448004",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 5,
+        "favorite_count": 14,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 12:42:13 +0000 2019",
+      "id": 1106536077358231600,
+      "id_str": "1106536077358231554",
+      "text": "Looking for a place in Amsterdam to host a 20-30 people #GraphQL and #Serverless workshop with @HasuraHQ and… https://t.co/MMkM9YduNR",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          { "text": "GraphQL", "indices": [56, 64] },
+          { "text": "Serverless", "indices": [69, 80] }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "HasuraHQ",
+            "name": "Hasura",
+            "id": 3014430913,
+            "id_str": "3014430913",
+            "indices": [95, 104]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/MMkM9YduNR",
+            "expanded_url": "https://twitter.com/i/web/status/1106536077358231554",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [110, 133]
+          }
+        ]
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2272235102,
+        "id_str": "2272235102",
+        "name": "Vladimir Novick",
+        "screen_name": "VladimirNovick",
+        "location": "",
+        "description": "#DevRel 🥑 @HasuraHQ, @googledevexpert, consultant, author, speaker, @3factorRadio host, #ReasonML, #web #react #reactnative, #GraphQL, #IoT, #VR, #AR dev",
+        "url": "https://t.co/C96wGzdSQM",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/C96wGzdSQM",
+                "expanded_url": "http://vnovick.com",
+                "display_url": "vnovick.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 1781,
+        "friends_count": 787,
+        "listed_count": 55,
+        "created_at": "Wed Jan 01 23:57:31 +0000 2014",
+        "favourites_count": 2644,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 1744,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/983855446317584385/-3n4x_ej_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2272235102/1549448004",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 5,
+      "favorite_count": 14,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Mar 15 01:48:52 +0000 2019",
+      "id": 1106371653242626000,
+      "id_str": "1106371653242626049",
+      "text": "@ReactAmsterdam Can’t wait! First time in Amsterdam, actually first time in Europe 👌",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [0, 15]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": 1106218864373833700,
+      "in_reply_to_status_id_str": "1106218864373833728",
+      "in_reply_to_user_id": 3023155108,
+      "in_reply_to_user_id_str": "3023155108",
+      "in_reply_to_screen_name": "ReactAmsterdam",
+      "user": {
+        "id": 22402889,
+        "id_str": "22402889",
+        "name": "Guillaume Lambert",
+        "screen_name": "glambertmtl",
+        "location": "Montreal, QC",
+        "description": "Principal Software Developer @LightspeedHQ – Father, drummer, getting better by making those around better.",
+        "url": "https://t.co/kTRqUAzUoR",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/kTRqUAzUoR",
+                "expanded_url": "http://lightspeedhq.com",
+                "display_url": "lightspeedhq.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 146,
+        "friends_count": 157,
+        "listed_count": 30,
+        "created_at": "Sun Mar 01 20:32:37 +0000 2009",
+        "favourites_count": 3966,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 2265,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/761021239737495552/2gp2tby8_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/761021239737495552/2gp2tby8_normal.jpg",
+        "profile_link_color": "0D69A1",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Thu Mar 14 22:27:11 +0000 2019",
+      "id": 1106320898573955100,
+      "id_str": "1106320898573955074",
+      "text": "RT @ReactAmsterdam: Our partners @reactjsacademy are running a React/Redux Part-time course in Amsterdam starting on March 15! We have prep…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [3, 18]
+          },
+          {
+            "screen_name": "reactjsacademy",
+            "name": "ReactJS Academy",
+            "id": 770259608669683700,
+            "id_str": "770259608669683712",
+            "indices": [33, 48]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 770259608669683700,
+        "id_str": "770259608669683712",
+        "name": "ReactJS Academy",
+        "screen_name": "reactjsacademy",
+        "location": "London, England",
+        "description": "Take your dev career further by mastering the React ecosystem. ⛺️ Bootcamps | 🕡 Part-time. | 📲 React Native",
+        "url": "https://t.co/5C3OIuRWj2",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/5C3OIuRWj2",
+                "expanded_url": "https://reactjs.academy/react-redux-graphql-bootcamp/",
+                "display_url": "reactjs.academy/react-redux-gr…",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 423,
+        "friends_count": 94,
+        "listed_count": 11,
+        "created_at": "Mon Aug 29 13:59:36 +0000 2016",
+        "favourites_count": 263,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 572,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/821767245911261184/iQD0YmUN_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/770259608669683712/1474456988",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": true,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Mar 14 17:02:02 +0000 2019",
+        "id": 1106239072954130400,
+        "id_str": "1106239072954130434",
+        "text": "Our partners @reactjsacademy are running a React/Redux Part-time course in Amsterdam starting on March 15! We have… https://t.co/TyxUHSynKJ",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "reactjsacademy",
+              "name": "ReactJS Academy",
+              "id": 770259608669683700,
+              "id_str": "770259608669683712",
+              "indices": [13, 28]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/TyxUHSynKJ",
+              "expanded_url": "https://twitter.com/i/web/status/1106239072954130434",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [116, 139]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3023155108,
+          "id_str": "3023155108",
+          "name": "React Amsterdam",
+          "screen_name": "ReactAmsterdam",
+          "location": "Amsterdam",
+          "description": "#ReactJS community behind #ReactAmsterdam Conference and Meetups organized in 🇳🇱. Next conf coming up in April 2019.",
+          "url": "https://t.co/eArkQOxoUl",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/eArkQOxoUl",
+                  "expanded_url": "https://react.amsterdam",
+                  "display_url": "react.amsterdam",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 4086,
+          "friends_count": 1758,
+          "listed_count": 129,
+          "created_at": "Sat Feb 07 12:14:52 +0000 2015",
+          "favourites_count": 1427,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 2045,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3023155108/1547111694",
+          "profile_link_color": "00BB33",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 5,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Thu Mar 14 20:25:25 +0000 2019",
+      "id": 1106290255055999000,
+      "id_str": "1106290255055998977",
+      "text": "RT @ReactAmsterdam: .@timneutkens works as a software engineer and he's the co-author and lead maintainer of #NextJS. He's passionate about…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [{ "text": "NextJS", "indices": [109, 116] }],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [3, 18]
+          },
+          {
+            "screen_name": "timneutkens",
+            "name": "Tim",
+            "id": 1189966273,
+            "id_str": "1189966273",
+            "indices": [21, 33]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 943104787104624600,
+        "id_str": "943104787104624640",
+        "name": "Marvin_1003",
+        "screen_name": "1003Marvin",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": { "description": { "urls": [] } },
+        "protected": false,
+        "followers_count": 2,
+        "friends_count": 65,
+        "listed_count": 0,
+        "created_at": "Tue Dec 19 13:04:38 +0000 2017",
+        "favourites_count": 91,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 24,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": true,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Jan 31 08:25:25 +0000 2019",
+        "id": 1090888772412153900,
+        "id_str": "1090888772412153856",
+        "text": ".@timneutkens works as a software engineer and he's the co-author and lead maintainer of #NextJS. He's passionate a… https://t.co/94bOXtUkhe",
+        "truncated": true,
+        "entities": {
+          "hashtags": [{ "text": "NextJS", "indices": [89, 96] }],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "timneutkens",
+              "name": "Tim",
+              "id": 1189966273,
+              "id_str": "1189966273",
+              "indices": [1, 13]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/94bOXtUkhe",
+              "expanded_url": "https://twitter.com/i/web/status/1090888772412153856",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [117, 140]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"https://kuku.io\" rel=\"nofollow\">Link account with KUKU.io</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3023155108,
+          "id_str": "3023155108",
+          "name": "React Amsterdam",
+          "screen_name": "ReactAmsterdam",
+          "location": "Amsterdam",
+          "description": "#ReactJS community behind #ReactAmsterdam Conference and Meetups organized in 🇳🇱. Next conf coming up in April 2019.",
+          "url": "https://t.co/eArkQOxoUl",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/eArkQOxoUl",
+                  "expanded_url": "https://react.amsterdam",
+                  "display_url": "react.amsterdam",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 4086,
+          "friends_count": 1758,
+          "listed_count": 129,
+          "created_at": "Sat Feb 07 12:14:52 +0000 2015",
+          "favourites_count": 1427,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 2045,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3023155108/1547111694",
+          "profile_link_color": "00BB33",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 16,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Thu Mar 14 17:49:31 +0000 2019",
+      "id": 1106251022832267300,
+      "id_str": "1106251022832267264",
+      "text": "RT @ReactAmsterdam: ... aaand the conference is sold out. 🤯\n\nThank you for your trust, folks, we'll see you in a month at the biggest #Reac…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [3, 18]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"http://javascriptdigest.com\" rel=\"nofollow\">javascriptdigest2</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2704581690,
+        "id_str": "2704581690",
+        "name": "Javascript Digest",
+        "screen_name": "javascriptd",
+        "location": "Everywhere ",
+        "description": "Javascript Digest brought to you by http://t.co/rHlyfe7p7r",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "url": "http://t.co/rHlyfe7p7r",
+                "expanded_url": "http://SimbaSystems.com",
+                "display_url": "SimbaSystems.com",
+                "indices": [36, 58]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 29004,
+        "friends_count": 3,
+        "listed_count": 8326,
+        "created_at": "Sun Aug 03 17:58:20 +0000 2014",
+        "favourites_count": 133,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1207502,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "022330",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/544034757730779136/-jOL7GnN_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/544034757730779136/-jOL7GnN_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "A8C7F7",
+        "profile_sidebar_fill_color": "C0DFEC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Mar 14 15:41:44 +0000 2019",
+        "id": 1106218864373833700,
+        "id_str": "1106218864373833728",
+        "text": "... aaand the conference is sold out. 🤯\n\nThank you for your trust, folks, we'll see you in a month at the biggest… https://t.co/t4DDdn5MHy",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/t4DDdn5MHy",
+              "expanded_url": "https://twitter.com/i/web/status/1106218864373833728",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [115, 138]
+            }
+          ]
+        },
+        "metadata": { "iso_language_code": "en", "result_type": "recent" },
+        "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3023155108,
+          "id_str": "3023155108",
+          "name": "React Amsterdam",
+          "screen_name": "ReactAmsterdam",
+          "location": "Amsterdam",
+          "description": "#ReactJS community behind #ReactAmsterdam Conference and Meetups organized in 🇳🇱. Next conf coming up in April 2019.",
+          "url": "https://t.co/eArkQOxoUl",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/eArkQOxoUl",
+                  "expanded_url": "https://react.amsterdam",
+                  "display_url": "react.amsterdam",
+                  "indices": [0, 23]
+                }
+              ]
+            },
+            "description": { "urls": [] }
+          },
+          "protected": false,
+          "followers_count": 4086,
+          "friends_count": 1758,
+          "listed_count": 129,
+          "created_at": "Sat Feb 07 12:14:52 +0000 2015",
+          "favourites_count": 1427,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 2045,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1097760876227104770/5P7yX8tN_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3023155108/1547111694",
+          "profile_link_color": "00BB33",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": true,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "favorite_count": 8,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Thu Mar 14 17:44:18 +0000 2019",
+      "id": 1106249709193175000,
+      "id_str": "1106249709193175042",
+      "text": "@ReactAmsterdam We got the last 2 😅",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "ReactAmsterdam",
+            "name": "React Amsterdam",
+            "id": 3023155108,
+            "id_str": "3023155108",
+            "indices": [0, 15]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": { "iso_language_code": "en", "result_type": "recent" },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": 1106218864373833700,
+      "in_reply_to_status_id_str": "1106218864373833728",
+      "in_reply_to_user_id": 3023155108,
+      "in_reply_to_user_id_str": "3023155108",
+      "in_reply_to_screen_name": "ReactAmsterdam",
+      "user": {
+        "id": 894199388054093800,
+        "id_str": "894199388054093831",
+        "name": "Sascha Becker",
+        "screen_name": "_sascha_becker",
+        "location": "Region Hannover, Niedersachsen",
+        "description": "Software engineer.  Likes to create stuff. Co founder of Wertarbyte.",
+        "url": "https://t.co/4peTk6AA7I",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/4peTk6AA7I",
+                "expanded_url": "http://www.wertarbyte.com",
+                "display_url": "wertarbyte.com",
+                "indices": [0, 23]
+              }
+            ]
+          },
+          "description": { "urls": [] }
+        },
+        "protected": false,
+        "followers_count": 57,
+        "friends_count": 163,
+        "listed_count": 3,
+        "created_at": "Sun Aug 06 14:12:02 +0000 2017",
+        "favourites_count": 447,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 697,
+        "lang": "de",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1028228898989989893/iRL-9gIF_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1028228898989989893/iRL-9gIF_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/894199388054093831/1507049340",
+        "profile_link_color": "00796B",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.067,
+    "max_id": 1107246820953083900,
+    "max_id_str": "1107246820953083904",
+    "next_results": "?max_id=1106249709193175041&q=%40ReactAmsterdam&count=20&include_entities=1",
+    "query": "%40ReactAmsterdam",
+    "refresh_url": "?since_id=1107246820953083904&q=%40ReactAmsterdam&include_entities=1",
+    "count": 20,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}
