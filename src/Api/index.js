@@ -1,36 +1,20 @@
+import timeline from "./timeline";
+import tweet from "./tweet";
+import user from "./user";
+import userTimeline from "./userTimeline";
+
 export const fetchTimeline = () => {
-  return fetch(`https://rjsa-rn-api.glitch.me/tweets`)
-    .then(response => response.json())
-    .then(data => {
-    return data.statuses;
-  })
-}
+  return Promise.resolve(timeline.statuses);
+};
 
 export const fetchTweetById = ({ id }) => {
-  console.log("ID => ", id);
-  const url = `https://rjsa-rn-api.glitch.me/tweets/${id}`
-  console.log("URL => ", url);
-  return fetch(url)
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-    return data;
-  })
-}
+  return Promise.resolve(tweet);
+};
 
 export const fetchUser = ({ userId, name }) => {
-  console.log(`${userId} - ${name}`);
-  return fetch(`https://rjsa-rn-api.glitch.me/users/${userId}/${name}`)
-    .then(response => response.json())
-    .then(data => {
-      return data;
-  });
-}
+  return Promise.resolve(user);
+};
 
 export const fetchUsersTimeline = ({ userId, name }) => {
-  return fetch(`https://rjsa-rn-api.glitch.me/users/${userId}/${name}/timeline`)
-    .then(response => response.json())
-    .then(data => {
-      return data;
-  });
-}
+  return Promise.resolve(userTimeline);
+};
