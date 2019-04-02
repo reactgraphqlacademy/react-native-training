@@ -2,12 +2,14 @@ import React from "react";
 import * as api from "../Api";
 import { FlatList, StyleSheet } from "react-native";
 import { Screen, TweetItem, ViewLoading } from "../Components";
-import { TWEET_DETAIL_SCREEN } from "./TimelineNavigator";
+import { TWEET_DETAIL_SCREEN } from "./PrivateNavigator";
 
 export class TimelineScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Timeline'
-  }
+  /*
+  EXERCISE 4:
+
+  1.1. Set the header title for this view should be `Timeline`
+  */
 
   state = {
     timeline: []
@@ -24,7 +26,13 @@ export class TimelineScreen extends React.Component {
   };
 
   handleTweetPress = id => {
-    this.props.navigation.navigate(TWEET_DETAIL_SCREEN, { id })
+    /*
+    EXERSICE 4:
+
+    1.2. Implement the `handleTweetPress` method to send the user to the `TWEET_DETAIL_SCREEN` screen,
+    passing the `id` as a parameter.
+    Hint: https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens
+    */
   };
 
   renderItem = ({ item }) => (
@@ -36,14 +44,13 @@ export class TimelineScreen extends React.Component {
 
   render() {
     const { timeline } = this.state;
-
     return (
       <Screen style={styles.screen}>
         {timeline.length == 0 ? (
           <ViewLoading />
         ) : (
           <FlatList
-            data={timeline}
+            data={this.state.timeline}
             renderItem={this.renderItem}
             keyExtractor={item => item.id_str}
           />

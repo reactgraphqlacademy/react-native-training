@@ -2,7 +2,7 @@ import React from "react";
 import { ScrollView, Text } from "react-native";
 import { TweetDetail, Screen, ViewLoading } from "../Components";
 import * as api from "../Api";
-import { OTHER_USER_PROFILE } from "./TimelineNavigator";
+import { USER_PROFILE } from "./TimelineNavigator";
 
 export class TweetDetailScreen extends React.Component {
   static navigationOptions = {
@@ -35,13 +35,10 @@ export class TweetDetailScreen extends React.Component {
   };
 
   handleProfilePress = () => {
-    this.props.navigation.navigate({
-      routeName: OTHER_USER_PROFILE,
-      params: {
-        userId: this.state.tweet.user.id_str,
-        name: this.state.tweet.user.screen_name
-      }
-    });
+    /*
+    1.1 when the user clicks in the profile header, navigate to the USER_PROFILE
+    passing the below parameters:
+    */
   };
 
   render() {
