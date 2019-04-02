@@ -2,12 +2,14 @@ import React from "react";
 import { ScrollView, Text } from "react-native";
 import { TweetDetail, Screen, ViewLoading } from "../Components";
 import * as api from "../Api";
-import { OTHER_USER_PROFILE } from "./TimelineNavigator";
+import { USER_PROFILE } from "./TimelineNavigator";
 
 export class TweetDetailScreen extends React.Component {
-  static navigationOptions = {
-    title: "Tweet"
-  };
+  /*
+  EXERCISE 4:
+
+  2.1. Set the header title for this view should be `Tweet`
+  */
 
   state = {
     tweet: null,
@@ -35,13 +37,19 @@ export class TweetDetailScreen extends React.Component {
   };
 
   handleProfilePress = () => {
-    this.props.navigation.navigate({
-      routeName: OTHER_USER_PROFILE,
-      params: {
+    /*
+    EXERCISE 4:
+
+    2.2. Implement the `handleProfilePress` method to send the user to the `USER_PROFILE` screen,
+    passing the parameters below:
+
+      {
         userId: this.state.tweet.user.id_str,
         name: this.state.tweet.user.screen_name
       }
-    });
+
+    Hint: https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens
+    */
   };
 
   render() {

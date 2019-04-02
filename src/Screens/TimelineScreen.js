@@ -6,7 +6,9 @@ import { TWEET_DETAIL_SCREEN } from "./PrivateNavigator";
 
 export class TimelineScreen extends React.Component {
   /*
-  - the header title for this view should be `Timeline`
+  EXERCISE 4:
+
+  2.1. Set the header title for this view should be `Timeline`
   */
 
   state = {
@@ -25,7 +27,11 @@ export class TimelineScreen extends React.Component {
 
   handleTweetPress = id => {
     /*
-    - navigate to `TWEET_DETAIL_SCREEN` passing the id as a param
+    EXERSICE 4:
+
+    2.2. Implement the `handleTweetPress` method to send the user to the `TWEET_DETAIL_SCREEN` screen,
+    passing the `id` as a parameter.
+    Hint: https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens
     */
   };
 
