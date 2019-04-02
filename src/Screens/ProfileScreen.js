@@ -113,7 +113,6 @@ export class ProfileScreen extends React.Component {
   );
 
   render() {
-    console.log(Layout);
     const showBack = this.props.navigation.getParam("noBack");
     const { scrollY } = this;
 

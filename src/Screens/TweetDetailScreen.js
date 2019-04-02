@@ -25,7 +25,6 @@ export class TweetDetailScreen extends React.Component {
       this.props.api
         .fetchTweetById({ id })
         .then(tweet => {
-          console.log(tweet);
           this.setState({ loading: false, tweet })
         });
 
