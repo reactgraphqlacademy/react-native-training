@@ -87,10 +87,12 @@ Add likes and retweets to each tweet in the FlatList. You can use the following 
  1. Create a Stack Navigator in `src/Screens/PublicNavigator.js` that shows the LoginScreen & the Terms and Conditions screen. Tips:
     - You can read the official doc here [https://reactnavigation.org/docs/en/stack-navigator.html](https://reactnavigation.org/docs/en/stack-navigator.html)
     - You can use the above LOGIN_SCREEN and TOC_SCREEN as route names
- 2. Add some options to the navigator
-    - headerMode: none
-    - mode: 'modal'
-    - initialRouteName: LOGIN_SCREEN (optional)
+ 2. Add some options to the navigator:
+ ```
+ headerMode: 'none'
+ mode: 'modal'
+ initialRouteName: LOGIN_SCREEN (optional)
+ ```
 
  3. Update the entry point of the app with `createAppContainer` using the PublicNavigator in `src/Screens/RootNavigator.js`.
 
