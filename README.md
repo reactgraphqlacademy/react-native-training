@@ -143,8 +143,17 @@ In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` 
 
 #### Bonus exercise `src/Screens/PrivateNavigator.js`
 
-- Define getTabBarIcon and use if to assign Icons to both Views
-- Render the `TimelineNavigator` here instead of the `TimelineScreen`. HINT: you should implement something here inside `defaultNavigationOptions`
+1. Create a BottomTabNavigator and use it as `PrivateNavigator` for yout app:
+
+  - This will be an extra layer on your app. the entry point for you Private Section.
+  - You can use the already created `PrivateNavigator` file to start with.
+  - Define getTabBarIcon and use if to assign Icons to both Views
+  - The two tabs should be the `MAIN_TIMELINE_SCREEN` that loads the already created `TimelineNavigator`, and the `MY_PROFILE` route that will render the `ProfileScreen` with the "user's data".
+  - `ProfileScreen` expects some paramenters in order to load the user's data. you need when the user "presses"
+  the tab, you need to pass the correct parameters from the current logged user (now hardcoded). Hint: [https://reactnavigation.org/docs/en/bottom-tab-navigator.html#tabbaronpress](https://reactnavigation.org/docs/en/bottom-tab-navigator.html#tabbaronpress)
+  - you have a utility function defined to get the icon for the tabs that you need to finish implementing and using it.
+
+  Hint: [https://reactnavigation.org/docs/en/tab-based-navigation.html#customizing-the-appearance](https://reactnavigation.org/docs/en/tab-based-navigation.html#customizing-the-appearance)
 
 ### Animations
 
