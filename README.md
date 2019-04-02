@@ -161,6 +161,10 @@ In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` 
 - Now trigger the animation whenever the user Presses the circle.
 - go to `src/Timeline/Screens/ProfileScreen` and animate the header onScroll. follow the instructions in the file.
 
+### Examples
+
+you can checkout some examples of the exercises in our snack account: [https://expo.io/snacks/@rjsa](https://expo.io/snacks/@rjsa)
+
 ## Resources
 
 - https://facebook.github.io/react-native/
