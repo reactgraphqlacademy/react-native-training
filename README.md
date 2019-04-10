@@ -84,26 +84,27 @@ Add likes and retweets to each tweet in the FlatList. You can use the following 
 
 #### Exercise 1
 
- 1. Create a Stack Navigator in `src/Screens/PublicNavigator.js` that shows the LoginScreen & the Terms and Conditions screen. Tips:
+1.  Create a Stack Navigator in `src/Screens/PublicNavigator.js` that shows the LoginScreen & the Terms and Conditions screen. Tips:
     - You can read the official doc here [https://reactnavigation.org/docs/en/stack-navigator.html](https://reactnavigation.org/docs/en/stack-navigator.html)
     - You can use the above LOGIN_SCREEN and TOC_SCREEN as route names
- 2. Add some options to the navigator
+2.  Add some options to the navigator
+
     - headerMode: none
     - mode: 'modal'
     - initialRouteName: LOGIN_SCREEN (optional)
 
- 3. Update the entry point of the app with `createAppContainer` using the PublicNavigator in `src/Screens/RootNavigator.js`.
+3.  Update the entry point of the app with `createAppContainer` using the PublicNavigator in `src/Screens/RootNavigator.js`.
 
 _Hints:_
- - In `src/Screens/PublicNavigator.js` you can use the constants LOGIN_SCREEN and TOC_SCREEN defined in the PublicNavigator.js to name your screens to maintain consistency when navigating.
- - [https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions](https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions)
 
+- In `src/Screens/PublicNavigator.js` you can use the constants LOGIN_SCREEN and TOC_SCREEN defined in the PublicNavigator.js to name your screens to maintain consistency when navigating.
+- [https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions](https://reactnavigation.org/docs/en/stack-navigator.html#modal-stacknavigator-with-custom-screen-transitions)
 
-####  Exercise 2
+#### Exercise 2
 
 In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` with a PRIVATE and a PUBLIC view (check the imports!). You need to update the entry point of your app in `createAppContainer`.
 
-####  Exercise 3
+#### Exercise 3
 
 1. In `src/Screens/TimelineNavigator.js` create a stack Navigator ([https://reactnavigation.org/docs/en/stack-navigator.html](https://reactnavigation.org/docs/en/stack-navigator.html)) for the TimeLine using the following screens:
 
@@ -115,51 +116,72 @@ In `src/Screens/RootNavigator` create a Switch Navigator called `MainNavigator` 
 ```
 
 2. Let's style our Navigator! We need to pass an extra parameter to change the configuration as follows.
-  2.1. The header backgroundColor for this navigator should be `Colors.brand.primary`. Hint use the `headerStyle` in `defaultNavigationOptions` [https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig](https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig)
-  2.2. The [headerTintColor](https://reactnavigation.org/docs/en/stack-navigator.html#headertintcolor) should be `Colors.light` (check the imports for the colors in `src/Screens/TimelineNavigator.js`).
+   2.1. The header backgroundColor for this navigator should be `Colors.brand.primary`. Hint use the `headerStyle` in `defaultNavigationOptions` [https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig](https://reactnavigation.org/docs/en/stack-navigator.html#stacknavigatorconfig)
+   2.2. The [headerTintColor](https://reactnavigation.org/docs/en/stack-navigator.html#headertintcolor) should be `Colors.light` (check the imports for the colors in `src/Screens/TimelineNavigator.js`).
 
-####  Exercise 4
+#### Exercise 4
 
 1. in `src/Screens/TimelineScreen.js`:
-  1.1. the header title for this view should be `Timeline`
-  1.2. Implement the `handleTweetPress` method to send the user to the `TWEET_DETAIL_SCREEN` screen,
-    passing the `id` as a parameter. Hint:
-    [https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens)
+   1.1. the header title for this view should be `Timeline`
+   1.2. Implement the `handleTweetPress` method to send the user to the `TWEET_DETAIL_SCREEN` screen,
+   passing the `id` as a parameter. Hint:
+   [https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens)
 
 2. in `src/Screens/TweetDetailScreen.js`
-  2.1. Set the header title for this view should be `Tweet`
-  2.2. Implement the `handleProfilePress` method to send the user to the `USER_PROFILE` screen,
-  passing the parameters below:
+   2.1. Set the header title for this view should be `Tweet`
+   2.2. Implement the `handleProfilePress` method to send the user to the `USER_PROFILE` screen,
+   passing the parameters below:
 
-  ```js
-    {
-      userId: this.state.tweet.user.id_str,
-      name: this.state.tweet.user.screen_name
-    }
-  ```
+```js
+  {
+    userId: this.state.tweet.user.id_str,
+    name: this.state.tweet.user.screen_name
+  }
+```
 
-  Hint: [https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens)
-
+Hint: [https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens](https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens)
 
 #### Bonus exercise `src/Screens/PrivateNavigator.js`
 
 1. Create a BottomTabNavigator and use it as `PrivateNavigator` for yout app:
 
-  - This will be an extra layer on your app. the entry point for you Private Section.
-  - You can use the already created `PrivateNavigator` file to start with.
-  - Define getTabBarIcon and use if to assign Icons to both Views
-  - The two tabs should be the `MAIN_TIMELINE_SCREEN` that loads the already created `TimelineNavigator`, and the `MY_PROFILE` route that will render the `ProfileScreen` with the "user's data".
-  - `ProfileScreen` expects some paramenters in order to load the user's data. you need when the user "presses"
+- This will be an extra layer on your app. the entry point for you Private Section.
+- You can use the already created `PrivateNavigator` file to start with.
+- Define getTabBarIcon and use if to assign Icons to both Views
+- The two tabs should be the `MAIN_TIMELINE_SCREEN` that loads the already created `TimelineNavigator`, and the `MY_PROFILE` route that will render the `ProfileScreen` with the "user's data".
+- `ProfileScreen` expects some paramenters in order to load the user's data. you need when the user "presses"
   the tab, you need to pass the correct parameters from the current logged user (now hardcoded). Hint: [https://reactnavigation.org/docs/en/bottom-tab-navigator.html#tabbaronpress](https://reactnavigation.org/docs/en/bottom-tab-navigator.html#tabbaronpress)
-  - you have a utility function defined to get the icon for the tabs that you need to finish implementing and using it.
+- you have a utility function defined to get the icon for the tabs that you need to finish implementing and using it.
 
-  Hint: [https://reactnavigation.org/docs/en/tab-based-navigation.html#customizing-the-appearance](https://reactnavigation.org/docs/en/tab-based-navigation.html#customizing-the-appearance)
+Hint: [https://reactnavigation.org/docs/en/tab-based-navigation.html#customizing-the-appearance](https://reactnavigation.org/docs/en/tab-based-navigation.html#customizing-the-appearance)
 
 ### Animations
 
-- Go to [Expo Snack](https://snack.expo.io) and create a simple animation of a circle that changes the scale on `componentDidMount`.
-- Now trigger the animation whenever the user Presses the circle.
-- go to `src/Timeline/Screens/ProfileScreen` and animate the header onScroll. follow the instructions in the file.
+#### Part 1
+
+Go to `src/Screens/AnimationExample.js` and do the following tasks:
+
+- Task 1, animate the background colour of the View using #00000 format
+- Task 2, animate the background colour of the View using rgba(0,0,0,1) format
+- Bonus exercise, interpolate with a third point in the input and output ranges so you can do blue -> green -> red
+
+#### Part 2
+
+Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = AnimationExample;` with `export const RootNavigator = createAppContainer(MainNavigator);`
+
+- Task 1, animate the cover image adding and opacity.
+- Task 2, animate the View that wrapps the TopBar component so it has the following opacity:
+  - When the scroll is 0 then the opacity is 0
+  - When the scroll is 100 then the opacity is 0.1
+  - When the scroll is 125 then the opacity is 1
+- Task 3, animate the Avatar height and width with the following values:
+  - When the scroll is 0 then the height and width is 84
+  - When the scroll is 100 then the height and width is 84
+  - When the scroll is 125 then the height and width is 842
+
+#### Bonus
+
+Animate the Avatar so when the user scrolls down and the Avatar gets smaller the center of the Avatar stays in the same position.
 
 ## Resources
 
