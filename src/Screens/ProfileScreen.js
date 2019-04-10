@@ -65,7 +65,7 @@ const FollowButton = ({ following = false }) => (
   </TouchableOpacity>
 );
 export class ProfileScreen extends React.Component {
-  scrollY = new Animated.Value(1);
+  scrollY = 1; // replace this with an Animated value
 
   static navigationOptions = {
     header: null
@@ -117,48 +117,18 @@ export class ProfileScreen extends React.Component {
   render() {
     const showBack = this.props.navigation.getParam("noBack");
     const { user, timeline, loading } = this.state;
-    let opacityCover = this.scrollY.interpolate({
-      inputRange: [0, 100],
-      outputRange: [1, 0]
-    });
-
-    let opacityTopBar = this.scrollY.interpolate({
-      inputRange: [0, 100, 125],
-      outputRange: [0, 0.1, 1]
-    });
-
-    let imageSize = this.scrollY.interpolate({
-      inputRange: [0, 100, 125],
-      outputRange: [84, 84, 42]
-    });
-
-    let imageX = this.scrollY.interpolate({
-      inputRange: [0, 100, 125],
-      outputRange: [0, 0, 15]
-    });
 
     return (
       <View>
         {loading ? (
           <ViewLoading />
         ) : (
-          <Animated.ScrollView
-            scrollEventThrottle={1}
-            onScroll={Animated.event([
-              {
-                nativeEvent: {
-                  contentOffset: {
-                    y: this.scrollY
-                  }
-                }
-              }
-            ])}
-          >
+          <ScrollView scrollEventThrottle={1}>
             <View style={[styles.header]}>
-              <Animated.Image
+              <Image
                 resizeMode="cover"
                 // Task 1 - Part 2: Add an opacity to this Image
-                style={[styles.headerCover, { opacity: opacityCover }]}
+                style={[styles.headerCover]}
                 source={{ uri: user.profile_banner_url }}
               />
             </View>
@@ -172,11 +142,8 @@ export class ProfileScreen extends React.Component {
               style={[
                 styles.headerAvatar,
                 {
-                  borderColor: `#${user.profile_background_color}`,
+                  borderColor: `#${user.profile_background_color}`
                   // Task 3, part 2. Animate the Avatar height and width as indicated in the README file
-                  height: imageSize,
-                  width: imageSize,
-                  transform: [{ translateX: imageX }]
                 }
               ]}
               image={user.profile_image_url_https}
@@ -192,15 +159,14 @@ export class ProfileScreen extends React.Component {
                 />
               )}
             </View>
-          </Animated.ScrollView>
+          </ScrollView>
         )}
-        <Animated.View
+        <View
           style={{
             position: "absolute",
             top: 0,
-            width,
+            width
             // task 2, part 2. Add an opacity to this view
-            opacity: opacityTopBar
           }}
         >
           <TopBar
@@ -227,7 +193,7 @@ export class ProfileScreen extends React.Component {
             backgroundColor={Colors.brand.primary}
           />
           <StatusBar barStyle="light-content" />
-        </Animated.View>
+        </View>
       </View>
     );
   }
