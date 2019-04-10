@@ -167,14 +167,17 @@ Go to `src/Screens/AnimationExample.js` and do the following tasks:
 
 #### Part 2
 
+Let's create the Twitter app user profile animation on scroll 🎉
+
 Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = AnimationExample;` with `export const RootNavigator = createAppContainer(MainNavigator);`
 
-- Task 1, animate the cover image adding and opacity.
-- Task 2, animate the View that wrapps the TopBar component so it has the following opacity:
+- Task 1, add an Animated.event on the ScrollView on the onScroll prop. You can use the this.scrollY animated value. Hint, you need to use an Animated.ScrollView [https://facebook.github.io/react-native/docs/animated#handling-gestures-and-other-events](https://facebook.github.io/react-native/docs/animated#handling-gestures-and-other-events)
+- Task 2, animate the cover image adding and opacity. Hint, you need to use an Animated.Image
+- Task 3, animate the View that wrapps the TopBar component so it has the following opacity:
   - When the scroll is 0 then the opacity is 0
   - When the scroll is 100 then the opacity is 0.1
   - When the scroll is 125 then the opacity is 1
-- Task 3, animate the Avatar height and width with the following values:
+- Task 4, animate the Avatar height and width with the following values:
   - When the scroll is 0 then the height and width is 84
   - When the scroll is 100 then the height and width is 84
   - When the scroll is 125 then the height and width is 842
