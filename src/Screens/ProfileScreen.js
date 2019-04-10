@@ -65,7 +65,7 @@ const FollowButton = ({ following = false }) => (
   </TouchableOpacity>
 );
 export class ProfileScreen extends React.Component {
-  scrollY = 1; // replace this with an Animated value
+  scrollY = 1; // Task 1 - Part 2. Replace this with an Animated value
 
   static navigationOptions = {
     header: null
@@ -127,7 +127,7 @@ export class ProfileScreen extends React.Component {
             <View style={[styles.header]}>
               <Image
                 resizeMode="cover"
-                // Task 1 - Part 2: Add an opacity to this Image
+                // Task 2 - Part 2: Add an opacity to this Image
                 style={[styles.headerCover]}
                 source={{ uri: user.profile_banner_url }}
               />
@@ -143,7 +143,7 @@ export class ProfileScreen extends React.Component {
                 styles.headerAvatar,
                 {
                   borderColor: `#${user.profile_background_color}`
-                  // Task 3, part 2. Animate the Avatar height and width as indicated in the README file
+                  // Task 4, part 2. Animate the Avatar height and width as indicated in the README file
                 }
               ]}
               image={user.profile_image_url_https}
@@ -166,7 +166,7 @@ export class ProfileScreen extends React.Component {
             position: "absolute",
             top: 0,
             width
-            // task 2, part 2. Add an opacity to this view
+            // task 3, part 2. Add an opacity to this view
           }}
         >
           <TopBar
