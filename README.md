@@ -1,4 +1,4 @@
-# React Native Workshop - ReactJSAcademy
+# React Native Training - ReactJSAcademy
 
 ![Views Screenshots](./screenshots.jpg)
 
