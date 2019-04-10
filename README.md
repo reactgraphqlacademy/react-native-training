@@ -173,12 +173,13 @@ Go to `src/Screens/AnimationExample.js` and do the following tasks:
 
 Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = AnimationExample;` with `export const RootNavigator = createAppContainer(MainNavigator);`
 
-- Task 1, animate the cover image adding and opacity.
-- Task 2, animate the View that wrapps the TopBar component so it has the following opacity:
+- Task 1, Replace the `scrollY = 1;` at the top of the ProfileScreen class with an animted value (initial value 1)
+- Task 2, animate the cover image adding and opacity.
+- Task 3, animate the View that wrapps the TopBar component so it has the following opacity:
   - When the scroll is 0 then the opacity is 0
   - When the scroll is 100 then the opacity is 0.1
   - When the scroll is 125 then the opacity is 1
-- Task 3, animate the Avatar height and width with the following values:
+- Task 4, animate the Avatar height and width with the following values:
   - When the scroll is 0 then the height and width is 84
   - When the scroll is 100 then the height and width is 84
   - When the scroll is 125 then the height and width is 842
