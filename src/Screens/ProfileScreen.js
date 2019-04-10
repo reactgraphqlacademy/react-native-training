@@ -166,7 +166,7 @@ export class ProfileScreen extends React.Component {
             position: "absolute",
             top: 0,
             width
-            // task 3, part 2. Add an opacity to this view
+            // task 3 - Part 2. Add an opacity to this view
           }}
         >
           <TopBar

@@ -1,4 +1,4 @@
-# React Native Workshop - ReactJSAcademy
+# React Native Training - ReactJSAcademy
 
 ![Views Screenshots](./screenshots.jpg)
 
@@ -161,23 +161,28 @@ Hint: [https://reactnavigation.org/docs/en/tab-based-navigation.html#customizing
 
 Go to `src/Screens/AnimationExample.js` and do the following tasks:
 
-- Task 1, animate the background colour of the View using #00000 format
-- Task 2, animate the background colour of the View using rgba(0,0,0,1) format
-- Bonus exercise, interpolate with a third point in the input and output ranges so you can do blue -> green -> red
+- Task 1, animate the View so it moves on the Y axis 200 units
+- Task 2, animate the background colour of the View so it goes from red to green using the rgba(0,0,0,1) format. Hint, you need to interpolate the animated value.
+- Task 3, animate the View as follows: 
+  - It moves on the Y axis twice what it does on the X axis. 
+  - The View should change the background color from green to blue
+  - The opacity of the View should go from 0 to 1
+  - The duration for all the animations should be 2 seconds. 
 
 #### Part 2
 
 Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = AnimationExample;` with `export const RootNavigator = createAppContainer(MainNavigator);`
 
-- Task 1, animate the cover image adding and opacity.
-- Task 2, animate the View that wrapps the TopBar component so it has the following opacity:
+- Task 1, Replace the `scrollY = 1;` at the top of the ProfileScreen class with an animated value (initial value 1)
+- Task 2, animate the cover image adding the following opacity:
+  - When the scroll is 0 then the opacity is 0
+  - When the scroll is 125 then the opacity is 1
+- Task 3, animate the View that wrapps the TopBar component so it has the following opacity:
   - When the scroll is 0 then the opacity is 0
   - When the scroll is 100 then the opacity is 0.1
   - When the scroll is 125 then the opacity is 1
-- Task 3, animate the Avatar height and width with the following values:
-  - When the scroll is 0 then the height and width is 84
-  - When the scroll is 100 then the height and width is 84
-  - When the scroll is 125 then the height and width is 842
+- Task 4, animate the Avatar size so when the user scrolls the Avatar becomes smaller
+- Task 5, use [useNativeDriver:true](https://facebook.github.io/react-native/docs/animated#using-the-native-driver) in the configuration of the animation. Hint, if you used the style props width and height on task 4 then you'll need to refactor them to use the prop transform scaleX and scaleY.
 
 #### Bonus
 
