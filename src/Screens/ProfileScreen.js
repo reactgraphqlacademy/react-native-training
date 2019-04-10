@@ -143,7 +143,7 @@ export class ProfileScreen extends React.Component {
                 styles.headerAvatar,
                 {
                   borderColor: `#${user.profile_background_color}`
-                  // Task 4, part 2. Animate the Avatar height and width as indicated in the README file
+                  // Task 4, part 2. Animate the size of the Avatar as indicated in the README file
                 }
               ]}
               image={user.profile_image_url_https}
