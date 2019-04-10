@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Image, StyleSheet } from "react-native";
+import { Image, StyleSheet, Animated } from "react-native";
 import { PROFILE_AVATAR_SIZE } from "../config/utils";
 
 export const Avatar = ({ style, image, profile, ...rest }) => {
   const uri = image.replace("normal", "bigger");
   return (
-    <Image
+    <Animated.Image
       style={[styles.avatar, profile ? styles.profile : {}, style]}
       source={{ uri }}
       {...rest}
