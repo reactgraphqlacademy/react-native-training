@@ -173,7 +173,7 @@ Go to `src/Screens/AnimationExample.js` and do the following tasks:
 
 Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = AnimationExample;` with `export const RootNavigator = createAppContainer(MainNavigator);`
 
-- Task 1, Replace the `scrollY = 1;` at the top of the ProfileScreen class with an animted value (initial value 1)
+- Task 1, Replace the `scrollY = 1;` at the top of the ProfileScreen class with an animated value (initial value 1)
 - Task 2, animate the cover image adding and opacity.
 - Task 3, animate the View that wrapps the TopBar component so it has the following opacity:
   - When the scroll is 0 then the opacity is 0
