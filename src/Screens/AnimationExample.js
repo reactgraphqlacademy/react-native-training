@@ -26,10 +26,6 @@ export class AnimationExample extends React.Component {
   render() {
     // if you read the docs and you found multiply
     let y = Animated.multiply(this.x, 2);
-    let color = this.color.interpolate({
-      inputRange: [0, 255],
-      outputRange: [`rgba(255,0,0,1)`, `rgba(0,255,0,1)`]
-    });
     /*
     hacky (and worse) solution using interpolation if you don't read the docs xD
     let y = this.x.interpolate({
@@ -45,6 +41,12 @@ export class AnimationExample extends React.Component {
     //   inputRange: [0, 300],
     //   outputRange: [1, 0]
     // });
+
+    // animating the color
+    let color = this.color.interpolate({
+      inputRange: [0, 255],
+      outputRange: [`rgba(255,0,0,1)`, `rgba(0,255,0,1)`]
+    });
 
     return (
       <Animated.View
