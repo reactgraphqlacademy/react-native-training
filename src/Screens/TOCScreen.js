@@ -27,7 +27,7 @@ export const TOCScreen = ({ navigation }) =>
       }
       backgroundColor={Colors.brand.primary}
     />
-      <View style={{ padding: 16 }}>
+      <ScrollView style={{ padding: 16 }}>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           sodales at metus ac fermentum. Nulla eu nibh lorem. Mauris
@@ -299,51 +299,7 @@ export const TOCScreen = ({ navigation }) =>
           quam eu interdum imperdiet, risus mi lacinia lectus, ullamcorper
           venenatis odio tellus ut neque. Maecenas felis velit, scelerisque ut
           porttitor at, euismod sed ante. Sed ligula urna, consectetur vel
-          auctor ac, aliquam id nisl. Donec interdum lectus quis dui dignissim,
-          in aliquet augue interdum. Nam ut sem consequat, dapibus purus a,
-          consectetur eros. Donec bibendum fermentum consectetur. Vestibulum
-          feugiat turpis et neque congue, id pellentesque dui auctor. Vestibulum
-          ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-          Curae; Donec commodo, magna eu faucibus rhoncus, quam nulla placerat
-          nunc, at auctor libero turpis id ex. Vestibulum auctor libero at purus
-          egestas, vel mattis purus ultricies. Morbi feugiat, quam in efficitur
-          commodo, sapien diam bibendum mauris, ut finibus lacus arcu sed
-          sapien. Quisque et quam sit amet eros gravida aliquet in id ante.
-          Mauris ut sem sed ante convallis condimentum a ut felis. Vestibulum
-          sodales sollicitudin metus, eget dignissim augue accumsan in. Etiam
-          quis orci tristique, fermentum neque non, mollis tortor. Curabitur ac
-          ullamcorper risus. Suspendisse lacinia mollis erat vel cursus. Sed
-          dictum semper suscipit. Pellentesque eu accumsan sem, a tristique
-          massa. Phasellus id iaculis sapien, ac dignissim lorem. Cras iaculis
-          commodo fermentum. Aenean consectetur mi eu elit ultrices, ut dapibus
-          felis fringilla. Nam pellentesque at quam et sollicitudin. Proin
-          mattis non orci non interdum. Aliquam erat volutpat. Duis nec tellus
-          imperdiet, vehicula erat vel, vulputate velit. Nunc orci odio,
-          interdum sit amet ipsum ut, facilisis scelerisque enim. Donec neque
-          nibh, fringilla at arcu sit amet, convallis laoreet quam. Morbi odio
-          lacus, ullamcorper ut felis et, semper sagittis nibh. Donec sit amet
-          dui tortor. Integer commodo tellus sit amet tincidunt condimentum.
-          Mauris ac ante sed risus consectetur mollis nec id turpis. Donec vitae
-          pellentesque libero, eget convallis purus. Nunc semper viverra elit
-          vel malesuada. Nullam varius lectus placerat nibh sollicitudin
-          interdum. Duis posuere diam quam, ac vulputate est sagittis finibus.
-          Donec sollicitudin quam at gravida lacinia. Etiam euismod, justo at
-          hendrerit bibendum, tellus justo ultrices purus, ut sodales mauris
-          nunc ut leo. Interdum et malesuada fames ac ante ipsum primis in
-          faucibus. Nulla sollicitudin justo quis tristique malesuada. Fusce
-          faucibus, tortor nec ullamcorper tincidunt, sapien mi cursus lectus,
-          eget posuere sem elit non justo. Proin tempor arcu lorem, at
-          vestibulum enim feugiat egestas. Quisque sed nisi lobortis, rutrum
-          elit sit amet, mattis urna. Aliquam imperdiet metus eget mollis
-          tempor. Cras ornare mi nec aliquet mollis. Phasellus luctus vitae odio
-          quis efficitur. Sed facilisis ex lectus, et pellentesque lectus auctor
-          a. Suspendisse id mauris quis magna imperdiet pretium dignissim a
-          eros. Maecenas non tristique dui. Ut laoreet mollis leo vel aliquam.
-          Vivamus iaculis, justo id maximus faucibus, ex dui molestie nisi, sed
-          fringilla nisl lectus nec tortor. Ut orci orci, pulvinar at imperdiet
-          non, semper non lectus. Cras posuere sodales pulvinar. Quisque quam
-          erat, fringilla non mi quis, sagittis dapibus tortor. Suspendisse
-          tincidunt libero libero.
+          auctor ac, aliquam id nisl. Donec interdum lec
         </Text>
-      </View>
+      </ScrollView>
   </Screen>
