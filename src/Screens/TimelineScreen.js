@@ -22,7 +22,7 @@ export class TimelineScreen extends React.Component {
     this.props.api
       .fetchTimeline()
       .then(timeline => {
-        this.setState({ timeline });
+        this.setState({ timeline: timeline.statuses });
       });
   };
 
