@@ -176,15 +176,16 @@ Final exercise, let's create the Twitter user profile on scroll animation and us
 Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = AnimationExample;` with `export const RootNavigator = createAppContainer(MainNavigator);`
 
 - Task 1, Replace the `scrollY = 1;` at the top of the ProfileScreen class with an animated value (initial value 1)
-- Task 2, animate the cover image adding the following opacity:
+- Task 2. Add an [Animated.event](https://facebook.github.io/react-native/docs/animated#handling-gestures-and-other-events) for the on scroll event in the ScrollView
+- Task 3, animate the cover image adding the following opacity:
   - When the scroll is 0 then the opacity is 0
   - When the scroll is 125 then the opacity is 1
-- Task 3, animate the View that wrapps the TopBar component so it has the following opacity:
+- Task 4, animate the View that wrapps the TopBar component so it has the following opacity:
   - When the scroll is 0 then the opacity is 0
   - When the scroll is 100 then the opacity is 0.1
   - When the scroll is 125 then the opacity is 1
-- Task 4, animate the Avatar size so when the user scrolls the Avatar becomes smaller
-- Task 5, use [useNativeDriver:true](https://facebook.github.io/react-native/docs/animated#using-the-native-driver) in the configuration of the animation. Hint, if you used the style props width and height on task 4 then you'll need to refactor them to use the prop transform scaleX and scaleY.
+- Task 5, animate the Avatar size so when the user scrolls the Avatar becomes smaller
+- Task 6, use [useNativeDriver:true](https://facebook.github.io/react-native/docs/animated#using-the-native-driver) in the configuration of the animation. Hint, if you used the style props width and height on task 5 then you'll need to refactor them to use the prop transform scaleX and scaleY.
 
 #### Bonus
 
