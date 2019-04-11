@@ -185,7 +185,7 @@ Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = A
   - When the scroll is 100 then the opacity is 0.1
   - When the scroll is 125 then the opacity is 1
 - Task 5, animate the Avatar size so when the user scrolls the Avatar becomes smaller
-- Task 6, use [useNativeDriver:true](https://facebook.github.io/react-native/docs/animated#using-the-native-driver) in the configuration of the animation. Hint, if you used the style props width and height on task 4 then you'll need to refactor them to use the prop transform scaleX and scaleY.
+- Task 6, use [useNativeDriver:true](https://facebook.github.io/react-native/docs/animated#using-the-native-driver) in the configuration of the animation. Hint, if you used the style props width and height on task 5 then you'll need to refactor them to use the prop transform scaleX and scaleY.
 
 #### Bonus
 
