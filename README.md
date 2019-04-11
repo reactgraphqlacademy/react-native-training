@@ -178,8 +178,8 @@ Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = A
 - Task 1, Replace the `scrollY = 1;` at the top of the ProfileScreen class with an animated value (initial value 1)
 - Task 2. Add an [Animated.event](https://facebook.github.io/react-native/docs/animated#handling-gestures-and-other-events) for the on scroll event in the ScrollView
 - Task 3, animate the cover image adding the following opacity:
-  - When the scroll is 0 then the opacity is 0
-  - When the scroll is 125 then the opacity is 1
+  - When the scroll is 0 then the opacity is 1
+  - When the scroll is 125 then the opacity is 0
 - Task 4, animate the View that wrapps the TopBar component so it has the following opacity:
   - When the scroll is 0 then the opacity is 0
   - When the scroll is 100 then the opacity is 0.1
