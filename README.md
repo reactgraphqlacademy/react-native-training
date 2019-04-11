@@ -171,6 +171,8 @@ Go to `src/Screens/AnimationExample.js` and do the following tasks:
 
 #### Part 2
 
+Final exercise, let's create the Twitter user profile on scroll animation and use all the animations we've learned 🎉
+
 Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = AnimationExample;` with `export const RootNavigator = createAppContainer(MainNavigator);`
 
 - Task 1, Replace the `scrollY = 1;` at the top of the ProfileScreen class with an animated value (initial value 1)
