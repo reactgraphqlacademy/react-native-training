@@ -103,7 +103,7 @@ export class ProfileScreen extends React.Component {
   fetchTimeline = ({ userId, name }) => {
     if (userId && name) {
       this.props.api.fetchTimeline({ userId, name }).then(timeline => {
-        this.setState({ timeline });
+        this.setState({ timeline: timeline.statuses });
       });
     } else {
       this.setState({ timelineError: "no timeline data. sorry! :(" });
