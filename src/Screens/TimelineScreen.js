@@ -11,8 +11,8 @@ export class TimelineScreen extends React.Component {
   2.1. Set the header title for this view should be `Timeline`
   */
   static navigationOptions = {
-    title: 'Timeline'
-  }
+    title: "Timeline"
+  };
 
   state = {
     timeline: []
@@ -24,7 +24,7 @@ export class TimelineScreen extends React.Component {
 
   fetchTimeline = () => {
     this.props.api.fetchTimeline().then(timeline => {
-      this.setState({ timeline });
+      this.setState({ timeline: timeline.statuses });
     });
   };
 
@@ -36,7 +36,10 @@ export class TimelineScreen extends React.Component {
     passing the `id` as a parameter.
     Hint: https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens
     */
-    this.props.navigation.navigate({ routeName: TWEET_DETAIL_SCREEN, params: { id }});
+    this.props.navigation.navigate({
+      routeName: TWEET_DETAIL_SCREEN,
+      params: { id }
+    });
   };
 
   renderItem = ({ item }) => (
