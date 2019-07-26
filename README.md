@@ -191,6 +191,40 @@ Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = A
 
 Animate the Avatar so when the user scrolls down and the Avatar gets smaller the center of the Avatar stays in the same position.
 
+## Slide Links
+
+- [Flex Dimensions examples](https://snack.expo.io/@leanjscom/dimensions-example)
+- [More info about the flex differences](https://facebook.github.io/react-native/docs/layout-props#flex)
+- [Yoga Library](https://github.com/facebook/yoga)
+- [Layout props documentation](https://facebook.github.io/react-native/docs/layout-props)
+- [ScrollView Example](https://snack.expo.io/@rjsa/scrollview-example)
+- Using a ListView: [https://facebook.github.io/react-native/docs/using-a-listview](https://facebook.github.io/react-native/docs/using-a-listview)
+- [Handling Touches](https://facebook.github.io/react-native/docs/handling-touches)
+- [More examples](https://expo.io/snacks/@rjsa)
+- [and more examples](https://expo.io/snacks/@horacio)
+
+## React Native UI Libraries
+
+- [React Native Elements](https://react-native-training.github.io/react-native-elements/)
+- [NativeBase](https://nativebase.io/)
+- [React Native Paper](https://reactnativepaper.com/)
+
+## React Native Frameworks
+
+- [Expo](https://expo.io)
+- [Ignite](https://infinite.red/ignite)
+
+## CI / CD Platforms as a Services
+
+- [Visual Studio App Center](https://appcenter.ms/)
+- [Bitrise](https://www.bitrise.io/)
+
+## React Native testing
+
+- [Jest](https://jestjs.io/docs/en/tutorial-react-native)
+- [React Native Testing Library](https://callstack.github.io/react-native-testing-library/)
+- [Detox](https://github.com/wix/Detox): End-to-End testing
+
 ## Resources
 
 - https://facebook.github.io/react-native/
