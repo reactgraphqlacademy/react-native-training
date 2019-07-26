@@ -163,11 +163,11 @@ Go to `src/Screens/AnimationExample.js` and do the following tasks:
 
 - Task 1, animate the View so it moves on the Y axis 200 units
 - Task 2, animate the background colour of the View so it goes from red to green using the rgba(0,0,0,1) format. Hint, you need to interpolate the animated value.
-- Task 3, animate the View as follows: 
-  - It moves on the Y axis twice what it does on the X axis. 
+- Task 3, animate the View as follows:
+  - It moves on the Y axis twice what it does on the X axis.
   - The View should change the background color from green to blue
   - The opacity of the View should go from 0 to 1
-  - The duration for all the animations should be 2 seconds. 
+  - The duration for all the animations should be 2 seconds.
 
 #### Part 2
 
@@ -190,6 +190,40 @@ Go to `src/Screens/RootNavigator.js` and replace `export const RootNavigator = A
 #### Bonus
 
 Animate the Avatar so when the user scrolls down and the Avatar gets smaller the center of the Avatar stays in the same position.
+
+## Slide Links
+
+- [Flex Dimensions examples](https://snack.expo.io/@leanjscom/dimensions-example)
+- [More info about the flex differences](https://facebook.github.io/react-native/docs/layout-props#flex)
+- [Yoga Library](https://github.com/facebook/yoga)
+- [Layout props documentation](https://facebook.github.io/react-native/docs/layout-props)
+- [ScrollView Example](https://snack.expo.io/@rjsa/scrollview-example)
+- Using a ListView: [https://facebook.github.io/react-native/docs/using-a-listview](https://facebook.github.io/react-native/docs/using-a-listview)
+- [Handling Touches](https://facebook.github.io/react-native/docs/handling-touches)
+- [More examples](https://expo.io/snacks/@rjsa)
+- [and more examples](https://expo.io/snacks/@horacio)
+
+## React Native UI Libraries
+
+- [React Native Elements](https://react-native-training.github.io/react-native-elements/)
+- [NativeBase](https://nativebase.io/)
+- [React Native Paper](https://reactnativepaper.com/)
+
+## React Native Frameworks
+
+- [Expo](https://expo.io)
+- [Ignite](https://infinite.red/ignite)
+
+## CI / CD Platforms as a Services
+
+- [Visual Studio App Center](https://appcenter.ms/)
+- [Bitrise](https://www.bitrise.io/)
+
+## React Native testing
+
+- [Jest](https://jestjs.io/docs/en/tutorial-react-native)
+- [React Native Testing Library](https://callstack.github.io/react-native-testing-library/)
+- [Detox](https://github.com/wix/Detox): End-to-End testing
 
 ## Resources
 
